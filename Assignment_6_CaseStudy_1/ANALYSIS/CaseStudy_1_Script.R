@@ -38,13 +38,42 @@ Breweries_Per_State<-Breweries %>% group_by(State) %>% summarise(Count_By_State 
 # Q2 Merge beer data with the breweries data.... 
 #    b) Print the ???rst 6 observations and the last six observations to check the merged ???le
 Breweries_Beers<- merge(Breweries, Beers, by=c("Brewery_id"), all = TRUE)
+# RENAME COLUMNS
+colnames(Breweries_Beers) <- c("Brewery_ID","Brewery","City", "State", "Beer_Name", "Beer_ID", "ABV", "IBU", "Beer_Style", "Ounces")
 
 # Q3: NA's ###################################################################################################
 # Report the number of NA's in each column.
-
+#missing_data<-sum(is.na(Breweries_Beers$ABV))
+missing_data <-sapply(Breweries_Beers, function(y) sum(length(which(is.na(y)))))
+missing_data <- data.frame(missing_data)
+missing_data
 # Q4 MEDIAN ALCHOL CONTENT AND BITTERNESS ####################################################################
 # a) Compute the median alcohol content and international bitterness unit for each state. 
 # b) Plot a bar chart to compare.
+Median_ABV_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_ABV_By_State = median(ABV))
+Median_ABV_Per_State
+Mean_ABV_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_ABV_By_State = mean(ABV))
+Mean_ABV_Per_State
+
+#EXPILICTLY SEARCH WITH THE SPACE WITHIN THE SEARCH STRING
+MN<-subset(Breweries_Beers, select = c(State, ABV), subset=(State==" MN"))
+MN
+#REMOVE THE SPACE FROM THE ENTIRE COLUMN, THEN SEARCH
+Breweries_Beers$State <- trimws(Breweries_Beers$State)
+MN<-subset(Breweries_Beers, select = c(State, ABV), subset=(State=="MN"))
+MN
+#rm(MN)
+AK <- Breweries_Beers[ which(Breweries_Beers$State =='AK'), c("State","ABV")]
+str(Breweries_Beers)
+Breweries_Beers<-as.character(Breweries_Beers$State)
+
+AK<-Breweries_Beers[,c(4,7)]
+AK<-Breweries_Beers[,c("State","ABV")]
+str(AK)
+
+AK$State <- as.character(AK$State)
+AK <- AK[ which(AK$State ==' AK'), ]
+rm(AK_1)
 
 # Q5: BY STATE: MAX ALCOHOLIC BEER, BITTER BEER ############################################################## 
 # a) Which state has the maximum alcoholic (ABV) beer? 
@@ -54,10 +83,51 @@ Breweries_Beers<- merge(Breweries, Beers, by=c("Brewery_id"), all = TRUE)
 #  Summary statistics for the ABV variable.
 
 # Q7: CORRELATION: BITTERNESS AND ALCOHOLIC CONTENT ##########################################################
-# Is there an apparent relationship between the bitterness of the beer and its alcoholic content? 
-# Draw a scatter plot. You are welcome to use the ggplot2 library for graphs. 
+# a) Is there an apparent relationship between the bitterness of the beer and its alcoholic content? 
+Cor_Bitt_IBU<-cor(Breweries_Beers$IBU, Breweries_Beers$ABV, use = "pairwise.complete.obs", method="pearson")
+# b) Draw a scatter plot. You are welcome to use the ggplot2 library for graphs. 
+plot(Breweries_Beers$IBU,Breweries_Beers$ABV, ylim = c(.025, .125))
+# PLOT REGRESSION LINE OF A SCATTER PLOT
+library(faraway)
+plot(IBU~ABV, data=Breweries_Beers, xlim = c(.025, .125))
+m<-lm(IBU ~ ABV, data=Breweries_Beers)
+abline(m)
 # Please ignore missing values in your analysis. 
 # Make your best judgment of a relationship and EXPLAIN your answer.
+
+
+
+
+
+#determine if data is normally distributed in R
+#https://stats.stackexchange.com/questions/3136/how-to-perform-a-test-using-r-to-see-if-data-follows-normal-distribution
+# VIEW THE DISTRIBUTIONS OF BITTERNESS AND ALCOHOL
+plot(density(Breweries_Beers$IBU, na.rm = TRUE), main = "Bitterness Density Distribution")
+plot(density(Breweries_Beers$ABV, na.rm = TRUE), main = "Alcohol Density Distribution", xlim = c(.02, .11))
+
+## Perform the Shapiro-Wilk test for normality
+shapiro.test(Breweries_Beers$IBU); shapiro.test(Breweries_Beers$ABV)
+
+## Plot using a qqplot
+qqnorm(Breweries_Beers$IBU);qqline(Breweries_Beers$IBU, col = 2)
+qqnorm(Breweries_Beers$ABV);qqline(Breweries_Beers$ABV, col = 2)
+
+hist(Breweries_Beers$IBU, 90, col="black")
+hist(Breweries_Beers$ABV, 90, col="black")
+
+# Pg 215 Testing Correlation Significance
+# NORMAL DISTRIBUTION
+cor_test_Bitt_IBU<-cor.test(Breweries_Beers$IBU, Breweries_Beers$ABV)
+cor_test_Bitt_IBU
+# NON-NORMAL
+cor_test_Bitt_IBU<-cor.test(Breweries_Beers$IBU, Breweries_Beers$ABV, method = "Spearman")
+cor_test_Bitt_IBU
+# P-VALUE OF SIGNIFICANCE p<0.05 INDICATES THAT THE CORRELATION IS LIKELY SIGIFICANT
+
+# 
+
+
+#http://www.dummies.com/programming/r/how-to-test-data-normality-in-a-formal-way-in-r/
 
 
 # CORRELATION/COVARIANCE
