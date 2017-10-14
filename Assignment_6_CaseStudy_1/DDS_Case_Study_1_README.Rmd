@@ -1,0 +1,44 @@
+---
+title: 'SMU: Doing Data Science - Case Study 1'
+author: "Bruce Granger and Michael Landrum"
+date: "October 14, 2017"
+output: html_document
+---
+> Objectives
+
+* The objective of this analysis is to answer some basic and complex questions about beer and breweries, in doing so the analysis will answer:
+    + How many breweries are present in each state?
+    + Median alcohol content and international bitterness unit for each state. 
+    + Which state has the maximum alcoholic (ABV) beer? 
+    + Which state has the most bitter (IBU) beer?
+    + Is there an apparent relationship between the bitterness of the beer and its alcoholic content?
+
+> About the data
+
+1) The Beers dataset contains a list of 2,410 US craft beers and Breweries dataset contains 558 US breweries.
+
+2) The beer dataset (beer.csv) has the following attributes:
+    + Name: Name of the beer. 
+    + Beer ID: Unique identiﬁer of the beer. 
+    + ABV: Alcohol by volume of the beer. 
+    + IBU: International Bitterness Units of the beer. 
+    + Brewery ID: Brewery id associated with the beer. 
+    + Style: Style of the beer. 
+    + Ounces: Ounces of beer.
+    
+3) The breweries dataset (Breweries.csv) has the following attributes: 
+    + Brew ID: Unique identiﬁer of the brewery. 
+    + Name: Name of the brewery. 
+    + City: City where the brewery is located. 
+    + State: U.S. State where the brewery is located.
+    
+> Folder Structure
+
+* This Git Repository has the following folder structure and a description of the folder contents:
+    + ANALYSIS
+        + R Script: Used to build up R code that answers questions about the data.
+    + DATA
+        + Beer.csv
+        + Breweries.csv
+    + SUPPORTING_DOCS
+        + CaseStudy_1.pdf
