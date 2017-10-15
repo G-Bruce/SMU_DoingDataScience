@@ -1,0 +1,70 @@
+---
+title: "Case Study"
+author: "Michael Landrum and Bruce Granger"
+date: "10/14/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = '/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA')
+```
+
+##Professor Horace Slughorn,
+
+Thank you again for reaching out to Granger Landrum LLC. We're very excited to help further your research in Muggle Beer. Since you are our first customer, we're going to be extra throrough with our feedback as we want future employees and future clients to see how and what we can do. Feel free to ignore the R code we provide if you're not interested. We're going to focus on the beers found in the United States, but you're welcome to have us expand our research to other countries in the future. 
+
+Just in case wizard beers use different terminology, we'll give you a quick run down on some of the (muggle) beer jargon. 
+
+1. If you see "IBU", it means the International Bitterness Unit, and it's exactly what it sounds like: it's a number generally between 5 and 120 that tells you how bitter a beer is (source: https://www.thebrewenthusiast.com/ibus/). The higher the IBU, the more bitter the beer is.  
+
+2. If you see "ABV", it means the Alcohol By Volume, which is how alcoholic the beer is. An ABV of 0.05 means that the beer is 5% alcohol.
+
+3. There are many many different kinds of beers. Of the 2410 beers we found, there were 99 different types of beers (1 type was empty). I'd give you a run down of the differences between each type, but that would likely take 4 more years school. If you'd like to see the entire list, feel free to uncomment the last line below, but we'll display the first 10 types so you can get a feel.
+
+```{r typesOfBeers, echo=TRUE}
+
+Beers<-read.csv("Beers.csv", sep = ",", header = TRUE, stringsAsFactors = FALSE)
+Beers$Style<-as.factor(Beers$Style)
+nrow(Beers)
+typesOfBeers <- unique(Beers$Style, incomparables = FALSE)
+length(typesOfBeers)
+head(typesOfBeers,10)
+#typesOfBeers[-79]   ## the 79th "type" of beer was empty
+
+```
+
+The beers aren't evenly distributed among the states, some have more than others. If you were planning on starting your beer journey, and are strictly looking for quantity of breweries over quality, here's a quick list of the states you should hit first.
+
+```{r breweriesPerState, echo=TRUE, message=FALSE}
+Breweries<-read.csv("Breweries.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE, 
+                    col.names =c("Brewery_id","Name","City","State"))
+Breweries$Name<-as.character(Breweries$Name)
+library(magrittr)
+library(dplyr)
+Breweries_Per_State<-Breweries %>% group_by(State) %>% summarise(Count_By_State = length(State))
+Breweries_Per_State_Sort_DSND <- Breweries_Per_State[order(-Breweries_Per_State$Count_By_State),] 
+head(Breweries_Per_State_Sort_DSND)
+```
+
+If you're unfamiliar, CO is Colorado, which has 47 different breweries and 265 different beers! That sounds a little overwhelming, so let's dwindle this down a little more and give you a list of which cities in Colorado have the most beers on our list. 
+
+```{r beersPerBrewery, echo=TRUE}
+Breweries_Beers<- merge(Breweries, Beers, by=c("Brewery_id"), all = TRUE)
+colnames(Breweries_Beers) <- c("Brewery_ID","Brewery","City", "State", "Beer_Name", "Beer_ID", "ABV", "IBU", "Beer_Style", "Ounces")
+col <- Breweries_Beers[ grep("CO",Breweries_Beers$State), ]
+nrow(col)
+BeersPerCity <- col %>% group_by(City) %>% summarise(BeersInCity = length(City))
+sortCity <- BeersPerCity[ order(BeersPerCity$BeersInCity,decreasing=TRUE), ]
+head(sortCity)
+
+```
+
+So we recommend you get on your broom and fly straight to Boulder, as you'll have 41 different beers to choose from. While you're there, we highly recommend you check out Upslope Brewing Company and try their Lee Hill Series Vol. 5 - Belgian Style Quadrupel Ale, as it has an ABV of 0.128, the highest ABV we have in our database! A drink with that much alcohol is almost like a wine, which you may enjoy as we remember you saying you're a wine drinker too.
+
+Once you're done drinking all 41 beers in Boulder, hop in an Uber or the wizard equivalent (do not fly drunk Professor!) out to Denver and try the 40 beers there.
+
+```{r mostAlcoholic, echo=TRUE}
+sortedByABV <- Breweries_Beers[ order(Breweries_Beers$ABV, decreasing=TRUE), ]  
+sortedByABV[1,c(2,3,4,5,7)]
+```
