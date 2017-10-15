@@ -12,7 +12,7 @@
 
 # SETUP ######################################################################################################
 # DEFINE WORKING DIRECTORY
-path<-"/Users/bgranger/Documents/SMU/DDS/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA"
+path<-"/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA"
 setwd(path)
 
 # READ DATA ##################################################################################################
@@ -20,10 +20,21 @@ setwd(path)
 Breweries<-read.csv("Breweries.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE, col.names =c("Brewery_id","Name","City","State"))
 Breweries$Name<-as.character(Breweries$Name)
 
+
 #READ BEER DATA
 Beers<-read.csv("Beers.csv", sep = ",", header = TRUE, stringsAsFactors = FALSE)
 Beers$Style<-as.factor(Beers$Style)
+typesOfBeers <- unique(Beers$Style, incomparables = FALSE)
+typesOfBeers
 
+#find how many beers there are in the df
+nrow(Beers)
+#gets a list the different types of beers
+typesOfBeers <- unique(Beers$Style, incomparables = FALSE)
+#finds how many different types of beers there are
+length(typesOfBeers)
+head(typesOfBeers,10)
+typesOfBeers[-79]   ## the 79th "type" of beer was empty
 
 # Q1: How many breweries are present in each state? ###########################################################
 ## LOAD magrittr PACKAGE TO ACCESS THE PIPE "%>%" OPERATOR, WHICH ALLOWS FOR VALUES TO FORWARD
@@ -42,13 +53,21 @@ Breweries_Per_State_Sort_DSND <- Breweries_Per_State[order(-Breweries_Per_State$
 # Q2 Merge beer data with the breweries data.... 
 #    b) Print the first 6 observations and the last six observations to check the merged file
 Breweries_Beers<- merge(Breweries, Beers, by=c("Brewery_id"), all = TRUE)
+
 # RENAME COLUMNS
 colnames(Breweries_Beers) <- c("Brewery_ID","Brewery","City", "State", "Beer_Name", "Beer_ID", "ABV", "IBU", "Beer_Style", "Ounces")
 head(Breweries_Beers, n=6)
 tail(Breweries_Beers, n=6)
 #https://stats.idre.ucla.edu/r/modules/subsetting-data/
-(Breweries_Beers_Top_Bottom<-Breweries_Beers[1:6,])
+#(Breweries_Beers_Top_Bottom<-Breweries_Beers[1:6,])
 
+#Find just the beers from Colorado
+col <- Breweries_Beers[ grep("CO",Breweries_Beers$State), ]
+#Group, and then add up all the beers found in each city in Colorado
+BeersPerCity <- col %>% group_by(City) %>% summarise(BeersInCity = length(City))
+#Sort the data
+sortCity <- BeersPerCity[ order(BeersPerCity$BeersInCity,decreasing=TRUE), ]
+head(sortCity)
 
 rm(Breweries_Beers_Top_Bottom)
 
@@ -111,6 +130,7 @@ rm(AK_1)
 
 sortedByABV <- Breweries_Beers[ order(Breweries_Beers$ABV, decreasing=TRUE), ]    # Sorts the DF by ABV
 sortedByABV[1,"State"]   #Colorado
+sortedByABV[1,c(2,3,4,5,7)]
 sortedByIBU <- Breweries_Beers[ order(Breweries_Beers$IBU, decreasing=TRUE), ]    # Sorts the DF by IBU
 sortedByIBU[1,"State"]   #Oregon
                       
