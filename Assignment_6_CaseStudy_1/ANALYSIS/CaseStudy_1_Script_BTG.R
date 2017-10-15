@@ -69,12 +69,12 @@ BeersPerCity <- col %>% group_by(City) %>% summarise(BeersInCity = length(City))
 sortCity <- BeersPerCity[ order(BeersPerCity$BeersInCity,decreasing=TRUE), ]
 head(sortCity)
 
-rm(Breweries_Beers_Top_Bottom)
+#rm(Breweries_Beers_Top_Bottom)
 
 # Q3: NA's ###################################################################################################
 # Report the number of NA's in each column.
 #missing_data<-sum(is.na(Breweries_Beers$ABV))
-missing_data <-sapply(Breweries_Beers, function(y) sum(length(which(is.na(y)))))
+missing_data <- sapply(Breweries_Beers, function(y) sum(length(which(is.na(y)))))
 missing_data <- data.frame(missing_data)
 missing_data
 #<<<<<<< HEAD
@@ -83,26 +83,35 @@ missing_data
                       
 ### Mike's version
                       
-##emptyObservations <- c( sum(is.na(Breweries_Beers$Brewery_id)),     # Sums NAs for Brewery IDs
-  ##                    sum(is.na(Breweries_Beers$City)),           # Sums NAs for Cities
-  ##                    sum(is.na(Breweries_Beers$State)),          # Sums NAs for States
-  ##                    sum(is.na(Breweries_Beers$`Beer Name`)),    # Sums NAs for Beer Names
-  ##                    sum(is.na(Breweries_Beers$Beer_ID)),        # Sums NAs for Beer IDs
-  ##                    sum(is.na(Breweries_Beers$ABV)),            # Sums NAs for ABV
-  ##                    sum(is.na(Breweries_Beers$IBU))             # Sums NAs for IBU
-##)
+#emptyObservations <- c( sum(is.na(Breweries_Beers$Brewery_id)),     # Sums NAs for Brewery IDs
+ ##                      sum(is.na(Breweries_Beers$City)),           # Sums NAs for Cities
+ ##                      sum(is.na(Breweries_Beers$State)),          # Sums NAs for States
+ ##                      sum(is.na(Breweries_Beers$`Beer Name`)),    # Sums NAs for Beer Names
+ ##                      sum(is.na(Breweries_Beers$Beer_ID)),        # Sums NAs for Beer IDs
+ ##                      sum(is.na(Breweries_Beers$ABV)),            # Sums NAs for ABV
+ ##                      sum(is.na(Breweries_Beers$IBU))             # Sums NAs for IBU
+#)
+
+#emptyObservations
                       
 #>>>>>>> b4aae26fac2eb0b61de3637528126bece9f0e7a2
 # Q4 MEDIAN ALCHOL CONTENT AND BITTERNESS ####################################################################
 # a) Compute the median alcohol content and international bitterness unit for each state. 
 # b) Plot a bar chart to compare.
-Median_ABV_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_ABV_By_State = median(ABV))
-Median_ABV_Per_State
+Median_ABV_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_ABV_By_State = median(ABV,na.rm=TRUE))
+Median_ABV_Per_State_CompleteCases<-na.omit(Median_ABV_Per_State)   #Remove NAs
+sortedMedianABV <- Median_ABV_Per_State_CompleteCases[ order(Median_ABV_Per_State_CompleteCases$Median_ABV_By_State,
+                                                             decreasing=TRUE), ]    #Sort from most to least
+head(sortedMedianABV)
 
-Median_ABV_Per_State_CompleteCases<-na.omit(Median_ABV_Per_State)
-Median_ABV_Per_State_CompleteCases
-Mean_ABV_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_ABV_By_State = mean(ABV))
-Mean_ABV_Per_State
+Median_IBU_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_IBU_By_State = median(IBU,na.rm=TRUE))
+Median_IBU_Per_State_CompleteCases<-na.omit(Median_IBU_Per_State)    #Remove NAs
+sortedMedianIBU <- Median_IBU_Per_State_CompleteCases[ order(Median_IBU_Per_State_CompleteCases$Median_IBU_By_State, 
+                                                             decreasing=TRUE), ]    #Sort from most to least
+head(sortedMedianIBU)
+
+#Mean_ABV_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_ABV_By_State = mean(ABV))
+#Mean_ABV_Per_State
 
 #EXPILICTLY SEARCH WITH THE SPACE WITHIN THE SEARCH STRING
 MN<-subset(Breweries_Beers, select = c(State, ABV), subset=(State==" MN"))
@@ -130,8 +139,9 @@ rm(AK_1)
 
 sortedByABV <- Breweries_Beers[ order(Breweries_Beers$ABV, decreasing=TRUE), ]    # Sorts the DF by ABV
 sortedByABV[1,"State"]   #Colorado
-sortedByABV[1,c(2,3,4,5,7)]
+sortedByABV[1,c(2,3,4,5,7,8)]
 sortedByIBU <- Breweries_Beers[ order(Breweries_Beers$IBU, decreasing=TRUE), ]    # Sorts the DF by IBU
+sortedByIBU[1,c(2,3,4,5,7,8)]
 sortedByIBU[1,"State"]   #Oregon
                       
                       
@@ -143,12 +153,17 @@ summary(Breweries_Beers$ABV)   # Min 0.001   1Q 0.05   Median 0.056   3Q 0.067  
 # Q7: CORRELATION: BITTERNESS AND ALCOHOLIC CONTENT ##########################################################
 # a) Is there an apparent relationship between the bitterness of the beer and its alcoholic content? 
 Cor_Bitt_IBU<-cor(Breweries_Beers$IBU, Breweries_Beers$ABV, use = "pairwise.complete.obs", method="pearson")
+Cor_Bitt_IBU
+rSquared <- Cor_Bitt_IBU^2
+rSquared
 # b) Draw a scatter plot. You are welcome to use the ggplot2 library for graphs. 
 plot(Breweries_Beers$IBU,Breweries_Beers$ABV, ylim = c(.025, .125))
 # PLOT REGRESSION LINE OF A SCATTER PLOT
+install.packages("faraway")
 library(faraway)
 plot(IBU~ABV, data=Breweries_Beers, xlim = c(.025, .125))
 m<-lm(IBU ~ ABV, data=Breweries_Beers)
+m
 abline(m)
 # Please ignore missing values in your analysis. 
 # Make your best judgment of a relationship and EXPLAIN your answer.
@@ -178,7 +193,7 @@ hist(Breweries_Beers$ABV, 90, col="black")
 cor_test_Bitt_IBU<-cor.test(Breweries_Beers$IBU, Breweries_Beers$ABV)
 cor_test_Bitt_IBU
 # NON-NORMAL
-cor_test_Bitt_IBU<-cor.test(Breweries_Beers$IBU, Breweries_Beers$ABV, method = "Spearman")
+cor_test_Bitt_IBU<-cor.test(Breweries_Beers$IBU, Breweries_Beers$ABV, method = "spearman")
 cor_test_Bitt_IBU
 # P-VALUE OF SIGNIFICANCE p<0.05 INDICATES THAT THE CORRELATION IS LIKELY SIGIFICANT
 
@@ -202,7 +217,7 @@ colnames(unique_city)<- c("city_id", "city")
 
 
 # INSERT NEW COLUMN 
-unique_city$city_id<-
+#unique_city$city_id<-
 
 Corr_Beer_ID_City<-cor(Breweries_Beers$City , Breweries_Beers$Beer_ID , use = "pairwise.complete.obs", method="pearson")
 
