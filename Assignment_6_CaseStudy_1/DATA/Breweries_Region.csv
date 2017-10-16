@@ -1,0 +1,559 @@
+Brew_ID,Name,City,State,Region
+1,NorthGate Brewing ,Minneapolis, MN,MIDWEST
+2,Against the Grain Brewery,Louisville, KY,SOUTH
+3,Jack's Abby Craft Lagers,Framingham, MA,NORTHEAST
+4,Mike Hess Brewing Company,San Diego, CA,WEST
+5,Fort Point Beer Company,San Francisco, CA,WEST
+6,COAST Brewing Company,Charleston, SC,SOUTH
+7,Great Divide Brewing Company,Denver, CO,WEST
+8,Tapistry Brewing,Bridgman, MI,MIDWEST
+9,Big Lake Brewing,Holland, MI,MIDWEST
+10,The Mitten Brewing Company,Grand Rapids, MI,MIDWEST
+11,Brewery Vivant,Grand Rapids, MI,MIDWEST
+12,Petoskey Brewing,Petoskey, MI,MIDWEST
+13,Blackrocks Brewery,Marquette, MI,MIDWEST
+14,Perrin Brewing Company,Comstock Park, MI,MIDWEST
+15,Witch's Hat Brewing Company,South Lyon, MI,MIDWEST
+16,Founders Brewing Company,Grand Rapids, MI,MIDWEST
+17,Flat 12 Bierwerks,Indianapolis, IN,MIDWEST
+18,Tin Man Brewing Company,Evansville, IN,MIDWEST
+19,Black Acre Brewing Co.,Indianapolis, IN,MIDWEST
+20,Brew Link Brewing,Plainfield, IN,MIDWEST
+21,Bare Hands Brewery,Granger, IN,MIDWEST
+22,Three Pints Brewing,Martinsville, IN,MIDWEST
+23,Four Fathers Brewing ,Valparaiso, IN,MIDWEST
+24,Indiana City Brewing,Indianapolis, IN,MIDWEST
+25,Burn 'Em Brewing,Michigan City, IN,MIDWEST
+26,Sun King Brewing Company,Indianapolis, IN,MIDWEST
+27,Evil Czech Brewery,Mishawaka, IN,MIDWEST
+28,450 North Brewing Company,Columbus, IN,MIDWEST
+29,Taxman Brewing Company,Bargersville, IN,MIDWEST
+30,Cedar Creek Brewery,Seven Points, TX,SOUTH
+31,SanTan Brewing Company,Chandler, AZ,WEST
+32,Boulevard Brewing Company,Kansas City, MO,MIDWEST
+33,James Page Brewing Company,Stevens Point, WI,MIDWEST
+34,The Dudes' Brewing Company,Torrance, CA,WEST
+35,Ballast Point Brewing Company,San Diego, CA,WEST
+36,Anchor Brewing Company,San Francisco, CA,WEST
+37,Figueroa Mountain Brewing Company,Buellton, CA,WEST
+38,Avery Brewing Company,Boulder, CO,WEST
+39,Twisted X Brewing Company,Dripping Springs, TX,SOUTH
+40,Gonzo's BiggDogg Brewing,Kalamazoo, MI,MIDWEST
+41,Big Muddy Brewing,Murphysboro, IL,MIDWEST
+42,Lost Nation Brewing,East Fairfield, VT,NORTHEAST
+43,Rising Tide Brewing Company,Portland, ME,NORTHEAST
+44,Rivertowne Brewing Company,Export, PA,NORTHEAST
+45,Revolution Brewing Company,Chicago, IL,MIDWEST
+46,Tallgrass Brewing Company,Manhattan, KS,MIDWEST
+47,Sixpoint Craft Ales,Brooklyn, NY,NORTHEAST
+48,White Birch Brewing,Hooksett, NH,NORTHEAST
+49,Firestone Walker Brewing Company,Paso Robles, CA,WEST
+50,SweetWater Brewing Company,Atlanta, GA,SOUTH
+51,Flying Mouse Brewery,Troutville, VA,SOUTH
+52,Upslope Brewing Company,Boulder, CO,WEST
+53,Pipeworks Brewing Company,Chicago, IL,MIDWEST
+54,Bent Brewstillery,Roseville, MN,MIDWEST
+55,Flesk Brewing Company,Lombard, IL,MIDWEST
+56,Pollyanna Brewing Company,Lemont, IL,MIDWEST
+57,BuckleDown Brewing,Lyons, IL,MIDWEST
+58,Destihl Brewery,Bloomington, IL,MIDWEST
+59,Summit Brewing Company,St. Paul, MN,MIDWEST
+60,Latitude 42 Brewing Company,Portage, MI,MIDWEST
+61,4 Hands Brewing Company,Saint Louis, MO,MIDWEST
+62,Surly Brewing Company,Brooklyn Center, MN,MIDWEST
+63,Against The Grain Brewery,Louisville, KY,SOUTH
+64,Crazy Mountain Brewing Company,Edwards, CO,WEST
+65,SlapShot Brewing Company,Chicago, IL,MIDWEST
+66,Mikerphone Brewing,Chicago, IL,MIDWEST
+67,Freetail Brewing Company,San Antonio, TX,SOUTH
+68,3 Daughters Brewing,St Petersburg, FL,SOUTH
+69,Red Shedman Farm Brewery and Hop...,Mt. Airy, MD,NORTHEAST
+70,Appalachian Mountain Brewery,Boone, NC,SOUTH
+71,Birdsong Brewing Company,Charlotte, NC,SOUTH
+72,Union Craft Brewing,Baltimore, MD,NORTHEAST
+73,Atwater Brewery,Detroit, MI,MIDWEST
+74,Ale Asylum,Madison, WI,MIDWEST
+75,Two Brothers Brewing Company,Warrenville, IL,MIDWEST
+76,Bent Paddle Brewing Company,Duluth, MN,MIDWEST
+77,Bell's Brewery,Kalamazoo, MI,MIDWEST
+78,Blue Owl Brewing,Austin, TX,SOUTH
+79,Speakasy Ales & Lagers,San Francisco, CA,WEST
+80,Black Tooth Brewing Company,Sheridan, WY,WEST
+81,Hopworks Urban Brewery,Portland, OR,WEST
+82,Epic Brewing,Denver, CO,WEST
+83,New Belgium Brewing Company,Fort Collins, CO,WEST
+84,Sierra Nevada Brewing Company,Chico, CA,WEST
+85,Keweenaw Brewing Company,Houghton, MI,MIDWEST
+86,Brewery Terra Firma,Traverse City, MI,MIDWEST
+87,Grey Sail Brewing Company,Westerly, RI,NORTHEAST
+88,Kirkwood Station Brewing Company,Kirkwood, MO,MIDWEST
+89,Goose Island Brewing Company,Chicago, IL,MIDWEST
+90,Broad Brook Brewing LLC,East Windsor, CT,NORTHEAST
+91,The Lion Brewery,Wilkes-Barre, PA,NORTHEAST
+92,Madtree Brewing Company,Cincinnati, OH,MIDWEST
+93,Jackie O's Pub & Brewery,Athens, OH,MIDWEST
+94,Rhinegeist Brewery,Cincinnati, OH,MIDWEST
+95,Warped Wing Brewing Company,Dayton, OH,MIDWEST
+96,Blackrocks Brewery,Marquette, MA,NORTHEAST
+97,Catawba Valley Brewing Company,Morganton, NC,SOUTH
+98,Tröegs Brewing Company,Hershey, PA,NORTHEAST
+99,Mission Brewery,San Diego, CA,WEST
+100,Christian Moerlein Brewing Company,Cincinnati, OH,MIDWEST
+101,West Sixth Brewing,Lexington, KY,SOUTH
+102,Coastal Extreme Brewing Company,Newport, RI,NORTHEAST
+103,King Street Brewing Company,Anchorage, AK,WEST
+104,Beer Works Brewery,Lowell, MA,NORTHEAST
+105,Lone Tree Brewing Company,Lone Tree, CO,WEST
+106,Four String Brewing Company,Columbus, OH,MIDWEST
+107,Glabrous Brewing Company,Pineland, ME,NORTHEAST
+108,Bonfire Brewing Company,Eagle, CO,WEST
+109,Thomas Hooker Brewing Company,Bloomfield, CT,NORTHEAST
+110,"Woodstock Inn, Station & Brewery",North Woodstock, NH,NORTHEAST
+111,Renegade Brewing Company,Denver, CO,WEST
+112,Mother Earth Brew Company,Vista, CA,WEST
+113,Black Market Brewing Company,Temecula, CA,WEST
+114,Vault Brewing Company,Yardley, PA,NORTHEAST
+115,Jailbreak Brewing Company,Laurel, MD,NORTHEAST
+116,Smartmouth Brewing Company,Norfolk, VA,SOUTH
+117,Base Camp Brewing Co.,Portland, OR,WEST
+118,Alameda Brewing,Portland, OR,WEST
+119,Southern Star Brewing Company,Conroe, TX,SOUTH
+120,Steamworks Brewing Company,Durango, CO,WEST
+121,Horny Goat Brew Pub,Milwaukee, WI,MIDWEST
+122,Cheboygan Brewing Company,Cheboygan, MI,MIDWEST
+123,Center of the Universe Brewing C...,Ashland, VA,SOUTH
+124,Ipswich Ale Brewery,Ipswich, MA,NORTHEAST
+125,Griffin Claw Brewing Company,Birmingham, MI,MIDWEST
+126,Karbach Brewing Company,Houston, TX,SOUTH
+127,Uncle Billy's Brewery and Smokeh...,Austin, TX,SOUTH
+128,Deep Ellum Brewing Company,Dallas, TX,SOUTH
+129,Real Ale Brewing Company,Blanco, TX,SOUTH
+130,Straub Brewery,St Mary's, PA,NORTHEAST
+131,Shebeen Brewing Company,Wolcott, CT,NORTHEAST
+132,Stevens Point Brewery,Stevens Point, WI,MIDWEST
+133,Weston Brewing Company,Weston, MO,MIDWEST
+134,Southern Prohibition Brewing Com...,Hattiesburg, MS,SOUTH
+135,Minhas Craft Brewery,Monroe, WI,MIDWEST
+136,Pug Ryan's Brewery,Dillon, CO,WEST
+137,Hops & Grains Brewing Company,Austin, TX,SOUTH
+138,Sietsema Orchards and Cider Mill,Ada, MI,MIDWEST
+139,Summit Brewing Company,St Paul, MN,MIDWEST
+140,Core Brewing & Distilling Company,Springdale, AR,SOUTH
+141,Independence Brewing Company,Austin, TX,SOUTH
+142,Cigar City Brewing Company,Tampa, FL,SOUTH
+143,Third Street Brewhouse,Cold Spring, MN,MIDWEST
+144,Narragansett Brewing Company,Providence, RI,NORTHEAST
+145,Grimm Brothers Brewhouse,Loveland, CO,WEST
+146,Cisco Brewers,Nantucket, MA,NORTHEAST
+147,Angry Minnow,Hayward, WI,MIDWEST
+148,Platform Beer Company,Cleveland, OH,MIDWEST
+149,Odyssey Beerwerks,Arvada, CO,WEST
+150,Lonerider Brewing Company,Raleigh, NC,SOUTH
+151,Oakshire Brewing,Eugene, OR,WEST
+152,Fort Pitt Brewing Company,Latrobe, PA,NORTHEAST
+153,Tin Roof Brewing Company,Baton Rouge, LA,SOUTH
+154,Three Creeks Brewing,Sisters, OR,WEST
+155,2 Towns Ciderhouse,Corvallis, OR,WEST
+156,Caldera Brewing Company,Ashland, OR,WEST
+157,Greenbrier Valley Brewing Company,Lewisburg, WV,SOUTH
+158,Phoenix Ale Brewery,Phoenix, AZ,WEST
+159,Lumberyard Brewing Company,Flagstaff, AZ,WEST
+160,Uinta Brewing Company,Salt Lake City, UT,WEST
+161,Four Peaks Brewing Company,Tempe, AZ,WEST
+162,Martin House Brewing Company,Fort Worth, TX,SOUTH
+163,Right Brain Brewery,Traverse City, MI,MIDWEST
+164,Sly Fox Brewing Company,Phoenixville, PA,NORTHEAST
+165,Round Guys Brewing,Lansdale, PA,NORTHEAST
+166,Great Crescent Brewery,Aurora, IN,MIDWEST
+167,Oskar Blues Brewery,Longmont, CO,WEST
+168,Boxcar Brewing Company,West Chester, PA,NORTHEAST
+169,High Hops Brewery,Windsor, CO,WEST
+170,Crooked Fence Brewing Company,Garden City, ID,WEST
+171,Everybody's Brewing,White Salmon, WA,WEST
+172,Anderson Valley Brewing Company,Boonville, CA,WEST
+173,Fiddlehead Brewing Company,Shelburne, VT,NORTHEAST
+174,Evil Twin Brewing,Brooklyn, NY,NORTHEAST
+175,New Orleans Lager & Ale Brewing ...,New Orleans, LA,SOUTH
+176,Spiteful Brewing Company,Chicago, IL,MIDWEST
+177,Rahr & Sons Brewing Company,Fort Worth, TX,SOUTH
+178,18th Street Brewery,Gary, IN,MIDWEST
+179,Cambridge Brewing Company,Cambridge, MA,NORTHEAST
+180,Carolina Brewery,Pittsboro, NC,SOUTH
+181,Frog Level Brewing Company,Waynesville, NC,SOUTH
+182,Wild Wolf Brewing Company,Nellysford, VA,SOUTH
+183,COOP Ale Works,Oklahoma City, OK,SOUTH
+184,Seventh Son Brewing Company,Columbus, OH,MIDWEST
+185,Oasis Texas Brewing Company,Austin, TX,SOUTH
+186,Vander Mill Ciders,Spring Lake, MI,MIDWEST
+187,St. Julian Winery,Paw Paw, MI,MIDWEST
+188,Pedernales Brewing Company,Fredericksburg, TX,SOUTH
+189,Mother's Brewing,Springfield, MO,MIDWEST
+190,Modern Monks Brewery,Lincoln, NE,MIDWEST
+191,Two Beers Brewing Company,Seattle, WA,WEST
+192,Snake River Brewing Company,Jackson, WY,WEST
+193,Capital Brewery,Middleton, WI,MIDWEST
+194,Anthem Brewing Company,Oklahoma City, OK,SOUTH
+195,Goodlife Brewing Co.,Bend, OR,WEST
+196,Breakside Brewery,Portland, OR,WEST
+197,Goose Island Brewery Company,Chicago, IL,MIDWEST
+198,Burnside Brewing Co.,Portland, OR,WEST
+199,Hop Valley Brewing Company,Springfield, OR,WEST
+200,Worthy Brewing Company,Bend, OR,WEST
+201,Occidental Brewing Company,Portland, OR,WEST
+202,Fearless Brewing Company,Estacada, OR,WEST
+203,Upland Brewing Company,Bloomington, IN,MIDWEST
+204,Mehana Brewing Co.,Hilo, HI,WEST
+205,Hawai'i Nui Brewing Co.,Hilo, HI,WEST
+206,People's Brewing Company,Lafayette, IN,MIDWEST
+207,Fort George Brewery,Astoria, OR,WEST
+208,Branchline Brewing Company,San Antonio, TX,SOUTH
+209,Kalona Brewing Company,Kalona, IA,MIDWEST
+210,Modern Times Beer,San Diego, CA,WEST
+211,Temperance Beer Company,Evanston, IL,MIDWEST
+212,Wisconsin Brewing Company,Verona, WI,MIDWEST
+213,Crow Peak Brewing Company,Spearfish, SD,MIDWEST
+214,Grapevine Craft Brewery,Farmers Branch, TX,SOUTH
+215,Buffalo Bayou Brewing Company,Houston, TX,SOUTH
+216,Texian Brewing Co.,Richmond, TX,SOUTH
+217,Orpheus Brewing,Atlanta, GA,SOUTH
+218,Forgotten Boardwalk,Cherry Hill, NJ,NORTHEAST
+219,Laughing Dog Brewing Company,Ponderay, ID,WEST
+220,Bozeman Brewing Company,Bozeman, MT,WEST
+221,Big Choice Brewing,Broomfield, CO,WEST
+222,Big Storm Brewing Company,Odessa, FL,SOUTH
+223,Carton Brewing Company,Atlantic Highlands, NJ,NORTHEAST
+224,Midnight Sun Brewing Company,Anchorage, AK,WEST
+225,Fat Head's Brewery,Middleburg Heights, OH,MIDWEST
+226,Refuge Brewery,Temecula, CA,WEST
+227,Chatham Brewing,Chatham, NY,NORTHEAST
+228,DC Brau Brewing Company,Washington, DC,NORTHEAST
+229,Geneva Lake Brewing Company,Lake Geneva, WI,MIDWEST
+230,Rochester Mills Brewing Company,Rochester, MI,MIDWEST
+231,Cape Ann Brewing Company,Gloucester, MA,NORTHEAST
+232,Borderlands Brewing Company,Tucson, AZ,WEST
+233,College Street Brewhouse and Pub,Lake Havasu City, AZ,WEST
+234,Joseph James Brewing Company,Henderson, NV,WEST
+235,Harpoon Brewery,Boston, MA,NORTHEAST
+236,Back East Brewing Company,Bloomfield, CT,NORTHEAST
+237,Champion Brewing Company,Charlottesville, VA,SOUTH
+238,Devil's Backbone Brewing Company,Lexington, VA,SOUTH
+239,Newburgh Brewing Company,Newburgh, NY,NORTHEAST
+240,Wiseacre Brewing Company,Memphis, TN,SOUTH
+241,Golden Road Brewing,Los Angeles, CA,WEST
+242,New Republic Brewing Company,College Station, TX,SOUTH
+243,Infamous Brewing Company,Austin, TX,SOUTH
+244,Two Henrys Brewing Company,Plant City, FL,SOUTH
+245,Lift Bridge Brewing Company,Stillwater, MN,MIDWEST
+246,Lucky Town Brewing Company,Jackson, MS,SOUTH
+247,Quest Brewing Company,Greenville, SC,SOUTH
+248,Creature Comforts,Athens, GA,SOUTH
+249,Half Full Brewery,Stamford, CT,NORTHEAST
+250,Southampton Publick House,Southampton, NY,NORTHEAST
+251,Chapman's Brewing,Angola, IN,MIDWEST
+252,Barrio Brewing Company,Tucson, AZ,WEST
+253,Santa Cruz Mountain Brewing,Santa Cruz, CA,WEST
+254,Frankenmuth Brewery,Frankenmuth, MI,MIDWEST
+255,Meckley's Cidery,Somerset Center, MI,MIDWEST
+256,Stillwater Artisanal Ales,Baltimore, MD,NORTHEAST
+257,Finch's Beer Company,Chicago, IL,MIDWEST
+258,South Austin Brewery,South Austin, TX,SOUTH
+259,Bauhaus Brew Labs,Minneapolis, MN,MIDWEST
+260,Ozark Beer Company,Rogers, AR,SOUTH
+261,Mountain Town Brewing Company ,Mount Pleasant, MI,MIDWEST
+262,Otter Creek Brewing,Waterbury, VT,NORTHEAST
+263,The Brewer's Art,Baltimore, MD,NORTHEAST
+264,Denver Beer Company,Denver, CO,WEST
+265,Ska Brewing Company,Durango, CO,WEST
+266,Tractor Brewing Company,Albuquerque, NM,WEST
+267,Peak Organic Brewing Company,Portland, ME,NORTHEAST
+268,Cape Cod Beer,Hyannis, MA,NORTHEAST
+269,Long Trail Brewing Company,Bridgewater Corners, VT,NORTHEAST
+270,Great Raft Brewing Company,Shreveport, LA,SOUTH
+271,Alaskan Brewing Company,Juneau, AK,WEST
+272,Notch Brewing Company,Ipswich, MA,NORTHEAST
+273,The Alchemist,Waterbury, VT,NORTHEAST
+274,Three Notch'd Brewing Company,Charlottesville, VA,SOUTH
+275,Portside Brewery,Cleveland, OH,MIDWEST
+276,Otter Creek Brewing,Middlebury, VT,NORTHEAST
+277,Montauk Brewing Company,Montauk, NY,NORTHEAST
+278,Indeed Brewing Company,Minneapolis, MN,MIDWEST
+279,Berkshire Brewing Company,South Deerfield, MA,NORTHEAST
+280,Foolproof Brewing Company,Pawtucket, RI,NORTHEAST
+281,Headlands Brewing Company,Mill Valley, CA,WEST
+282,Bolero Snort Brewery,Ridgefield Park, NJ,NORTHEAST
+283,Thunderhead Brewing Company,Kearney, NE,MIDWEST
+284,Defiance Brewing Company,Hays, KS,MIDWEST
+285,Milwaukee Brewing Company,Milwaukee, WI,MIDWEST
+286,Catawba Island Brewing,Port Clinton, OH,MIDWEST
+287,Back Forty Beer Company,Gadsden, AL,SOUTH
+288,Four Corners Brewing Company,Dallas, TX,SOUTH
+289,Saint Archer Brewery,San Diego, CA,WEST
+290,Rogue Ales,Newport, OR,WEST
+291,Hale's Ales,Seattle, WA,WEST
+292,Tommyknocker Brewery,Idaho Springs, CO,WEST
+293,Baxter Brewing Company,Lewiston, ME,NORTHEAST
+294,Northampton Brewery,Northamtpon, MA,NORTHEAST
+295,Black Shirt Brewing Company,Denver, CO,WEST
+296,Wachusett Brewing Company,Westminster, MA,NORTHEAST
+297,Widmer Brothers Brewing Company,Portland, OR,WEST
+298,Hop Farm Brewing Company,Pittsburgh, PA,NORTHEAST
+299,Liquid Hero Brewery,York, PA,NORTHEAST
+300,Matt Brewing Company,Utica, NY,NORTHEAST
+301,Boston Beer Company,Boston, MA,NORTHEAST
+302,Old Forge Brewing Company,Danville, PA,NORTHEAST
+303,Utah Brewers Cooperative,Salt Lake City, UT,WEST
+304,Magic Hat Brewing Company,South Burlington, VT,NORTHEAST
+305,Blue Hills Brewery,Canton, MA,NORTHEAST
+306,Night Shift Brewing,Everett, MA,NORTHEAST
+307,Beach Brewing Company,Virginia Beach, VA,SOUTH
+308,Payette Brewing Company,Garden City, ID,WEST
+309,Brew Bus Brewing,Tampa, FL,SOUTH
+310,Sockeye Brewing Company,Boise, ID,WEST
+311,Pine Street Brewery,San Francisco, CA,WEST
+312,Dirty Bucket Brewing Company,Woodinville, WA,WEST
+313,Jackalope Brewing Company,Nashville, TN,SOUTH
+314,Slanted Rock Brewing Company,Meridian, ID,WEST
+315,Piney River Brewing Company,Bucryus, MO,MIDWEST
+316,Cutters Brewing Company,Avon, IN,MIDWEST
+317,Iron Hill Brewery & Restaurant,Wilmington, DE,NORTHEAST
+318,Marshall Wharf Brewing Company,Belfast, ME,NORTHEAST
+319,Banner Beer Company,Williamsburg, MA,NORTHEAST
+320,Dick's Brewing Company,Centralia, WA,WEST
+321,Claremont Craft Ales,Claremont, CA,WEST
+322,Rivertown Brewing Company,Lockland, OH,MIDWEST
+323,Voodoo Brewery,Meadville, PA,NORTHEAST
+324,D.L. Geary Brewing Company,Portland, ME,NORTHEAST
+325,Pisgah Brewing Company,Black Mountain, NC,SOUTH
+326,Neshaminy Creek Brewing Company,Croydon, PA,NORTHEAST
+327,Morgan Street Brewery,Saint Louis, MO,MIDWEST
+328,Half Acre Beer Company,Chicago, IL,MIDWEST
+329,The Just Beer Project,Burlington, VT,NORTHEAST
+330,The Bronx Brewery,Bronx, NY,NORTHEAST
+331,Dead Armadillo Craft Brewing,Tulsa, OK,SOUTH
+332,Catawba Brewing Company,Morganton, NC,SOUTH
+333,La Cumbre Brewing Company,Albuquerque, NM,WEST
+334,David's Ale Works,Diamond Springs, CA,WEST
+335,The Traveler Beer Company,Burlington, VT,NORTHEAST
+336,Fargo Brewing Company,Fargo, ND,MIDWEST
+337,Big Sky Brewing Company,Missoula, MT,WEST
+338,Nebraska Brewing Company,Papillion, NE,MIDWEST
+339,Uncle John's Fruit House Winery,St. John's, MI,MIDWEST
+340,Wormtown Brewery,Worcester, MA,NORTHEAST
+341,Due South Brewing Company,Boynton Beach, FL,SOUTH
+342,Palisade Brewing Company,Palisade, CO,WEST
+343,KelSo Beer Company,Brooklyn, NY,NORTHEAST
+344,Hardywood Park Craft Brewery,Richmond, VA,SOUTH
+345,Wolf Hills Brewing Company,Abingdon, VA,SOUTH
+346,Lavery Brewing Company,Erie, PA,NORTHEAST
+347,Manzanita Brewing Company,Santee, CA,WEST
+348,Fullsteam Brewery,Durham, NC,SOUTH
+349,Four Horsemen Brewing Company,South Bend, IN,MIDWEST
+350,Hinterland Brewery,Green Bay, WI,MIDWEST
+351,Central Coast Brewing Company,San Luis Obispo, CA,WEST
+352,Westfield River Brewing Company,Westfield, MA,NORTHEAST
+353,Elevator Brewing Company,Columbus, OH,MIDWEST
+354,Aslan Brewing Company,Bellingham, WA,WEST
+355,Kulshan Brewery,Bellingham, WA,WEST
+356,Pikes Peak Brewing Company,Monument, CO,WEST
+357,Manayunk Brewing Company,Philadelphia, PA,NORTHEAST
+358,Buckeye Brewing,Cleveland, OH,MIDWEST
+359,Daredevil Brewing Company,Shelbyville, IN,MIDWEST
+360,NoDa Brewing Company,Charlotte, NC,SOUTH
+361,Aviator Brewing Company,Fuquay-Varina, NC,SOUTH
+362,Wild Onion Brewing Company,Lake Barrington, IL,MIDWEST
+363,Hilliard's Beer,Seattle, WA,WEST
+364,Mikkeller,Pottstown, PA,NORTHEAST
+365,Bohemian Brewery,Midvale, UT,WEST
+366,Great River Brewery,Davenport, IA,MIDWEST
+367,Mustang Brewing Company,Mustang, OK,SOUTH
+368,Airways Brewing Company,Kent, WA,WEST
+369,21st Amendment Brewery,San Francisco, CA,WEST
+370,Eddyline Brewery & Restaurant,Buena Vista, CO,WEST
+371,Pizza Port Brewing Company,Carlsbad, CA,WEST
+372,Sly Fox Brewing Company,Pottstown, PA,NORTHEAST
+373,Spring House Brewing Company,Conestoga, PA,NORTHEAST
+374,7venth Sun,Dunedin, FL,SOUTH
+375,Astoria Brewing Company,Astoria, OR,WEST
+376,Maui Brewing Company,Lahaina, HI,WEST
+377,RoughTail Brewing Company,Midwest City, OK,SOUTH
+378,Lucette Brewing Company,Menominee, WI,MIDWEST
+379,Bold City Brewery,Jacksonville, FL,SOUTH
+380,Grey Sail Brewing of Rhode Island,Westerly, RI,NORTHEAST
+381,Blue Blood Brewing Company,Lincoln, NE,MIDWEST
+382,Swashbuckler Brewing Company,Manheim, PA,NORTHEAST
+383,Blue Mountain Brewery,Afton, VA,SOUTH
+384,Starr Hill Brewery,Crozet, VA,SOUTH
+385,Westbrook Brewing Company,Mt. Pleasant, SC,SOUTH
+386,Shipyard Brewing Company,Portland, ME,NORTHEAST
+387,Revolution Brewing,Paonia, CO,WEST
+388,Natian Brewery,Portland, OR,WEST
+389,Alltech's Lexington Brewing Company,Lexington, KY,SOUTH
+390,Oskar Blues Brewery (North Carol...,Brevard, NC,SOUTH
+391,Orlison Brewing Company,Airway Heights, WA,WEST
+392,Breckenridge Brewery,Denver, CO,WEST
+393,Santa Fe Brewing Company,Santa Fe, NM,WEST
+394,Miami Brewing Company,Miami, FL,SOUTH
+395,Schilling & Company,Seattle, WA,WEST
+396,Hops & Grain Brewery,Austin, TX,SOUTH
+397,White Flame Brewing Company,Hudsonville, MI,MIDWEST
+398,Ruhstaller Beer Company,Sacramento, CA,WEST
+399,Saugatuck Brewing Company,Douglas, MI,MIDWEST
+400,Moab Brewery,Moab, UT,WEST
+401,Macon Beer Company,Macon, GA,SOUTH
+402,Amnesia Brewing Company,Washougal, WA,WEST
+403,Wolverine State Brewing Company,Ann Arbor, MI,MIDWEST
+404,Red Tank Cider Company,Bend, OR,WEST
+405,Cascadia Ciderworks United,Portland, OR,WEST
+406,Fate Brewing Company,Boulder, CO,WEST
+407,Lazy Monk Brewing,Eau Claire, WI,MIDWEST
+408,Bitter Root Brewing,Hamilton, MT,WEST
+409,10 Barrel Brewing Company,Bend, OR,WEST
+410,Tamarack Brewing Company,Lakeside, MT,WEST
+411,New England Brewing Company,Woodbridge, CT,NORTHEAST
+412,Seattle Cider Company,Seattle, WA,WEST
+413,Straight to Ale,Huntsville, AL,SOUTH
+414,Austin Beerworks,Austin, TX,SOUTH
+415,Blue Mountain Brewery,Arrington, VA,SOUTH
+416,Coastal Empire Beer Company,Savannah, GA,SOUTH
+417,Jack's Hard Cider (Hauser Estate...,Biglerville, PA,NORTHEAST
+418,Boulder Beer Company,Boulder, CO,WEST
+419,Coalition Brewing Company,Portland, OR,WEST
+420,Sanitas Brewing Company,Boulder, CO,WEST
+421,Gore Range Brewery,Edwards, CO,WEST
+422,Redstone Meadery,Boulder, CO,WEST
+423,Blue Dog Mead,Eugene, OR,WEST
+424,Hess Brewing Company,San Diego, CA,WEST
+425,Wynkoop Brewing Company,Denver, CO,WEST
+426,Ciderboys,Stevens Point, WI,MIDWEST
+427,Armadillo Ale Works,Denton, TX,SOUTH
+428,Roanoke Railhouse Brewery,Roanoke, VA,SOUTH
+429,Schlafly Brewing Company,Saint Louis, MO,MIDWEST
+430,Asher Brewing Company,Boulder, CO,WEST
+431,Lost Rhino Brewing Company,Ashburn, VA,SOUTH
+432,North Country Brewing Company,Slippery Rock, PA,NORTHEAST
+433,Seabright Brewery,Santa Cruz, CA,WEST
+434,French Broad Brewery,Asheville, NC,SOUTH
+435,Angry Orchard Cider Company,Cincinnati, OH,MIDWEST
+436,Two Roads Brewing Company,Stratford, CT,NORTHEAST
+437,Southern Oregon Brewing Company,Medford, OR,WEST
+438,Brooklyn Brewery,Brooklyn, NY,NORTHEAST
+439,The Right Brain Brewery,Traverse City, MI,MIDWEST
+440,Kona Brewing Company,Kona, HI,WEST
+441,MillKing It Productions,Royal Oak, MI,MIDWEST
+442,Pateros Creek Brewing Company,Fort Collins, CO,WEST
+443,O'Fallon Brewery,O'Fallon, MO,MIDWEST
+444,Marble Brewery,Albuquerque, NM,WEST
+445,Big Wood Brewery,Vadnais Heights, MN,MIDWEST
+446,Howard Brewing Company,Lenoir, NC,SOUTH
+447,Downeast Cider House,Leominster, MA,NORTHEAST
+448,Swamp Head Brewery,Gainesville, FL,SOUTH
+449,Mavericks Beer Company,Half Moon Bay, CA,WEST
+450,TailGate Beer,San Diego, CA,WEST
+451,Northwest Brewing Company,Pacific, WA,WEST
+452,Dad & Dude's Breweria,Aurora, CO,WEST
+453,Centennial Beer Company,Edwards, CO,WEST
+454,Denali Brewing Company,Talkeetna, AK,WEST
+455,Deschutes Brewery,Bend, OR,WEST
+456,Sunken City Brewing Company,Hardy, VA,SOUTH
+457,Lucette Brewing Company,Menominie, WI,MIDWEST
+458,The Black Tooth Brewing Company,Sheridan, WY,WEST
+459,Kenai River Brewing Company,Soldotna, AK,WEST
+460,River North Brewery,Denver, CO,WEST
+461,Fremont Brewing Company,Seattle, WA,WEST
+462,Armstrong Brewing Company,South San Francisco, CA,WEST
+463,AC Golden Brewing Company,Golden, CO,WEST
+464,Big Bend Brewing Company,Alpine, TX,SOUTH
+465,Good Life Brewing Company,Bend, OR,WEST
+466,Engine 15 Brewing,Jacksonville Beach, FL,SOUTH
+467,Green Room Brewing,Jacksonville, FL,SOUTH
+468,Brindle Dog Brewing Company,Tampa Bay, FL,SOUTH
+469,Peace Tree Brewing Company,Knoxville, IA,MIDWEST
+470,Terrapin Brewing Company,Athens, GA,SOUTH
+471,Pete's Brewing Company,San Antonio, TX,SOUTH
+472,Okoboji Brewing Company,Spirit Lake, IA,MIDWEST
+473,Crystal Springs Brewing Company,Boulder, CO,WEST
+474,Engine House 9,Tacoma, WA,WEST
+475,Tonka Beer Company,Minnetonka, MN,MIDWEST
+476,Red Hare Brewing Company,Marietta, GA,SOUTH
+477,Hangar 24 Craft Brewery,Redlands, CA,WEST
+478,Big Elm Brewing,Sheffield, MA,NORTHEAST
+479,Good People Brewing Company,Birmingham, AL,SOUTH
+480,Heavy Seas Beer,Halethorpe, MD,NORTHEAST
+481,Telluride Brewing Company,Telluride, CO,WEST
+482,7 Seas Brewing Company,Gig Harbor, WA,WEST
+483,Confluence Brewing Company,Des Moines, IA,MIDWEST
+484,Bale Breaker Brewing Company,Yakima, WA,WEST
+485,The Manhattan Brewing Company,New York, NY,NORTHEAST
+486,MacTarnahans Brewing Company,Portland, OR,WEST
+487,Stillmank Beer Company,Green Bay, WI,MIDWEST
+488,Redhook Brewery,Woodinville, WA,WEST
+489,Dock Street Brewery,Philadelphia, PA,NORTHEAST
+490,Blue Point Brewing Company,Patchogue, NY,NORTHEAST
+491,Tampa Bay Brewing Company,Tampa, FL,SOUTH
+492,Devil's Canyon Brewery,Belmont, CA,WEST
+493,Stone Coast Brewing Company,Portland, ME,NORTHEAST
+494,Broken Tooth Brewing Company,Anchorage, AK,WEST
+495,Seven Brides Brewery,Silverton, OR,WEST
+496,Newburyport Brewing Company,Newburyport, MA,NORTHEAST
+497,Dry Dock Brewing Company,Aurora, CO,WEST
+498,Cans Bar and Canteen,Charlotte, NC,SOUTH
+499,Sprecher Brewing Company,Glendale, WI,MIDWEST
+500,Wildwood Brewing Company,Stevensville, MT,WEST
+501,High Noon Saloon And Brewery,Leavenworth, KS,MIDWEST
+502,Woodchuck Hard Cider,Middlebury, VT,NORTHEAST
+503,Sea Dog Brewing Company,Portland, ME,NORTHEAST
+504,Oskar Blues Brewery,Lyons, CO,WEST
+505,Carolina Beer & Beverage,Mooresville, NC,SOUTH
+506,Krebs Brewing Company (Pete's Pl...,Krebs, OK,SOUTH
+507,Warbird Brewing Company,Fort Wayne, IN,MIDWEST
+508,Mudshark Brewing Company,Lake Havasu City, AZ,WEST
+509,Spilker Ales,Cortland, NE,MIDWEST
+510,Wingman Brewers,Tacoma, WA,WEST
+511,Kettle House Brewing Company,Missoula, MT,WEST
+512,Sherwood Forest Brewers,Marlborough, MA,NORTHEAST
+513,Cottrell Brewing,Pawcatuck, CT,NORTHEAST
+514,Arctic Craft Brewery,Colorado Springs, CO,WEST
+515,Monkey Paw Pub & Brewery,San Diego, CA,WEST
+516,Crabtree Brewing Company,Greeley, CO,WEST
+517,Emerald City Beer Company,Seattle, WA,WEST
+518,Butcher's Brewing,Carlsbad, CA,WEST
+519,New South Brewing Company,Myrtle Beach, SC,SOUTH
+520,Big River Brewing Company,Chattanooga, TN,SOUTH
+521,Twisted Pine Brewing Company,Boulder, CO,WEST
+522,Flying Dog Brewery,Frederick, MD,NORTHEAST
+523,Uncommon Brewers,Santa Cruz, CA,WEST
+524,Aspen Brewing Company,Aspen, CO,WEST
+525,Triangle Brewing Company,Durham, NC,SOUTH
+526,Bomb Beer Company,New York, NY,NORTHEAST
+527,Churchkey Can Company,Seattle, WA,WEST
+528,Intuition Ale Works,Jacksonville, FL,SOUTH
+529,Asheville Brewing Company,Asheville, NC,SOUTH
+530,Northwoods Brewpub,Eau Claire, WI,MIDWEST
+531,Buckbean Brewing Company,Reno, NV,WEST
+532,Dolores River Brewery,Dolores, CO,WEST
+533,Flat Rock Brewing Company,Smithton, PA,NORTHEAST
+534,Abita Brewing Company,Abita Springs, LA,SOUTH
+535,Mammoth Brewing Company,Mammoth Lakes, CA,WEST
+536,Harvest Moon Brewing Company,Belt, MT,WEST
+537,Grand Canyon Brewing Company,Williams, AZ,WEST
+538,Lewis and Clark Brewing Company,Helena, MT,WEST
+539,Dundee Brewing Company,Rochester, NY,NORTHEAST
+540,Twin Lakes Brewing Company,Greenville, DE,NORTHEAST
+541,Mother Earth Brewing Company,Kinston, NC,SOUTH
+542,Arcadia Brewing Company,Battle Creek, MI,MIDWEST
+543,Angry Minnow Brewing Company,Hayward, WI,MIDWEST
+544,Great Northern Brewing Company,Whitefish, MT,WEST
+545,Pyramid Breweries,Seattle, WA,WEST
+546,Lancaster Brewing Company,Lancaster, PA,NORTHEAST
+547,Upstate Brewing Company,Elmira, NY,NORTHEAST
+548,Moat Mountain Smoke House & Brew...,North Conway, NH,NORTHEAST
+549,Prescott Brewing Company,Prescott, AZ,WEST
+550,Mogollon Brewing Company,Flagstaff, AZ,WEST
+551,Wind River Brewing Company,Pinedale, WY,WEST
+552,Silverton Brewery,Silverton, CO,WEST
+553,Mickey Finn's Brewery,Libertyville, IL,MIDWEST
+554,Covington Brewhouse,Covington, LA,SOUTH
+555,Dave's Brewfarm,Wilson, WI,MIDWEST
+556,Ukiah Brewing Company,Ukiah, CA,WEST
+557,Butternuts Beer and Ale,Garrattsville, NY,NORTHEAST
+558,Sleeping Lady Brewing Company,Anchorage, AK,WEST

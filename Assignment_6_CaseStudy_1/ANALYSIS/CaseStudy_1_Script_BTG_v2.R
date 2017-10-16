@@ -12,12 +12,13 @@
 
 # SETUP ######################################################################################################
 # DEFINE WORKING DIRECTORY
-path<-"/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA"
+#path<-"/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA"
+path<-"/Users/bgranger/Documents/SMU/DDS/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA"
 setwd(path)
 
 # READ DATA ##################################################################################################
 #READ BREWERIES DATA
-Breweries<-read.csv("Breweries.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE, col.names =c("Brewery_id","Name","City","State","Region"))
+Breweries<-read.csv("Breweries_Region.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE, col.names =c("Brewery_id","Name","City","State","Region"))
 Breweries$Name<-as.character(Breweries$Name)
 
 
@@ -264,6 +265,56 @@ ggplot(Breweries_Beers, aes(ABV)) +
 ggplot(Breweries_Beers, aes(ABV,IBU)) +
   geom_bar(stat = "summary_bin", fun.y=mean) +
   ggtitle("ABV-IBU")
+
+# US MAP ###############################################################
+library(maps)
+path<-"/Users/bgranger/Documents/SMU/DDS/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA"
+setwd(path)
+Lat_Long<-read.csv("MAINLAND_BREWERIES_DISTINCT_STATE_CITY.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE)
+
+#load us map data
+all_states <- map_data("state")
+#plot all states with ggplot
+p <- ggplot()
+p <- p + geom_polygon( data=all_states, aes(x=long, y=lat, group = group),colour="white", fill="grey10" )
+
+p <- p + geom_point( data=Lat_Long, aes(x=Long, y=Lat), color="coral1")
+p
+
+# TYPE OF BEER ANALYSIS ####################################################################################
+#gets a list the different types of beers
+typesOfBeers <- unique(Beers$Style, incomparables = FALSE)
+#finds how many different types of beers there are
+length(typesOfBeers)
+
+typesOfBeers[-79]   ## the 79th "type" of beer was empty
+
+#CREATE VECTORS
+TypeOfBeer<-data.frame(typesOfBeers[-79])
+Sum_ABV<-Breweries_Beers %>% group_by(Beer_Style) %>% summarise(Sum_ABV = sum(ABV,na.rm=TRUE))
+Sum_IBU<-Breweries_Beers %>% group_by(Beer_Style) %>% summarise(Sum_IBU = sum(IBU,na.rm=TRUE))
+Mean_ABV<-Breweries_Beers %>% group_by(Beer_Style) %>% summarise(Mean_ABV = mean(ABV,na.rm=TRUE))
+Mean_IBU<-Breweries_Beers %>% group_by(Beer_Style) %>% summarise(Mean_IBU = mean(IBU,na.rm=TRUE))
+
+# MERGE DATA
+Beer_Style_Mean<- merge(Mean_ABV, Mean_IBU, by=c("Beer_Style"), all = TRUE)
+
+# POINT ##############################################################
+#MEAN_IBU-MEAN_ABV
+ggplot(Beer_Style_Mean, aes(Mean_IBU, Mean_ABV)) +
+  geom_jitter() +
+  geom_point() +
+  ggtitle("Mean_IBU & Mean_ABV") +
+  ylim(0.035, 0.1)
+
+# BOXPLOTS ##############################################################
+#MEAN_IBU-MEAN_ABV
+ggplot(Beer_Style_Mean, aes(Mean_IBU, Mean_ABV)) +
+  geom_boxplot() +
+  ggtitle("MEAN_IBU & MEAN_ABV")
+
+
+
 
 #determine if data is normally distributed in R
 #https://stats.stackexchange.com/questions/3136/how-to-perform-a-test-using-r-to-see-if-data-follows-normal-distribution

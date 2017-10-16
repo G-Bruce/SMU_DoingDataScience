@@ -12,7 +12,8 @@
 
 # SETUP ######################################################################################################
 # DEFINE WORKING DIRECTORY
-path<-"/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA"
+#path<-"/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA"
+path<-"/Users/bgranger/Documents/SMU/DDS/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA"
 setwd(path)
 
 # READ DATA ##################################################################################################
@@ -77,10 +78,7 @@ head(sortCity)
 missing_data <- sapply(Breweries_Beers, function(y) sum(length(which(is.na(y)))))
 missing_data <- data.frame(missing_data)
 missing_data
-#<<<<<<< HEAD
 
-#=======
-                      
 ### Mike's version
                       
 #emptyObservations <- c( sum(is.na(Breweries_Beers$Brewery_id)),     # Sums NAs for Brewery IDs
