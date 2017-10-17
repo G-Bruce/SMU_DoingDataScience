@@ -150,6 +150,23 @@ barplot(sortedMedianIBU$Median_IBU_By_State, names.arg = sortedMedianIBU$State,l
 
 ```
 
+If you've found that you like a certain region of the US better than others, fear not as our data suggests there isn't much difference in the beers you'll find in different regions.
+
+``` {r regionPlots, echo=TRUE, message=FALSE}
+library(ggplot2)
+
+ggplot(Breweries_Beers, aes(IBU, ABV, color=Region)) +
+  geom_jitter() +
+  geom_point() +
+  ggtitle("IBU & ABV, Color by Region")
+
+ggplot(Breweries_Beers, aes(IBU, ABV)) +
+  geom_jitter() +
+  geom_point() +
+  facet_wrap(~Region) +
+  ggtitle("IBU & ABV, Facet by Region")
+
+```
 At some point, I'm sure you'll ask youself "the more alcoholic my beer is, the more bitter it seems to be. Is that a thing?" Why yes, it is a thing. We've found that about 45% of the variance in IBU can be explained by the variance in the ABV. In lamens terms it basically means that while there is a direct correlation, every 6% beer won't have the exact same IBU. On average, for every 0.1% ABV higher the beer is, the IBU increases by 1.282. Visually you can see what it means below.
 
 ``` {r correlation, echo=TRUE, message=FALSE}
