@@ -57,7 +57,23 @@ head(typesOfBeers,10)
 
 ```
 
-The beers aren't evenly distributed among the states, some have more than others. If you were planning on starting your beer journey, and are strictly looking for quantity of breweries over quality, here's a quick list of the states you should hit first.
+The beers aren't evenly distributed among the states, some have more than others. Here's a map with the locations of the breweries we have in our database.
+
+``` {r mapOfUS, echo=TRUE}
+library(ggplot2)
+library(maps)
+Lat_Long<-read.csv("MAINLAND_BREWERIES_DISTINCT_STATE_CITY.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE)
+
+all_states <- map_data("state")
+
+ggplot() + 
+  geom_polygon( data=all_states, aes(x=long, y=lat, group = group),colour="white", fill="grey10" ) +
+  geom_point( data=Lat_Long, aes(x=Long, y=Lat), color="coral1")
+
+```
+
+
+As you can see, there are a ton along the east coast in the Massachusetts, Delaware area. And I just realized you might not know which 2 states those are on the map. That's ok, we have a list of the states with the most breweries in them.
 
 ```{r breweriesPerState, echo=TRUE, message=FALSE}
 library(magrittr)
@@ -67,7 +83,7 @@ Breweries_Per_State_Sort_DSND <- Breweries_Per_State[order(-Breweries_Per_State$
 head(Breweries_Per_State_Sort_DSND)
 ```
 
-If you're unfamiliar, CO is Colorado, which has 47 different breweries and 265 different beers! That sounds a little overwhelming, so let's dwindle this down a little more and give you a list of which cities in Colorado have the most beers on our list. 
+If you're unfamiliar, CO is Colorado, which is located slightly west of the center of the map and is the one with the clusters of breweries, 47 to be exact! We don't recommend you go to all 47, so let's dwindle this down a little more and give you a list of which cities in Colorado have the most beers on our list. 
 
 ```{r beersPerBrewery, echo=TRUE}
 
@@ -136,11 +152,11 @@ barplot(sortedMedianIBU$Median_IBU_By_State, names.arg = sortedMedianIBU$State,l
 
 At some point, I'm sure you'll ask youself "the more alcoholic my beer is, the more bitter it seems to be. Is that a thing?" Why yes, it is a thing. We've found that about 45% of the variance in IBU can be explained by the variance in the ABV. In lamens terms it basically means that while there is a direct correlation, every 6% beer won't have the exact same IBU. On average, for every 0.1% ABV higher the beer is, the IBU increases by 1.282. Visually you can see what it means below.
 
-``` {r correlation, echo=TRUE}
+``` {r correlation, echo=TRUE, message=FALSE}
 Cor_Bitt_IBU<-cor(Breweries_Beers$IBU, Breweries_Beers$ABV, use = "pairwise.complete.obs", method="pearson")
 Cor_Bitt_IBU^2
 library(faraway)
-plot(IBU~ABV, data=Breweries_Beers, xlim = c(.025, .125), main = "placeholder plot")
+plot(IBU~ABV, data=Breweries_Beers, xlim = c(.025, .125), main = "ABV vs IBU")
 m<-lm(IBU ~ ABV, data=Breweries_Beers)
 abline(m)
 m
