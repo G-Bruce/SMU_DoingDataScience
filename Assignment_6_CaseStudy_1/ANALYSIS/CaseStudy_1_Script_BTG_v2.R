@@ -201,7 +201,7 @@ ggplot(Breweries_Beers, aes(IBU, ABV, color=State)) +
   facet_wrap(~Region) +
   ggtitle("IBU & ABV, Color by State, Facet by Region")
 
-#ABV-STATE
+#ABV-STATE---MAYBE
 ggplot(Breweries_Beers, aes(ABV, State)) +
   geom_jitter() +
   geom_point() +
