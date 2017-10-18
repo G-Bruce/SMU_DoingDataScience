@@ -26,19 +26,29 @@ output: html_document
     + Style: Style of the beer. 
     + Ounces: Ounces of beer.
     
-3) The breweries dataset (Breweries.csv) has the following attributes: 
+3) The breweries dataset (Breweries_Region.csv) has the following attributes: 
     + Brew ID: Unique identiﬁer of the brewery. 
     + Name: Name of the brewery. 
     + City: City where the brewery is located. 
     + State: U.S. State where the brewery is located.
+    + Region: States are organized into groups, aka Regions.
+
+4) The latitude and longitude information (MAINLAND_BREWERIES_DISTINCT_STATE_CITY.csv) has the following attributes:
+    + State: U.S. State where the brewery is located.
+    + City: : City where the brewery is located.
+    + Lat: Latitude coordinates.
+    + Long: Longitude coordinates.
+
     
 > Folder Structure
 
 * This Git Repository has the following folder structure and a description of the folder contents:
     + ANALYSIS
-        + R Script: Used to build up R code that answers questions about the data.
+        + RMarkdown: Used to build up R code that answers questions about the data.
     + DATA
         + Beer.csv
-        + Breweries.csv
+        + Breweries_Region.csv
+        + MAINLAND_BREWERIES_DISTINCT_STATE_CITY.csv
     + SUPPORTING_DOCS
-        + CaseStudy_1.pdf
+        + CaseStudy1.pdf
+        + CaseStudy1Rubric
