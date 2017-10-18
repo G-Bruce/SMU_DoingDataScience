@@ -5,10 +5,168 @@ date: "October 18, 2017"
 output: html_document
 ---
 
-> Objectives
+> OBJECTIVES: 
 
 * The objective of this CODEBOOK is to explain the R "code chunks" within the "Case Study.rmd" file.
 * Code chunks look like this:
 ```{r Code_Chunk_Name}```
 * It is the assumption of this document that the reader has at least an introductory understanding of the R computer programming language.  Basic concepts will not be covered here.  For additional assistance with anything that is within the code chunk that is not detailed here, the reader will need to research the topic elsewhere.
 * Once a topic is covered in the CODEBOOK and the topic is repeated in the RMARKDOWN file, it will not be repeated in the CODEBOOK.
+
+> CODE CHUNKS
+
+* setup
+* loadAndMerge
+* summaryIBU
+* summaryABV
+* typesOfBeers
+* mapOfUS
+* breweriesPerState
+* beersPerBrewery
+* mostAlcohol
+* mostBitter
+* mostBitterState
+* mostAlcoholState
+* bargraphs
+* regionPlots
+* boxplot
+* correlation
+
+> CODE CHUNKS EXPLAINED
+
+* setup
+    + knitr::opts_knit$set(root.dir = 'PATH/TO/DIRECTORY')
+        + Unlike a R Script file, Kniter is unable to make use of the setwd() function.  The above code is an equivalent to setwd() in the RScript file.
+      
+* loadAndMerge
+      + read.csv("Beers.csv", sep = ",", header = TRUE, stringsAsFactors = FALSE)
+          + The above code is the process of reading a data file, in this case the file name is Beers.csv and is located in the root.dir path stated in the steup code chink.  Since it is a csv, which is a comma separated, there are different forms of separation and the sep = "," specifies that in this case the file uses commas to separate columns of data. Another option is the header = "TRUE" option, which says the column name is on the first row of the file and should not be incorporated into the data.  The stringsAsFactors = FALSE option tells R not to convert string data into Factors.  
+      + Beers$Style<-as.factor(Beers$Style)
+          + Since the option stringsAsFactors = FALSE, we are now converting the Style column data into a factor datatype and assigning it back into the Style column.
+      + col.names =c("Brewery_id","Name","City","State","Region")
+          + This is a process of renaming the columns.
+      + merge(Breweries, Beers, by=c("Brewery_id"), all = TRUE)
+          + Here two datasets, Breweries and Beers, are being merged together based on the Brewery_id column in each of the datasets.
+      
+* summaryIBU
+      + summary(Breweries_Beers$IBU)
+          + Summary is a generic function used to produce result summaries of the results of various model fitting functions.  In this case, the summary information is being provide against the IBU column in the Breweries_Beers dataset.
+  
+* summaryABV
+      + See summaryIBU
+  
+* typesOfBeers
+      + nrow(Beers)
+          + nrow returns the number of rows or columns present in the dataset, in this case "Beers".
+      + typesOfBeers <- unique(Beers$Style, incomparables = FALSE)
+      + unique returns a vector, data frame or array like x but with duplicate elements/rows removed.
+      + The incomparable options a vector of values that cannot be compared, the FALSE is a special value, meaning that all values can be compared, and may be the only value accepted for methods other than the default.
+      + length(typesOfBeers)
+          + length, in this case is the Get the length of vectors (including lists) and factors, and of any other R object for which a method has been defined.  In this case it is the total number of beer styles.
+      + head(typesOfBeers,10)
+        + This code is providing a view of the rows and columns of the first (head) ten (10) rows of the dataset.
+    
+* mapOfUS
+      + In this code chunk, two libraries are being access through the library() function call.  In this example library(ggplot2) and library(maps) are being called.
+      + Lat_Long<-read.csv("MAINLAND_BREWERIES_DISTINCT_STATE_CITY.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE)
+          + See loadAndMerge
+      + all_states <- map_data("state")
+          + The states that are wanted to be drawn are passed to the map_data() function within the maps library.
+      + ggplot() + geom_polygon( data=all_states, aes(x=long, y=lat, group = group),colour="white", fill="grey10" ) + geom_point( data=Lat_Long, aes(x=Long, y=Lat), color="red")
+          + Next the plot is being handled in ggplot.
+          + data=all_states defines which states 
+          + aes(x=long, y=lat, group = group) defin the x and y axis and grouping is the region.
+          
+* breweriesPerState
+      + In this code chunk, two libraries are being access through the library() function call.  In this example library(magrittr) and library(dplyr) are being called.
+          + The magrittr library provide access to the "pipe" (%>%) function.
+          + The dplyr library provide access to the group_by() and summarise() functions, among other things.
+      + Breweries_Per_State<-Breweries %>% group_by(State) %>% summarise(Count_By_State = length(State))
+          + To begin, the Breweries dataset is passed to the group_by() function where data is grouped by state, then passed to the summarise() function where the length is placed into the Count_By_State column.
+      + Breweries_Per_State_Sort_DSND <- Breweries_Per_State[order(-Breweries_Per_State$Count_By_State),] 
+          + Here the Count_By_State column in the Breweries_Per_State dataset is ordered in descending order and then assigned to the Breweries_Per_State_Sort_DSND object.
+      + head(Breweries_Per_State_Sort_DSND)
+          + See typesOfBeers
+          
+* beersPerBrewery
+    + col <- Breweries_Beers[ grep("CO",Breweries_Beers$State), ]
+        + The grep function is looking for the occurrence of "CO" in the State column within the Breweries_Beers dataset, then assigning the occurrence into the col object.
+    + nrow(col)
+        + See typesOfBeers 
+    + BeersPerCity <- col %>% group_by(City) %>% summarise(BeersInCity = length(City))
+        + See breweriesPerState
+    + sortCity <- BeersPerCity[ order(BeersPerCity$BeersInCity,decreasing=TRUE), ]
+        + breweriesPerState
+    + head(sortCity)
+        + See typesOfBeers
+        
+* mostAlcohol
+    + sortedByABV <- Breweries_Beers[ order(Breweries_Beers$ABV, decreasing=TRUE), ] 
+        + See breweriesPerState
+    + sortedByABV[1,c(2,3,4,5,7)]
+        + This code is selecting certain columns, it is omitted columns 1 and 6.
+        
+* mostBitter
+    + sortedByIBU <- Breweries_Beers[ order(Breweries_Beers$IBU, decreasing=TRUE), ]
+        + See breweriesPerState
+    + sortedByIBU[1,c(2,3,4,5,7,8)]
+        + See mostAlcohol
+        
+* mostBitterState
+    + Median_IBU_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_IBU_By_State = median(IBU,na.rm=TRUE))
+        + See breweriesPerState
+    + Median_IBU_Per_State_CompleteCases<-na.omit(Median_IBU_Per_State)
+        +  The na.omit() function returns the object with incomplete cases removed.
+    + sortedMedianIBU <- Median_IBU_Per_State_CompleteCases[ order(Median_IBU_Per_State_CompleteCases$Median_IBU_By_State, 
+                                                             decreasing=TRUE), ]
+        + See breweriesPerState
+    + head(sortedMedianIBU)
+        + See typesOfBeers
+
+* mostAlcoholState
+    + Median_ABV_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_ABV_By_State = median(ABV,na.rm=TRUE))
+        + See breweriesPerState
+    + Median_ABV_Per_State_CompleteCases<-na.omit(Median_ABV_Per_State)
+        + See mostBitterState
+    + sortedMedianABV <- Median_ABV_Per_State_CompleteCases[ order(Median_ABV_Per_State_CompleteCases$Median_ABV_By_State,
+                                                             decreasing=TRUE), ]
+        + See breweriesPerState
+    + head(sortedMedianABV)
+        + See typesOfBeers
+        
+* bargraphs
+    + barplot(sortedMedianABV$Median_ABV_By_State, names.arg = sortedMedianABV$State,las=2,
+        main = "Median ABV per State", ylab = "Median ABV", xlab = "State")
+        + This creates a brplot object that has as Median_ABV_By_State as the data.
+        + names.arg = sortedMedianABV$State provides the x-axis
+        + main = "Median ABV per State", ylab = "Median ABV", xlab = "State" provides the respective label information.
+
+* regionPlots
+    + In this code chunk, one library is being access through the library() function call.  In this example library(ggplot2) is being called.
+    + complete <- Breweries_Beers[complete.cases(Breweries_Beers), ] ggplot(complete, aes(IBU, ABV, color=Region)) + geom_jitter() + geom_point() + ggtitle("IBU & ABV, Color by Region")
+        + The complete.cases of the Breweries_Beers is the datasource, which removes the NAs within the data and is assign to the object called "complete".
+        + The aes(IBU, ABV, color=Region)) defines the x and y axis, in terms of data and color=Region assigns colors to the Region data.
+        + geom_point() are dots that represent the intersection of each x and y datapoint.
+        + geom_jitter() allows for a spreading of the data that overlaps.
+        + ggtitle("IBU & ABV, Color by Region") assigns a title to the plot.
+
+* boxplot
+    + ggplot(complete, aes(IBU, group=Region, ABV)) + geom_boxplot() + ggtitle("IBU & ABV, Facet by Region") + facet_wrap(~Region, nrow =  1)
+        + geom_boxplot() is calling the boxplot as the plot output.
+        + facet_wrap(~Region, nrow =  1) is creating the identical plot but repeated (facted) based the "Region" data and all Facets are maintained on one row (nrow =  1). 
+
+* correlation
+    + Cor_Bitt_IBU<-cor(Breweries_Beers$IBU, Breweries_Beers$ABV, use = "pairwise.complete.obs", method="pearson")
+        + Here the correlation of IBU is compared against ABV, specifying complete observations only be assessed and the pearson method is specified, all of which is assigned to the object called "Cor_Bitt_IBU".
+    + Cor_Bitt_IBU^2
+        + From the "Cor_Bitt_IBU" object, it is raised to the second power.
+    + plot(IBU~ABV, data=Breweries_Beers, xlim = c(.025, .125), main = "ABV vs IBU")
+        + Using the base plotting in R, a scatter plot is produced
+        + IBU~ABV defines what is to be plotted.
+        + data=Breweries_Beers defines what the data resides.
+        + xlim = c(.025, .125) defines the limits of the x axis.
+        + main = "ABV vs IBU" defines the title of the plot.
+    + m<-lm(IBU ~ ABV, data=Breweries_Beers)
+        + Develops a liner model, using IBU ~ ABV as the data and assigns it to an object called "m".
+    + abline(m)
+        + Assigns the m object to an abline.

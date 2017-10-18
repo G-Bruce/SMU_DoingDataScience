@@ -8,9 +8,9 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_knit$set(root.dir = '/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA')
+knitr::opts_knit$set(root.dir = #'/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA')
 #
-#'/Users/bgranger/Documents/SMU/DDS/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA'
+'/Users/bgranger/Documents/SMU/DDS/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA')
 ```
 
 ``` {r loadAndMerge, echo=FALSE}
@@ -102,7 +102,7 @@ So we recommend you get on your broom and fly straight to Boulder, as you'll hav
 
 Once you're done drinking all 41 beers in Boulder, hop in an Uber or the wizard equivalent (do not fly drunk Professor!) out to Denver and try the 40 beers there.
 
-```{r mostAlcoholic, echo=TRUE}
+```{r mostAlcohol, echo=TRUE}
 sortedByABV <- Breweries_Beers[ order(Breweries_Beers$ABV, decreasing=TRUE), ]  
 sortedByABV[1,c(2,3,4,5,7)]
 ```
@@ -132,7 +132,7 @@ head(sortedMedianIBU)
 
 Now that you've got a good idea on the taste of beers and a grasp on the bitterness, it's time to (finally) get drunk. Luckily the place with the highest median ABV is just a quick Apparition spell away in Washington DC. The median ABV out there is 0.0625 (tied with Kentucky), a little higher than the overall median of 0.056.
 
-``` {r mostAlcoholicState, echo=TRUE}
+``` {r mostAlcoholState, echo=TRUE}
 
 Median_ABV_Per_State<-Breweries_Beers %>% group_by(State) %>% summarise(Median_ABV_By_State = median(ABV,na.rm=TRUE))
 Median_ABV_Per_State_CompleteCases<-na.omit(Median_ABV_Per_State)
