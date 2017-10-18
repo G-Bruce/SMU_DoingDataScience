@@ -168,7 +168,7 @@ ggplot(complete, aes(IBU, ABV, color=Region)) +
 And also in their separated box plots. They each have similar heights and widths.
 
 ```{r boxplot, echo=TRUE}
-ggplot(complete, aes(IBU, ABV)) +
+ggplot(complete, aes(IBU, group=Region, ABV)) +
   geom_boxplot() +
   ggtitle("IBU & ABV, Facet by Region") +
   facet_wrap(~Region, nrow =  1)
