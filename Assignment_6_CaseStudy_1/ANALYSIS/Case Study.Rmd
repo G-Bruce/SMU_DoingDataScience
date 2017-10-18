@@ -5,10 +5,12 @@ date: "10/14/2017"
 output: html_document
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_knit$set(root.dir = '/Users/bgranger/Documents/SMU/DDS/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA')
-#'/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA'
+knitr::opts_knit$set(root.dir = '/Users/michaerl/Documents/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA')
+#
+#'/Users/bgranger/Documents/SMU/DDS/SMU_DoingDataScience/Assignment_6_CaseStudy_1/DATA'
 ```
 
 ``` {r loadAndMerge, echo=FALSE}
@@ -153,22 +155,23 @@ barplot(sortedMedianIBU$Median_IBU_By_State, names.arg = sortedMedianIBU$State,l
 
 If you've found that you like a certain region of the US better than others, fear not as our data suggests there isn't much difference in the beers you'll find in different regions. You can see the different regions scatter plots of ABV vs. IBU.
 
-#REDO PLOTS HERE
+``` {r regionPlots, echo=TRUE, message=FALSE, warning=FALSE}
+library(ggplot2)
 
-``` {r regionPlots, echo=TRUE, message=FALSE}
-##library(ggplot2)
+complete <- Breweries_Beers[complete.cases(Breweries_Beers), ]  ## Remove the NAs
+ggplot(complete, aes(IBU, ABV, color=Region)) +
+  geom_jitter() +
+  geom_point() +
+  ggtitle("IBU & ABV, Color by Region")
+```
 
-##ggplot(Breweries_Beers, aes(IBU, ABV, color=Region)) +
-##  geom_jitter() +
-##  geom_point() +
-##  ggtitle("IBU & ABV, Color by Region")
+And also in their separated box plots. They each have similar heights and widths.
 
-##ggplot(Breweries_Beers, aes(IBU, ABV)) +
-##  geom_jitter() +
-##  geom_point() +
-##  facet_wrap(~Region) +
-##  ggtitle("IBU & ABV, Facet by Region") 
-
+```{r boxplot, echo=TRUE}
+ggplot(complete, aes(IBU, ABV)) +
+  geom_boxplot() +
+  ggtitle("IBU & ABV, Facet by Region") +
+  facet_wrap(~Region, nrow =  1)
 ```
 
 After looking at those plots, you maybe asking youself "is there a correlation between ABV and IBU?" Why yes, there is! We've found that about 45% of the variance in IBU can be explained by the variance in the ABV. In lamens terms it basically means that while there is a direct correlation, every 6% beer won't have the exact same IBU. On average, for every 0.1% ABV higher the beer is, the IBU increases by 1.282. Visually you can see what it means below.
@@ -177,7 +180,7 @@ After looking at those plots, you maybe asking youself "is there a correlation b
 Cor_Bitt_IBU<-cor(Breweries_Beers$IBU, Breweries_Beers$ABV, use = "pairwise.complete.obs", method="pearson")
 Cor_Bitt_IBU^2
 library(faraway)
-plot(IBU~ABV, data=Breweries_Beers, xlim = c(.025, .125), main = "placeholder plot")
+plot(IBU~ABV, data=Breweries_Beers, xlim = c(.025, .125), main = "ABV vs IBU")
 m<-lm(IBU ~ ABV, data=Breweries_Beers)
 abline(m)
 m
@@ -189,102 +192,3 @@ That's all we have for you today, Professor, but we'd love to work with you agai
 Thanks again!
 
 -Granger && Landrum LLC
-
-
-``` {r Placeholder_Point, echo=TRUE}
-library(ggplot2)
-# POINT ##############################################################
-#IBU-ABV
-ggplot(Breweries_Beers, aes(IBU, ABV)) +
-  geom_jitter() +
-  geom_point() +
-  ggtitle("IBU & ABV")
-
-#IBU-ABV, COLOR by REGION  
-ggplot(Breweries_Beers, aes(IBU, ABV, color=Region)) +
-  geom_jitter() +
-  geom_point() +
-  ggtitle("IBU & ABV, Color by Region")
-
-
-#IBU-ABV, FACET=REGION
-ggplot(Breweries_Beers, aes(IBU, ABV)) +
-  geom_jitter() +
-  geom_point() +
-  facet_wrap(~Region) +
-  ggtitle("IBU & ABV, Facet by Region")
-
-
-#IBU-ABV, COLOR by REGION, FACET: REGION
-ggplot(Breweries_Beers, aes(IBU, ABV, color=State)) +
-  geom_jitter() +
-  geom_point() +
-  facet_wrap(~Region) +
-  ggtitle("IBU & ABV, Color by State, Facet by Region")
-
-#ABV-STATE---MAYBE
-ggplot(Breweries_Beers, aes(ABV, State)) +
-  geom_jitter() +
-  geom_point() +
-  ggtitle("ABV & State")
-
-#ABV-STATE, FACET: REGION
-ggplot(Breweries_Beers, aes(ABV, State)) +
-  geom_jitter() +
-  geom_point()  +
-  facet_wrap(~Region) +
-  ggtitle("ABV & State, Facet by Region")
-
-#ABV-REGION
-ggplot(Breweries_Beers, aes(ABV, Region)) +
-  geom_jitter() +
-  geom_point() +
-  ggtitle("ABV & Region")
-
-#ABV-Style
-ggplot(Breweries_Beers, aes(ABV, Beer_ID)) +
-  geom_jitter() +
-  geom_point() +
-  ggtitle("ABV & Beer_ID")
-
-#IBU-Style
-ggplot(Breweries_Beers, aes(IBU, Beer_ID)) +
-  geom_jitter() +
-  geom_point() +
-  ggtitle("IBU & Beer_ID")
-
-```
-
-``` {r Placeholder_BoxPlots, echo=TRUE}
-# BOXPLOTS ##############################################################
-#IBU-ABV
-ggplot(Breweries_Beers, aes(IBU, ABV)) +
-  geom_boxplot() +
-  ggtitle("IBU & ABV")
-
-#IBU-ABV, FACETED: REGION
-ggplot(Breweries_Beers, aes(IBU, ABV)) +
-  geom_boxplot() +
-  ggtitle("IBU & ABV, Facet by Region") +
-  facet_wrap(~Region, nrow =  1)
-
-#IBU-ABV
-ggplot(Breweries_Beers, aes(ABV, IBU)) +
-  geom_boxplot() +
-  ggtitle("ABV & IBU")
-
-```
-
-``` {r Placeholder_Histogram, echo=TRUE}
-# HISTOGRAM ############################################################
-#IBU
-ggplot(Breweries_Beers, aes(IBU)) +
-  geom_histogram(binwidth = 15) +
-  ggtitle("IBU")
-
-#ABV
-ggplot(Breweries_Beers, aes(ABV)) +
-  geom_histogram(binwidth = 0.01) +
-  ggtitle("ABV")
-
-```
