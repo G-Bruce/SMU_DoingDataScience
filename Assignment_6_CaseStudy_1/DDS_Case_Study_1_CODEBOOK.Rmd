@@ -1,0 +1,14 @@
+---
+title: 'SMU: Doing Data Science - Case Study 1 - CODEBOOK'
+author: "Bruce Granger and Michael Landrum"
+date: "October 18, 2017"
+output: html_document
+---
+
+> Objectives
+
+* The objective of this CODEBOOK is to explain the R "code chunks" within the "Case Study.rmd" file.
+* Code chunks look like this:
+```{r Code_Chunk_Name}```
+* It is the assumption of this document that the reader has at least an introductory understanding of the R computer programming language.  Basic concepts will not be covered here.  For additional assistance with anything that is within the code chunk that is not detailed here, the reader will need to research the topic elsewhere.
+* Once a topic is covered in the CODEBOOK and the topic is repeated in the RMARKDOWN file, it will not be repeated in the CODEBOOK.
