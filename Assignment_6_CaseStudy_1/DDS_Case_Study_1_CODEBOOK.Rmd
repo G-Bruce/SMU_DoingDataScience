@@ -104,7 +104,7 @@ output: html_document
     + sortedByABV <- Breweries_Beers[ order(Breweries_Beers$ABV, decreasing=TRUE), ] 
         + See breweriesPerState
     + sortedByABV[1,c(2,3,4,5,7)]
-        + This code is selecting certain columns, it is omitted columns 1 and 6.
+        + This code is selecting the first row and certain columns, it is omitted columns 1 and 6.
         
 * mostBitter
     + sortedByIBU <- Breweries_Beers[ order(Breweries_Beers$IBU, decreasing=TRUE), ]
