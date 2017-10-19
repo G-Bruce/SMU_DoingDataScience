@@ -39,54 +39,55 @@ output: html_document
         + Unlike a R Script file, Kniter is unable to make use of the setwd() function.  The above code is an equivalent to setwd() in the RScript file.
       
 * loadAndMerge
-      + read.csv("Beers.csv", sep = ",", header = TRUE, stringsAsFactors = FALSE)
-          + The above code is the process of reading a data file, in this case the file name is Beers.csv and is located in the root.dir path stated in the steup code chink.  Since it is a csv, which is a comma separated, there are different forms of separation and the sep = "," specifies that in this case the file uses commas to separate columns of data. Another option is the header = "TRUE" option, which says the column name is on the first row of the file and should not be incorporated into the data.  The stringsAsFactors = FALSE option tells R not to convert string data into Factors.  
-      + Beers$Style<-as.factor(Beers$Style)
-          + Since the option stringsAsFactors = FALSE, we are now converting the Style column data into a factor datatype and assigning it back into the Style column.
-      + col.names =c("Brewery_id","Name","City","State","Region")
-          + This is a process of renaming the columns.
-      + merge(Breweries, Beers, by=c("Brewery_id"), all = TRUE)
-          + Here two datasets, Breweries and Beers, are being merged together based on the Brewery_id column in each of the datasets.
+    + read.csv("Beers.csv", sep = ",", header = TRUE, stringsAsFactors = FALSE)
+        + The above code is the process of reading a data file, in this case the file name is Beers.csv and is located in the root.dir path stated in the steup code chink.  Since it is a csv, which is a comma separated, there are different forms of separation and the sep = "," specifies that in this case the file uses commas to separate columns of data. Another option is the header = "TRUE" option, which says the column name is on the first row of the file and should not be incorporated into the data.  The stringsAsFactors = FALSE option tells R not to convert string data into Factors.  
+    + Beers$Style<-as.factor(Beers$Style)
+        + Since the option stringsAsFactors = FALSE, we are now converting the Style column data into a factor datatype and assigning it back into the Style column.
+    + col.names =c("Brewery_id","Name","City","State","Region")
+        + This is a process of renaming the columns.
+    + merge(Breweries, Beers, by=c("Brewery_id"), all = TRUE)
+        + Here two datasets, Breweries and Beers, are being merged together based on the Brewery_id column in each of the datasets.
       
 * summaryIBU
-      + summary(Breweries_Beers$IBU)
-          + Summary is a generic function used to produce result summaries of the results of various model fitting functions.  In this case, the summary information is being provide against the IBU column in the Breweries_Beers dataset.
+    + summary(Breweries_Beers$IBU)
+        + Summary is a generic function used to produce result summaries of the results of various model fitting functions.  In this case, the summary information is being provide against the IBU column in the Breweries_Beers dataset.
   
 * summaryABV
-      + See summaryIBU
+    + See summaryIBU
   
 * typesOfBeers
-      + nrow(Beers)
-          + nrow returns the number of rows or columns present in the dataset, in this case "Beers".
-      + typesOfBeers <- unique(Beers$Style, incomparables = FALSE)
-      + unique returns a vector, data frame or array like x but with duplicate elements/rows removed.
-      + The incomparable options a vector of values that cannot be compared, the FALSE is a special value, meaning that all values can be compared, and may be the only value accepted for methods other than the default.
-      + length(typesOfBeers)
-          + length, in this case is the Get the length of vectors (including lists) and factors, and of any other R object for which a method has been defined.  In this case it is the total number of beer styles.
-      + head(typesOfBeers,10)
+    + nrow(Beers)
+        + nrow returns the number of rows or columns present in the dataset, in this case "Beers".
+    + typesOfBeers <- unique(Beers$Style, incomparables = FALSE)
+        + unique returns a vector, data frame or array like x but with duplicate elements/rows removed.
+        + The incomparable options a vector of values that cannot be compared, the FALSE is a special value, meaning that all values can be compared, and may be the only value accepted for methods other than the default.
+    + length(typesOfBeers)
+        + length, in this case is the Get the length of vectors (including lists) and factors, and of any other R object for which a method has been defined.  In this case it is the total number of beer styles.
+    + head(typesOfBeers,10)
         + This code is providing a view of the rows and columns of the first (head) ten (10) rows of the dataset.
     
 * mapOfUS
-      + In this code chunk, two libraries are being access through the library() function call.  In this example library(ggplot2) and library(maps) are being called.
-      + Lat_Long<-read.csv("MAINLAND_BREWERIES_DISTINCT_STATE_CITY.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE)
-          + See loadAndMerge
-      + all_states <- map_data("state")
-          + The states that are wanted to be drawn are passed to the map_data() function within the maps library.
-      + ggplot() + geom_polygon( data=all_states, aes(x=long, y=lat, group = group),colour="white", fill="grey10" ) + geom_point( data=Lat_Long, aes(x=Long, y=Lat), color="red")
-          + Next the plot is being handled in ggplot.
-          + data=all_states defines which states 
-          + aes(x=long, y=lat, group = group) defin the x and y axis and grouping is the region.
+    + In this code chunk, two libraries are being access through the library() function call.  In this example library(ggplot2) and library(maps) are being called.
+    + Lat_Long<-read.csv("MAINLAND_BREWERIES_DISTINCT_STATE_CITY.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE)
+        + See loadAndMerge
+    + all_states <- map_data("state")
+        + The states that are wanted to be drawn are passed to the map_data() function within the maps library.
+    + ggplot() + geom_polygon( data=all_states, aes(x=long, y=lat, group = group),colour="white", fill="grey10" ) 
+    + geom_point( data=Lat_Long, aes(x=Long, y=Lat), color="red")
+        + Next the plot is being handled in ggplot.
+        + data=all_states defines which states 
+        + aes(x=long, y=lat, group = group) defin the x and y axis and grouping is the region.
           
 * breweriesPerState
-      + In this code chunk, two libraries are being access through the library() function call.  In this example library(magrittr) and library(dplyr) are being called.
-          + The magrittr library provide access to the "pipe" (%>%) function.
-          + The dplyr library provide access to the group_by() and summarise() functions, among other things.
-      + Breweries_Per_State<-Breweries %>% group_by(State) %>% summarise(Count_By_State = length(State))
-          + To begin, the Breweries dataset is passed to the group_by() function where data is grouped by state, then passed to the summarise() function where the length is placed into the Count_By_State column.
-      + Breweries_Per_State_Sort_DSND <- Breweries_Per_State[order(-Breweries_Per_State$Count_By_State),] 
-          + Here the Count_By_State column in the Breweries_Per_State dataset is ordered in descending order and then assigned to the Breweries_Per_State_Sort_DSND object.
-      + head(Breweries_Per_State_Sort_DSND)
-          + See typesOfBeers
+    + In this code chunk, two libraries are being access through the library() function call.  In this example library(magrittr) and library(dplyr) are being called.
+        + The magrittr library provide access to the "pipe" (%>%) function.
+        + The dplyr library provide access to the group_by() and summarise() functions, among other things.
+    + Breweries_Per_State<-Breweries %>% group_by(State) %>% summarise(Count_By_State = length(State))
+        + To begin, the Breweries dataset is passed to the group_by() function where data is grouped by state, then passed to the summarise() function where the length is placed into the Count_By_State column.
+    + Breweries_Per_State_Sort_DSND <- Breweries_Per_State[order(-Breweries_Per_State$Count_By_State),] 
+        + Here the Count_By_State column in the Breweries_Per_State dataset is ordered in descending order and then assigned to the Breweries_Per_State_Sort_DSND object.
+    + head(Breweries_Per_State_Sort_DSND)
+        + See typesOfBeers
           
 * beersPerBrewery
     + col <- Breweries_Beers[ grep("CO",Breweries_Beers$State), ]
