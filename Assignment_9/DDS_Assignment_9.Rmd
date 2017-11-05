@@ -1,0 +1,216 @@
+---
+title: "DDS Assignment 9 -  Preparing Data"
+author: "Bruce Granger"
+date: "October 27, 2017"
+output: html_document
+---
+
+```{r Reference, echo=FALSE}
+# https://rdrr.io/cran/dplyr/man/slice.html
+#   SLICING
+#   row_number()
+# LIST OF LISTS http://r4ds.had.co.nz/lists.html
+#   LISTS
+```
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+#library(dplyr) is needed for the use of select(), summarise()
+library(rvest)
+# REVEST: Easily Harvest (Scrape) Web Pages
+library(ggplot2)
+# PLOTTING
+```
+
+### QUESTION 1: Harry Potter Cast
+
+##### 1a)  In the IMDB, there are listings of full cast members for movies.  
+##### Navigate to http://www.imdb.com/title/tt1201607/fullcredits?ref_=tt_ql_1
+
+```{r Q1a, echo= TRUE}
+# URL OF INTEREST
+url <- "http://www.imdb.com/title/tt1201607/fullcredits?ref_=tt_ql_1"
+
+```
+
+
+##### 1b)  Scrape the page with any R package that makes things easy for you.  Of particular interest is the table of the Cast in order of crediting.  Please scrape this table (you might have to fish it out of several of the tables from the page) and make it a data.frame() of the Cast in your R environment.
+
+```{r Q1b, echo= TRUE}
+
+# CONSUME WEBPAGE
+webpage <- read_html(url)
+
+# IDENTIFY NODES
+nodes_table <- html_nodes(webpage, 'table')
+
+# Parse an html table into a data frame
+nodes <- html_table(nodes_table)
+
+cast <- nodes[[3]] 
+
+```
+    
+    
+##### 1c)   Clean up the table: 
+######    * It should not have blank observations or rows, a row that should be column names, or just ‘…’
+######    * It should have intuitive column names (ideally 2 to start – Actor and Character) 
+######    * In the film, Mr. Warwick plays two characters, which makes his row look a little weird.  Please replace his character column with just “Griphook / Professor Filius Flitwick” to make it look better. 
+######    *  One row might result in “Rest of cast listed alphabetically” – remove this observation.
+
+```{r Q1c, echo= TRUE}
+
+cast <- cast %>% select(X2,X4) %>%  
+  select(X2,X4) %>% 
+  rename(Actor=X2,Character = X4) %>%
+  filter(., Actor != '') %>%
+  filter(., Actor != 'Rest of cast listed alphabetically:')
+```
+
+##### 1d) Split the Actor’s name into two columns: FirstName and Surname.  Keep in mind that some actors/actresses have middle names as well.  Please make sure that the middle names are in the FirstName column, in addition to the first name (example: given the Actor Frank Jeffrey Stevenson, the FirstName column would say “Frank Jeffrey.”) 
+
+```{r Q1d, echo= TRUE}
+library(stringr)
+library(dplyr)
+
+split_firstname <- function(full_name){
+  x <- stringr::str_count(full_name, " ")
+  full_name <- trimws(full_name, which = "both")
+  case_when(
+    x == 1 ~ stringr::word(full_name, 1),
+    x == 2 ~ paste(stringr::word(full_name,1), stringr::word(full_name,2), sep = " "),
+    x == 4 ~ paste(stringr::word(full_name,1), stringr::word(full_name,2), stringr::word(full_name,3), stringr::word(full_name,4), sep = " ")
+  )
+}
+
+cast$FirstName <- sapply(cast$Actor, split_firstname)
+cast <- cast %>%  mutate(Surname = stringr::word(Actor, -1)) 
+
+```
+
+##### 1e) Present the first 10 rows of the data.frame() – It should have only FirstName, Surname, and Character columns
+
+``` {r Q1e, echo = TRUE}
+
+cast <- cast %>% select(FirstName, Surname, Character)
+head(cast, n=10)
+
+```
+
+### QUESTION 2: ESPN: SportsBall
+
+##### 2a) On the ESPN website, there are statistics of each NBA player.  Navigate to the San Antonio Spurs current statistics (likely http://www.espn.com/nba/team/stats/_/name/sa/san-antonio-spurs).  You are interested in the Shooting Statistics table.
+
+```{r Q2a, echo= TRUE}
+# URL OF INTEREST
+url <- "http://www.espn.com/nba/team/stats/_/name/sa/san-antonio-spurs"
+
+```
+
+##### 2b) Scrape the page with any R package that makes things easy for you.  There are a few tables on the page, so make sure you are targeting specifically the Shooting Statistics table
+
+```{r Q2b, echo= TRUE}
+ # CONSUME WEBPAGE
+ webpage <- read_html(url)
+ 
+ # IDENTIFY NODES
+ nodes_table <- html_nodes(webpage, 'table')
+ 
+ # Parse an html table into a data frame
+ nodes <- html_table(nodes_table)
+ 
+ shoot_stats <- unlist(nodes)
+ 
+ shoot_stats <- data.frame(shoot_stats)
+ 
+ #x_df_cols <- as.data.frame(split(x_df, 1:16))
+ shoot_stats <- matrix(shoot_stats[,1], nrow=16, ncol=30)
+ 
+ #shoot_stats <- nodes[[2]]
+ 
+ shoot_stats <- data.frame(shoot_stats)
+
+```
+
+##### 2c1) Clean up the table 1) You’ll want to create an R data.frame() with one observation for each player.  Make sure that you do not accidentally include blank rows, a row of column names, or the Totals row in the table as observations. 
+
+```{r Q2c1, echo= TRUE}
+
+# REMOVE UNNEDED ROWS
+shoot_stats <- shoot_stats %>%  .[which(.$X1 !='GAME STATISTICS'), ]  %>%  
+   .[which(.$X1 !='PLAYER'), ] %>%  .[which(.$X1 !='Totals'), ]
+
+# RENAME COLUMNS
+ shoot_stats <- shoot_stats %>%  .[which(.$X1 !='GAME STATISTICS'), ]  %>%  
+   .[which(.$X1 !='PLAYER'), ] %>%  .[which(.$X1 !='Totals'), ] %>% select(-16) %>%
+   rename(., PLAYER = X1, FGM = X2, FGA = X3, 'FG%' = X4, '3PM' = X5, '3PA' = X6, 
+          '3P%' = X7, FTM = X8, FTA = X9, 'FT%' = X10, '2PM' = X11, '2PA' = X12, '2P%' = X13, 
+          PPS = X14, 'AFG%' = X15, 'FGM' = X17, 'FGA' = X18, 'FG%' = X19, '3PM' = X20, 
+          '3PA' = X21, '3P%' = X22,  'FTM' = X23, 'FTA' = X24, 'FT%' = X25, '2PM' = X26, 
+          '2PA' = X27, '2P%' = X28, 'PPS' = X29, 'AFG%' = X30)
+
+```
+
+##### 2c2) The column PLAYER has two variables of interest in it: the player’s name and their position, denoted by 1-2 letters after their name.  Split the cells into two columns, one with Name and the other Position. 
+
+```{r Q2c2, echo=TRUE}
+shoot_stats_name <- function(player){
+   x <- paste(stringr::word(shoot_stats$PLAYER,1), stringr::word(shoot_stats$PLAYER,2), sep = " ")
+   return(sub(",","",x))
+ }
+ 
+shoot_stats$Name <- sapply(shoot_stats$PLAYER, shoot_stats_name)
+
+shoot_stats_position <- function(player){
+  return(stringr::word(shoot_stats$PLAYER,3))
+}
+
+shoot_stats$Position <- sapply(shoot_stats$PLAYER, shoot_stats_position)
+
+shoot_stats_name <- unlist(shoot_stats$Name)
+shoot_stats_name <-  shoot_stats_name %>% data.frame(shoot_stats_name) %>% select(Name = 1)
+ 
+shoot_stats_position <- unlist(shoot_stats$Position)
+shoot_stats_position <-  shoot_stats_position %>% data.frame(shoot_stats_position) %>% select(Position = 1)
+ 
+shoot_stats_2 <- cbind(shoot_stats_name,shoot_stats_position)
+ 
+rm(shoot_stats_position)
+rm(shoot_stats_name)
+ 
+shoot_stats_3 <- data.frame(shoot_stats[,4])
+ 
+shoot_stats_4 <- cbind(shoot_stats_2,shoot_stats_3)
+ 
+rm(shoot_stats_2)
+rm(shoot_stats_3)
+ 
+shoot_stats <- shoot_stats_4 %>% rename(FG_Percent = shoot_stats...4.)
+ 
+rm(shoot_stats_4)
+ 
+```
+
+##### 2c3) Check the data type of all columns.  Convert relevant columns to numeric.  Check the data type of all columns again to confirm that they have changed
+
+``` {r Q2c3, echo=TRUE}
+
+str(shoot_stats)
+shoot_stats$FG_Percent <- as.double(as.character(shoot_stats$FG_Percent))
+str(shoot_stats)
+```
+
+##### 2d) Create a colorful bar chart that shows the Field Goals Percentage Per Game for each person. It will be graded on the following criteria:
+###### 2d1) Informative Title, centered 
+###### 2d2) Relevant x and y axis labels (not simply variables names!)  
+###### 2d3) Human-readable axes with no overlap (you might have to flip x and y to fix that).  Note: You do not have to convert the decimal to a percentage. 
+###### 2d4) Color the columns by the team member’s position (so, all PF’s should have the same color, etc.) 
+
+``` {r Q2c1-4, echo=TRUE}
+ggplot(shoot_stats) +
+  geom_point(aes(FG_Percent, Name, color=Position)) +
+  ggtitle("ESPN NBA Data: San Antonio Spurs") +
+  labs(x = "Field Goals Percentage Per Game")
+
+```

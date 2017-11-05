@@ -1,0 +1,72 @@
+---
+title: "Unit 11.3 BLT Assignment - S&P 500 Volatility"
+author: "Bruce Granger"
+date: "November 5, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#### The purpose of this R Markdown is to walk through the process of creating a volatility index against the S&P500 Volatility index.  The symbol for the S&P500 volatility index is "^GSPC"
+
+#### In order to work with time series data, the "tseries" package needs to be installed then loaded.
+
+```{r LOAD_LIBARY, echo=TRUE}
+library(tseries)
+```
+
+#### Next the S&P500 volatility index data needs to be obtained.
+
+```{r LOAD_DATA, echo=TRUE}
+SNPdata <- get.hist.quote('^gspc',quote="Close")
+```
+
+#### Next, the log returns for the S&P500 volatility index will be calculated, which is the subtraction of log(lag(SNPdata)) and log(SNPdata)
+
+```{r LOG_RETURNS, echo=TRUE}
+SNPret <- log(lag(SNPdata))-log(SNPdata)
+```
+
+#### Next a volatility measure will be calculated, which involves multiplying sd(SNPret), sqrt(250), 100. the 250 comes from the fact that there are roughly 250 trading days in a year.  Multiplying by 100 converts the value to a percent
+
+
+```{r xxx, echo=TRUE}
+SNPvol <- sd(SNPret)*sqrt(250)*100
+```
+
+#### Next the getVOL function is defined, which calculates volatility.  The first parameter in this function is the weight assigned to the volatility.  For example, if 10 is passed to the function, then weight is (1 - 1/10) = 0.9
+
+```{r getVOL_Function, echo=TRUE}
+getVol <- function(d, logrets) {
+	var = 0
+	lam = 0
+	varlist <- c()
+
+	for (r in logrets) {
+		lam = lam*(1 - 1/d) + 1
+	  var = (1 - 1/lam)*var + (1/lam)*r^2
+		varlist <- c(varlist, var)
+	}
+
+	sqrt(varlist)
+}
+```
+
+#### Next we will calculate the volatility over entire length of series for three decay factors: 10 30. 100
+
+```{r CAL_DECAY_FACTORS, echo=TRUE}
+volest <- getVol(10,SNPret)
+volest2 <- getVol(30,SNPret)
+volest3 <- getVol(100,SNPret)
+```
+
+#### Finally, a plot of the three decay factors.
+```{r PLOT_DECAY_FACTORS, echo=TRUE}
+plot(volest,type="l")
+lines(volest2, type="l", col="red")
+lines(volest3, type="l", col="blue")
+```
+

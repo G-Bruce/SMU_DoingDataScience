@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><script src="http://cdn.espn.com/sports/optimizely.js"></script><meta charset="iso-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="icon" sizes="any" mask href="http://a.espncdn.com/favicon.ico">
+<meta name="theme-color" content="#CC0000">
+<script type="text/javascript">
+    if(true && navigator && navigator.userAgent.toLowerCase().indexOf("teamstream") >= 0) {
+        window.location = 'http://m.espn.com/mobilecache/general/apps/sc';
+    }
+</script>
+	<script>(function(){function r(a){a=a.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var c=new RegExp("[\\?&]"+a+"=([^&#]*)"),b=c.exec(location.search);return b==null?"":decodeURIComponent(b[1].replace(/\+/g," "));}var p=navigator.userAgent,o=window.location,l=document.cookie,f=document.referrer,n=(f===""||f.indexOf("www.espn.com")!==-1),d=(n)?"http://m.espn.go.com/nfl/clubhouse?teamId=6&src=desktop":"http://m.espn.go.com/nfl/clubhouse?teamId=6&src=desktop&rand=ref~%7B%22ref%22%3A%22"+encodeURIComponent(f)+"%22%7D",i=(p.match(/iPad/i)||(p.match(/Android/i)&&!p.match(/Mobile/i))||p.match(/RIM Tablet/i)||p.match(/Silk/i)),k=(p.match(/Mobile/i)||p.match(/Mini/i)),g=o.href.match(/src=mobile/i),q=l.indexOf("iphone_redirect=false")>-1,e=l.indexOf("iphone_redirect=true")>-1,j=r("addata"),h=r("ex_cid"),m=r("rand");if(j!=""){d+="&addata="+j;}if(h!=""){d+="&ex_cid="+h;}if(m==="beta"){d+="&rand=beta";}if(i){document.documentElement.className+=" tablet ";if((!p.match(/iPad/i)||e)&&!q){o.href=d;}}else{if(k&&!q&&!g){o.href=d;}}})();</script>
+	<title>Dallas Cowboys 2017 Statistics - Team and Player Stats - ESPN</title>
+<meta name="google-site-verification" content="xuj1ODRluWa0frM-BjIr_aSHoUC7HB5C1MgmYAM_GkA" />
+<meta name="msvalidate.01" content="B1FEB7C682C46C8FCDA3130F3D18AC28" />
+<meta name="googlebot" content="noodp" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="View complete individual and team stat leaders for the Dallas Cowboys, including passing, rushing, receiving, and defensive statistics." />
+<meta name="keywords" content="dallas cowboys, nfl, statistics, stats, leaders" />
+<meta property="fb:app_id" content="116656161708917">
+<meta property="og:site_name" content="ESPN.com">
+<!--
+<PageMap>
+	<DataObject type="document">
+		<Attribute name="title">Dallas Cowboys 2017 Statistics - Team and Player Stats</Attribute>
+	</DataObject>
+</PageMap>
+--><link rel="canonical" href="http://www.espn.com/nfl/team/stats/_/name/dal/dallas-cowboys" />
+
+		<script>var _sf_startpt=(new Date()).getTime();</script>
+<link rel="search" type="application/opensearchdescription+xml" href="http://a.espncdn.com/search/opensearch.xml" title="ESPN Search" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201501211964?css=global_reset.r1.css,base.r236.css,modules.r465_2.css,global_header.r44.css,header_topbar.r1.css,modules/global_nav.r54.css,modules/insider_enhanced.r1.css,modules/mem/mem.r12.1.css,modules/mem/mem_espn360.r8.4.css,modules/mem/skirmish.r8.css,modules/twin.r1.css,modules/facebook/button.r2.css,universal_overlay/universal_overlay.css,universal_overlay/media_overlay.css,universal_overlay/video_overlay.css,universal_overlay/photo_overlay.css,universal_overlay/dyk_overlay.css,fonts/bentonsans.css,fonts/bentonsansmedium.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201508060924?css=sprites/teamlogos.r19.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20120509325?css=modules/master_tables_10.r3.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20121024544?css=pagetype/clubhouse.r9.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201406161044?css=clubhouse_nfl_10.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20120509325?css=modules/tabs-page-nav.3.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/legacy/transitionalHeader/1.0.53/css/transitional-header-clubhouse.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/prod/styles/video/2.14.1-5/espn-web-player-bundle.css" />
+<script src="http://widgets.outbrain.com/outbrain.js"></script>
+<script type="text/javascript">
+var _vrq = _vrq || [];
+ _vrq.push(['id', 489]);
+ _vrq.push(['automate', false]);
+ _vrq.push(['track', function(){}]);
+ (function(d, a){var s = d.createElement(a),x = d.getElementsByTagName(a)[0];
+s.async = true;
+s.src = 'http://a.visualrevenue.com/vrs.js';
+ x.parentNode.insertBefore(s, x);})(document, 'script'); </script>
+<script type="text/javascript" src="http://a.espncdn.com/legacy/desktop/1.0.45/js/espn-critical.js"></script>
+<script type="text/javascript">
+window.s_account = "wdgespcom";
+if( typeof s_omni === "undefined" && typeof window.setReportSuite === "function") {
+window.s_account = window.setReportSuite( "wdgespcom" );
+}
+</script>
+<script>espn.core.navVersion = 'a';</script>
+<script>var ad_site="espn.us.com.nfl",ad_zone="nflteamstatistics",ad_kvps="pgtyp=nflteamstatistics;sp=nfl;tm=dal;nav=true;",ad_swid="",ad_counter=1,ad_ord=Math.floor(9999999999*Math.random()),ad_seg="",ad_mnr=-1<document.cookie.indexOf("grif=1")?"t":"f",ad_ref="other",ad_sp="nfl",ad_pgtyp="nflteamstatistics",ad_pgn="",ref=document.referrer,refsMap={"facebook.com":"facebook","twitter.com|t.co":"twitter","plus.url.google.com|plus.google.com":"googleplus","google.com":"google","bing.com":"bing","yahoo.com":"yahoo","espn.com":"espn"},refKey;for(refKey in refsMap)ref.match(refKey)&&(ad_ref=refsMap[refKey]);
+ad_kvps=ad_kvps+"ref="+ad_ref+";mnr="+ad_mnr+";";ad_swid=jQuery.cookie("SWID");"function"===typeof espn.core.ad_segments&&(ad_seg=espn.core.ad_segments(),null!=ad_seg&&""!=ad_seg&&(ad_kvps+=ad_seg));var ad_u="";null!=ad_swid&&""!=ad_swid&&(ad_u="swid="+ad_swid+";");</script>
+<link rel="stylesheet" href="http://a.espncdn.com/legacy/transitionalHeader/1.0.53/css/transitional-header.css" type="text/css" media="screen" charset="utf-8" />
+</head>
+<body class="nfl {sportId:28, teamId:6} clubhouse dal"  data-sport="nfl" data-pagetype="nflteamstatistics">
+<!--[if IE 5]><div class="ie5"><![endif]-->
+<!--[if IE 6]><div class="ie ie6"><![endif]-->
+<!--[if IE 7]><div class="ie ie7"><![endif]-->
+<!--[if IE 8]><div class="ie ie8"><![endif]-->
+<!--[if IE 9]><div class="ie9"><![endif]-->
+<!-- begin bg-elements -->
+<div class="bg-elements">
+
+<!-- gpt ad type: background_skin -->
+<div class="ad-slot ad-slot-background_skin" data-slot-type="background_skin" data-slot-kvps="pos=background_skin" data-exclude-bp="s,m" data-collapse-before-load="true"></div><!-- begin subheader -->
+<div id="subheader">
+<!-- begin content -->
+<div id="content-wrapper">
+<div id="ad-top" class="container">
+<!-- begin Banner ad -->
+<div class="span-6 ad banner top"><div class="ad-center"><div class="ad-wrapper">
+<!-- gpt ad type: banner -->
+<div class="ad-slot ad-slot-banner" data-slot-type="banner" data-slot-kvps="pos=banner"></div></div></div></div>
+<!-- end Banner ad -->
+</div>
+<div id="content" class="container">
+<div id="fb-root"></div><!--[if lte IE 7]><link rel="stylesheet" charset="utf-8" media="screen" href="http://a.espncdn.com/combiner/c?css=modules/browser-alert.r7.css" type="text/css" /><div class="span-6" id="browser-alert-wrapper" style="display:none;"><div class="mod-container mod-no-header-footer browser-alert"><div class="mod-content"><div class="gradient-container"><h1><span>Your Web Browser</span> is no longer supported</h1><p>To experience everything that ESPN.com has to offer, we recommend that you upgrade to a newer version of your web browser. Click the upgrade button to the right or <a href="http://www.espn.com/espn/news/story/_/id/5630562">learn more</a>.</p><ul><li><a class="btn-upgrade" href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Upgrade</a></li><li><a class="btn-faq" href="http://www.espn.com/espn/news/story/_/id/5630562">FAQs</a></li></ul></div></div></div></div><script>(function(b){setTimeout(function(){var a=b("#browser-alert-wrapper");if(espn.cookie.get("browseralert")!="true"){b('<a class="btn-close" href="#">Close</a>').bind("click",function(){a.hide();espn.cookie.set("browseralert","true",30);return false}).appendTo(a.find(".gradient-container"));a.show();espn.cookie.set("browseralert","true")}},100)})(jQuery);</script><![endif]--><div id="sub-branding"><h2 class="logo"><a href="http://espn.go.com/nfl/team/_/name/dal/dallas-cowboys" class="sub-brand-title"><b>Dallas Cowboys</b></a></h2><div class="presby">
+<!-- gpt ad type: enhancedlogo -->
+<div class="ad-slot ad-slot-enhancedlogo" data-slot-type="enhancedlogo" data-slot-kvps="pos=enhancedlogo"></div></div><div class="sub-title">2-3, 3rd in NFC East</div></div>
+
+<script type="text/javascript">
+	var loggedIn = espn.core.loggedIn;
+	var displayModule = false;
+	var showAddButton = true;
+	var fadeTime = 1500;
+	var baseRef = '/';
+	var lang = 'en';
+	(function($) {
+		function resetData(checkSport, checkTeam){
+			if (loggedIn){
+				espn.p13n.reset({
+					success: function(data){
+						if (data != null && data != 'UNDEF' && typeof(data.myTeams) != 'UNDEF' && data.myTeams != null){
+							var count = 0;
+							var sportTypes = {10:'mlb',46:'nba',28:'nfl',90:'nhl',23:'ncf',41:'ncb',54:'ncw',600:'soccer'}
+							var sportAbbrevs = {10:'MLB',46:'NBA',28:'NFL',90:'NHL',23:'NCAAF',41:'NCAAM',54:'NCAAW',600:'Soccer'}
+							$.each(data.myTeams, function(i,item){
+								if ((checkTeam == item.id && checkSport == item.sport) || (checkTeam == 0 && checkSport == 0)){ // when updating a team, only update that specific team
+									var logo = '';
+									if (typeof(item.sport) != 'UNDEF' && item.sport != null){
+										sportType = sportTypes[item.sport];
+										sportAbbrev = sportAbbrevs[item.sport];
+										sport = item.sport;
+										abbrev = '';
+										swabbrev = '';
+										if (typeof(item.abbrev) != 'UNDEF' && item.abbrev != null){
+											abbrev = item.abbrev.toLowerCase();
+										}
+										if (typeof(item.sw_abbrev) != 'UNDEF' && item.sw_abbrev != null){
+											swabbrev = item.sw_abbrev.toLowerCase();
+										}
+										desc = item.text;
+										descSEO = desc;
+										while(descSEO.indexOf(' ')!=-1)descSEO=descSEO.replace(' ','-');
+										if (sport == 10 || sport == 28 || sport == 90 || sport == 46){ // mlb, nfl and nhl (new reshelled clubhouses will go here)
+											if (swabbrev == ''){ swabbrev = abbrev; }
+											logo = '<a href="http://espn.go.com/' + sportType + baseRef + 'team/_/name/' + abbrev + '/' + descSEO.toLowerCase() + '"  title="' + desc + '"><div class="logo-medium logo-' + sportType + '-medium ' + sportType + '-medium-' + item.id + '"></div></a>';
+										}
+										else if (sportType == 'ncf'){
+											tAbbrev = item.id
+											logo = '<a href="http://espn.go.com/college-football/team/_/id/' + tAbbrev + '/' + descSEO.toLowerCase() + '" title="' + desc + ' - ' + sportAbbrev + '"><img src="http://a.espncdn.com/i/teamlogos/ncaa/sml/trans/' + tAbbrev + '.gif" alt=""/></a>';
+										}
+										else if (sportType == 'ncb'){
+											tAbbrev = item.id
+											logo = '<a href="http://espn.go.com/mens-college-basketball/team/_/id/' + tAbbrev + '/' + descSEO.toLowerCase() + '" title="' + desc + ' - ' + sportAbbrev + '"><img src="http://a.espncdn.com/i/teamlogos/ncaa/sml/trans/' + tAbbrev + '.gif" alt=""/></a>';
+										}
+										else if (sportType == 'ncw'){ // ncaa
+											tAbbrev = item.id;
+											logoAbbrev = tAbbrev
+											if (item.sport == 54 && item.id == 2633){ logoAbbrev = tAbbrev + '_ncw'; }
+											logo = '<a href="http://espn.go.com/womens-college-basketball/team/_/id/' + tAbbrev + '/' + descSEO.toLowerCase() + '" title="' + desc + ' - ' + sportAbbrev + '"><img src="http://a.espncdn.com/i/teamlogos/ncaa/sml/trans/' + logoAbbrev + '.gif" alt=""/></a>';
+										}
+										else if (sportType == 'soccer'){ // all inclusive soccer list
+											logo = '<a href="http://espnfc.com/team?id=' + item.id + '" title="' + desc + ' ' + sportAbbrev + '"><img width="50" height="50" src="http://i.espncdn.com/design05/i/clubhouse/badges/' + item.id + '.gif" alt=""/></a>';
+										}
+										if (count == 0 && !displayModule){
+											$('.mod-myespn .personalization-teams').html('');
+										}
+										if (logo != ''){
+											if (checkTeam == item.id && checkSport == item.sport){
+												$('.mod-myespn .personalization-teams').append(logo).fadeIn(fadeTime, function(){
+													espn.core.init.faves();
+												});
+											}
+											else{
+												$('.mod-myespn .personalization-teams').append(logo);
+											}
+										}
+										count++;
+									}
+									if (count == 1 && !displayModule){
+										$('#myespn-personalization').show();
+										displayModule = true;
+									}
+								}
+							});
+						}
+					}
+				});
+			}
+		}
+		$(document).ready(function() {
+			var teamId = $('body').metadata()['teamId'];
+			var sportId = $('body').metadata()['sportId'];
+			var groupId = $('body').metadata()['groupId'];
+			var teamName = 'Dallas Cowboys';
+			var abbrevs = {10:'mlb',46:'nba',28:'nfl',90:'nhl',23:'ncf',41:'ncb',54:'ncw'}
+			var teamAbbrev = abbrevs[sportId];
+			'espn.nav.tier3'.namespace();
+			espn.nav.tier3.teamId = teamId;
+			espn.nav.tier3.sportId = sportId;
+			//disallow favorting for d2 schools based off of the groupId
+			var showFavorites = false;//!((groupId == 35 && sportId == 23) || (groupId == 51 && (sportId == 54 || sportId == 41)))
+			if(showFavorites){
+				if (loggedIn){
+					if ($('#sub-branding h1').length > 0){
+						$('#sub-branding h1').after('<a class="btn-add-fave-team"></a>');
+					}
+					else{
+						$('#sub-branding h2').after('<a class="btn-add-fave-team"></a>');
+					}
+					resetData(0, 0);
+					espn.p13n.get({
+						"success" : function(data) {
+							if (data!=null && data!='UNDEF' && typeof(data.myTeams) != 'UNDEF' && data.myTeams != null) {
+								$.each(data.myTeams, function(i,item) {
+									if (typeof(item.sport) != 'UNDEF' && item.sport != null) {
+										if (item.sport == sportId && item.id == teamId){
+											showAddButton = false;
+										}
+									}
+								});
+							}
+							if (showAddButton){
+								$('#sub-branding a.btn-add-fave-team').html('Add to my favorites').show().attr("onclick","anTrackLink(this,'espn','teamclubhouse','" + teamAbbrev + "_" + teamName.toLowerCase().replace(' ','') + "_addfavorite_loggedin-add'); return false;");
+							}
+						},
+						"error" : function(){
+							$('body.clubhouse #clubhouse-city-teams').show();
+						}
+					});
+					$('#sub-branding a.btn-add-fave-team').click(function(){
+						if (showAddButton){ // don't allow the button to click through if it is informing you of their favorite team
+							showAddButton = false; // don't allow multiple clicks during the transition
+							espn.p13n.add(
+								{
+									"teams": sportId+":"+teamId
+								},
+								{
+									"success" : function() {
+										$('#sub-branding a.btn-add-fave-team').html('Added').addClass('favorite').css('cursor','default');
+										setTimeout(function(){
+												resetData(sportId,teamId);
+											}, fadeTime
+										);
+										if (!!espn.fanapi && typeof espn.fanapi.emptyCache === "function") {
+											espn.fanapi.emptyCache();
+											window.location.reload();
+										}
+									},
+									"error" : function() {
+
+									}
+								}
+							);
+						}
+					});
+				}
+				else{
+					$('body.clubhouse #clubhouse-city-teams').show();
+					if ($('#sub-branding h1').length > 0){
+						$('#sub-branding h1').after('<a class="btn-add-fave-team">Sign in to personalize</a>');
+					}
+					else{
+						$('#sub-branding h2').after('<a class="btn-add-fave-team">Sign in to personalize</a>');
+					}
+					$('#sub-branding a.btn-add-fave-team').show().attr('href','').attr('name','&lops=teamclubhouse&lid=' + teamAbbrev + '_' + teamName.toLowerCase().replace(' ','') + '_addfavorite_loggedout').attr('tref','/members/v3_1/login').attr('data-options','{"addTeams":"'+sportId+':'+teamId+'","width":"820","height":"385"}').attr({"data-behavior":"overlay","data-remember-team":"true"});
+				}
+
+			$('#sub-branding a.btn-add-fave-team').hover(
+				function(){
+					$(this).addClass('favorite').css('font-size','10px');
+				},
+				function(){
+					if (showAddButton){
+						$(this).removeClass('favorite').css('font-size','11px');
+					}
+				}
+			);
+
+			$('.inline-header ul.links li a').attr('data-behavior','clubhouse_favorite').attr({href:'',tref:'/personalization/v3_1/personalization','data-language':lang.toLowerCase(),tab:'teams'});
+			}
+		});
+	})(jQuery);
+</script><style>body.nfl .stathead td,body.nfl .stathead,.mod-content tr.stathead,.mod-content tr.stathead td,.mod-header,body.clubhouse .mod-calendar-month td.day.home div.day-top,body.clubhouse .mod-calendar-month tr.util td ul.key li span.home, body.nfl .mod-data-table .mod-header{background: #002E4D !important;}</style>
+<style>
+.mod-stat-leaders img{ margin:0 8px 4px 0; float: left; }
+.black{ color: #000; }
+.mod-content table.tablehead { margin-bottom: 0; }
+</style>
+
+	<style>
+		img.teamlogo {
+			width: 50px;
+			height: 50px;
+		}
+	</style>
+	<div class="mod-page-tabs mod-pagenav-tabs"><ul class="ui-tabs"><li ><a href="/nfl/team/_/name/dal/dallas-cowboys">Clubhouse</a></li><li class="active"><a href="/nfl/team/stats/_/name/dal/dallas-cowboys">Stats</a></li><li ><a href="/nfl/team/schedule/_/name/dal/dallas-cowboys">Schedule</a></li><li ><a href="/nfl/team/roster/_/name/dal/dallas-cowboys">Roster</a></li><li ><a href="/nfl/team/splits/_/name/dal/dallas-cowboys">Splits</a></li><li ><a href="/nfl/team/depth/_/name/dal/dallas-cowboys">Depth Chart</a></li><li ><a href="/nfl/team/transactions/_/name/dal/dallas-cowboys">Transactions</a></li><li ><a href="/nfl/team/rankings/_/name/dal/dallas-cowboys">Rankings</a></li><li ><a href="/nfl/team/photos/_/name/dal/dallas-cowboys">Photos</a></li><li ><a href="/nfl/team/stadium/_/name/dal/dallas-cowboys">Stadium</a></li><li ><a href="/blog/dallas-cowboys">Blog</a></li></ul></div><div class="bg-opaque" id="my-players-table"><div class="span-6"><div class="bg-full"></div><div class="span-6"><div class="mod-section-header"><h1 class="h2">Dallas Cowboys Stats - 2017</h1><form class="js-goto"><select class="select-box"><option value="">More NFL Teams</option><option value="//www.espn.com/nfl/team/stats/_/name/ari">Arizona Cardinals</option><option value="//www.espn.com/nfl/team/stats/_/name/atl">Atlanta Falcons</option><option value="//www.espn.com/nfl/team/stats/_/name/bal">Baltimore Ravens</option><option value="//www.espn.com/nfl/team/stats/_/name/buf">Buffalo Bills</option><option value="//www.espn.com/nfl/team/stats/_/name/car">Carolina Panthers</option><option value="//www.espn.com/nfl/team/stats/_/name/chi">Chicago Bears</option><option value="//www.espn.com/nfl/team/stats/_/name/cin">Cincinnati Bengals</option><option value="//www.espn.com/nfl/team/stats/_/name/cle">Cleveland Browns</option><option value="//www.espn.com/nfl/team/stats/_/name/dal">Dallas Cowboys</option><option value="//www.espn.com/nfl/team/stats/_/name/den">Denver Broncos</option><option value="//www.espn.com/nfl/team/stats/_/name/det">Detroit Lions</option><option value="//www.espn.com/nfl/team/stats/_/name/gb">Green Bay Packers</option><option value="//www.espn.com/nfl/team/stats/_/name/hou">Houston Texans</option><option value="//www.espn.com/nfl/team/stats/_/name/ind">Indianapolis Colts</option><option value="//www.espn.com/nfl/team/stats/_/name/jax">Jacksonville Jaguars</option><option value="//www.espn.com/nfl/team/stats/_/name/kc">Kansas City Chiefs</option><option value="//www.espn.com/nfl/team/stats/_/name/lac">Los Angeles Chargers</option><option value="//www.espn.com/nfl/team/stats/_/name/lar">Los Angeles Rams</option><option value="//www.espn.com/nfl/team/stats/_/name/mia">Miami Dolphins</option><option value="//www.espn.com/nfl/team/stats/_/name/min">Minnesota Vikings</option><option value="//www.espn.com/nfl/team/stats/_/name/ne">New England Patriots</option><option value="//www.espn.com/nfl/team/stats/_/name/no">New Orleans Saints</option><option value="//www.espn.com/nfl/team/stats/_/name/nyg">New York Giants</option><option value="//www.espn.com/nfl/team/stats/_/name/nyj">New York Jets</option><option value="//www.espn.com/nfl/team/stats/_/name/oak">Oakland Raiders</option><option value="//www.espn.com/nfl/team/stats/_/name/phi">Philadelphia Eagles</option><option value="//www.espn.com/nfl/team/stats/_/name/pit">Pittsburgh Steelers</option><option value="//www.espn.com/nfl/team/stats/_/name/sf">San Francisco 49ers</option><option value="//www.espn.com/nfl/team/stats/_/name/sea">Seattle Seahawks</option><option value="//www.espn.com/nfl/team/stats/_/name/tb">Tampa Bay Buccaneers</option><option value="//www.espn.com/nfl/team/stats/_/name/ten">Tennessee Titans</option><option value="//www.espn.com/nfl/team/stats/_/name/wsh">Washington Redskins</option></select></form></div>Season: <form class="js-goto" style="display: inline;"><select><option value="#">Select One</option><option value="//www.espn.com/nfl/team/stats/_/name/dal" selected>2017 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2016">2016 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2015">2015 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2014">2014 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2013">2013 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2012">2012 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2011">2011 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2010">2010 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2009">2009 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2008">2008 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2007">2007 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2006">2006 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2005">2005 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2004">2004 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2003">2003 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2002">2002 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2001">2001 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2000">2000 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1999">1999 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1998">1998 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1997">1997 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1996">1996 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1995">1995 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1994">1994 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1993">1993 Regular Season</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2016/seasontype/3">2016 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2014/seasontype/3">2014 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2009/seasontype/3">2009 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2007/seasontype/3">2007 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2006/seasontype/3">2006 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/2003/seasontype/3">2003 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1999/seasontype/3">1999 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1998/seasontype/3">1998 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1996/seasontype/3">1996 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1995/seasontype/3">1995 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1994/seasontype/3">1994 Postseason</option><option value="//www.espn.com/nfl/team/stats/_/name/dal/year/1993/seasontype/3">1993 Postseason</option></select></form></div></div><div class="span-6"><div class="mod-page-tabs mod-subnav-tabs"><ul class="ui-tabs">
+<!-- bh: /nfl/team/stats - /nfl/team/stats -->
+<li class="active"><a href="/nfl/team/stats/_/name/dal/dallas-cowboys">Player</a></li>
+<!-- bh: /nfl/team/stats/_/type/team - /nfl/team/stats -->
+<li><a href="/nfl/team/stats/_/type/team/name/dal/dallas-cowboys">Team</a></li></ul></div></div><div class="span-6" id="my-players-table"><div class="mod-container mod-stat-leaders"><h3>TEAM LEADERS</h3><div style="width: 179px;" class="span-1"><div class="mod-container mod-stat"><div class="mod-header"><h4>PASSING YARDS</h4></div><div class="mod-content"><a href="http://www.espn.com/nfl/player/_/id/2577417/dak-prescott"><img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2577417.png&w=65&h=90&scale=crop&background=0xcccccc&transparent=false" border="0" width="65" height="90" alt="" title="" />
+</a><ul class="player-info"><li class="name"><a href="http://www.espn.com/nfl/player/_/id/2577417/dak-prescott">Dak Prescott</a></li><li class="position"><b>ATT</b> 179</li><li class="position"><b>COMP</b> 112</li><li class="position"><b>TD</b> 11</li><li class="stat">1192</li></ul></div></div></div><div style="width: 179px;" class="span-1"><div class="mod-container mod-stat"><div class="mod-header"><h4>RUSHING YARDS</h4></div><div class="mod-content"><a href="http://www.espn.com/nfl/player/_/id/3051392/ezekiel-elliott"><img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051392.png&w=65&h=90&scale=crop&background=0xcccccc&transparent=false" border="0" width="65" height="90" alt="" title="" />
+</a><ul class="player-info"><li class="name"><a href="http://www.espn.com/nfl/player/_/id/3051392/ezekiel-elliott">E. Elliott</a></li><li class="position"><b>ATT</b> 105</li><li class="position"><b>AVG</b> 3.7</li><li class="position"><b>TD</b> 2</li><li class="stat">393</li></ul></div></div></div><div style="width: 179px;" class="span-1"><div class="mod-container mod-stat"><div class="mod-header"><h4>RECEIVING YARDS</h4></div><div class="mod-content"><a href="http://www.espn.com/nfl/player/_/id/13215/dez-bryant"><img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13215.png&w=65&h=90&scale=crop&background=0xcccccc&transparent=false" border="0" width="65" height="90" alt="" title="" />
+</a><ul class="player-info"><li class="name"><a href="http://www.espn.com/nfl/player/_/id/13215/dez-bryant">Dez Bryant</a></li><li class="position"><b>REC</b> 21</li><li class="position"><b>AVG</b> 12.6</li><li class="position"><b>TD</b> 3</li><li class="stat">264</li></ul></div></div></div><div style="width: 179px;" class="span-1"><div class="mod-container mod-stat"><div class="mod-header"><h4>TACKLES</h4></div><div class="mod-content"><a href="http://www.espn.com/nfl/player/_/id/3052896/jaylon-smith"><img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3052896.png&w=65&h=90&scale=crop&background=0xcccccc&transparent=false" border="0" width="65" height="90" alt="" title="" />
+</a><ul class="player-info"><li class="name"><a href="http://www.espn.com/nfl/player/_/id/3052896/jaylon-smith">Jaylon Smith</a></li><li class="position"><b>SOLO</b> 21</li><li class="position"><b>AST</b> 20</li><li class="position"><b>SACK</b> 0.0</li><li class="stat">41</li></ul></div></div></div><div style="width: 179px;" class="span-1 last"><div class="mod-container mod-stat"><div class="mod-header"><h4>INTERCEPTIONS</h4></div><div class="mod-content"><a href="http://www.espn.com/nfl/player/_/id/3045207/jourdan-lewis"><img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045207.png&w=65&h=90&scale=crop&background=0xcccccc&transparent=false" border="0" width="65" height="90" alt="" title="" />
+</a><ul class="player-info"><li class="name"><a href="http://www.espn.com/nfl/player/_/id/3045207/jourdan-lewis">J. Lewis</a></li><li class="position"><b>YDS</b> 25</li><li class="position"><b>TD</b> 0</li><li class="position"><b>PD</b> 5</li><li class="stat">1</li></ul></div></div></div></div><div class="mod-container mod-table mod-no-header-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="15">PASSING</td></tr><tr class="colhead" align="right"><td align="left">NAME</td><td title="Passing attempts">ATT</td><td title="Completions">COMP</td><td title="Completion percentage">PCT</td><td title="Gross passing yards">YDS</td><td title="Yards per pass attempt">AVG</td><td title="Net passing yards per game">YDS/G</td><td title="Longest pass">LONG</td><td title="Passing touchdowns">TD</td><td title="Passing touchdown percentage">TD%</td><td title="Interceptions">INT</td><td title="Interception percentage">INT%</td><td title="Sacks">SACK</td><td title="Sacked yards lost">YDSL</td><td title="Passer (QB) rating">RATE</td></tr><tr class="oddrow player-28-2577417" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2577417/dak-prescott">Dak Prescott</a></td><td>179</td><td>112</td><td>62.6</td><td class="sortcell">1192</td><td>6.7</td><td>232.2</td><td>53</td><td>11</td><td>6.1</td><td>4</td><td>2.2</td><td>7</td><td>31</td><td>93.1</td></tr><tr class="total" align="right"><td align="left"><strong>Totals</strong></td><td><strong>179</strong></td><td><strong>112</strong></td><td><strong>62.6</strong></td><td class="sortcell"><strong>1192</strong></td><td><strong>6.7</strong></td><td><strong>232.2</strong></td><td><strong>53</strong></td><td><strong>11</strong></td><td><strong>6.1</strong></td><td><strong>4</strong></td><td><strong>2.2</strong></td><td><strong>7</strong></td><td><strong>31</strong></td><td><strong>93.1</strong></td></tr><tr align="right"><td align="left"><strong>Opponents</strong></td><td><strong>183</strong></td><td><strong>120</strong></td><td><strong>65.6</strong></td><td class="sortcell"><strong>1252</strong></td><td><strong>6.8</strong></td><td><strong>221.8</strong></td><td><strong>53</strong></td><td><strong>11</strong></td><td><strong>6.0</strong></td><td><strong>2</strong></td><td><strong>1.1</strong></td><td><strong>16</strong></td><td><strong>143</strong></td><td><strong>100.7</strong></td></tr></table></div></div><div class="mod-container mod-table mod-no-header-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="15">RUSHING</td></tr><tr class="colhead" align="right"><td align="left">NAME</td><td title="Rushing attempts">ATT</td><td title="Rushing yards">YDS</td><td title="Yards per rush attempt">AVG</td><td title="Longest rush">LONG</td><td title="Carries over 20 yards">20+</td><td title="Rushing touchdowns">TD</td><td title="Rushing yards per game">YDS/G</td><td title="Rushing fumbles">FUM</td><td title="Rushing fumbles lost">FUML</td><td title="Rushing first downs">1DN</td></tr><tr class="oddrow player-28-3051392" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3051392/ezekiel-elliott">Ezekiel Elliott</a></td><td>105</td><td class="sortcell">393</td><td>3.7</td><td>30</td><td>3</td><td>2</td><td>78.6</td><td>0</td><td>0</td><td>25</td></tr><tr class="evenrow player-28-2577417" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2577417/dak-prescott">Dak Prescott</a></td><td>16</td><td class="sortcell">126</td><td>7.9</td><td>21</td><td>1</td><td>2</td><td>25.2</td><td>0</td><td>0</td><td>8</td></tr><tr class="oddrow player-28-15009" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15009/alfred-morris">Alfred Morris</a></td><td>8</td><td class="sortcell">87</td><td>10.9</td><td>70</td><td>1</td><td>0</td><td>21.8</td><td>0</td><td>0</td><td>2</td></tr><tr class="evenrow player-28-2512197" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2512197/rod-smith">Rod Smith</a></td><td>2</td><td class="sortcell">8</td><td>4.0</td><td>8</td><td>0</td><td>0</td><td>1.6</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-3039725" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3039725/ryan-switzer">Ryan Switzer</a></td><td>2</td><td class="sortcell">6</td><td>3.0</td><td>3</td><td>0</td><td>0</td><td>1.2</td><td>0</td><td>0</td><td>0</td></tr><tr class="total" align="right"><td align="left"><strong>Totals</strong></td><td><strong>133</strong></td><td class="sortcell"><strong>620</strong></td><td><strong>4.7</strong></td><td><strong>70</strong></td><td><strong>5</strong></td><td><strong>4</strong></td><td><strong>124.0</strong></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>35</strong></td></tr><tr align="right"><td align="left"><strong>Opponents</strong></td><td><strong>128</strong></td><td class="sortcell"><strong>590</strong></td><td><strong>4.6</strong></td><td><strong>28</strong></td><td><strong>3</strong></td><td><strong>2</strong></td><td><strong>118.0</strong></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>33</strong></td></tr></table></div></div><div class="mod-container mod-table mod-no-header-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="15">RECEIVING</td></tr><tr class="colhead" align="right"><td align="left">NAME</td><td title="Receptions">REC</td><td title="Receiving targets">TAR</td><td title="Receiving yards">YDS</td><td title="Average yards per reception">AVG</td><td title="Receiving touchdowns">TD</td><td title="Longest reception">LONG</td><td title="Receptions over 20 yards">20+</td><td title="Receiving yards per game">YDS/G</td><td title="Receiving fumbles">FUM</td><td title="Receiving fumbles lost">FUML</td><td title="Yards after catch">YAC</td><td title="Receiving first downs">1DN</td></tr><tr class="oddrow player-28-13215" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/13215/dez-bryant">Dez Bryant</a></td><td>21</td><td>48</td><td class="sortcell">264</td><td>12.6</td><td>3</td><td>36</td><td>2</td><td>52.8</td><td>0</td><td>0</td><td>77</td><td>15</td></tr><tr class="evenrow player-28-4527" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/4527/jason-witten">Jason Witten</a></td><td>27</td><td>38</td><td class="sortcell">229</td><td>8.5</td><td>2</td><td>28</td><td>1</td><td>45.8</td><td>1</td><td>1</td><td>39</td><td>10</td></tr><tr class="oddrow player-28-15896" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15896/brice-butler">Brice Butler</a></td><td>8</td><td>11</td><td class="sortcell">207</td><td>25.9</td><td>2</td><td>53</td><td>4</td><td>41.4</td><td>0</td><td>0</td><td>40</td><td>6</td></tr><tr class="evenrow player-28-15878" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15878/terrance-williams">Terrance Williams</a></td><td>19</td><td>25</td><td class="sortcell">180</td><td>9.5</td><td>0</td><td>23</td><td>2</td><td>36.0</td><td>0</td><td>0</td><td>75</td><td>11</td></tr><tr class="oddrow player-28-3051392" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3051392/ezekiel-elliott">Ezekiel Elliott</a></td><td>17</td><td>21</td><td class="sortcell">134</td><td>7.9</td><td>1</td><td>31</td><td>3</td><td>26.8</td><td>0</td><td>0</td><td>126</td><td>3</td></tr><tr class="evenrow player-28-15349" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15349/cole-beasley">Cole Beasley</a></td><td>15</td><td>26</td><td class="sortcell">109</td><td>7.3</td><td>2</td><td>13</td><td>0</td><td>21.8</td><td>0</td><td>0</td><td>36</td><td>9</td></tr><tr class="oddrow player-28-14906" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/14906/james-hanna">James Hanna</a></td><td>1</td><td>2</td><td class="sortcell">28</td><td>28.0</td><td>1</td><td>28</td><td>1</td><td>5.6</td><td>0</td><td>0</td><td>12</td><td>1</td></tr><tr class="evenrow player-28-2512197" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2512197/rod-smith">Rod Smith</a></td><td>1</td><td>1</td><td class="sortcell">18</td><td>18.0</td><td>0</td><td>18</td><td>0</td><td>3.6</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr class="oddrow player-28-3121409" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3121409/noah-brown">Noah Brown</a></td><td>1</td><td>1</td><td class="sortcell">13</td><td>13.0</td><td>0</td><td>13</td><td>0</td><td>4.3</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr class="evenrow player-28-17315" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/17315/keith-smith">Keith Smith</a></td><td>2</td><td>2</td><td class="sortcell">10</td><td>5.0</td><td>0</td><td>6</td><td>0</td><td>2.0</td><td>0</td><td>0</td><td>3</td><td>1</td></tr><tr class="total" align="right"><td align="left"><strong>Totals</strong></td><td><strong>112</strong></td><td><strong>179</strong></td><td class="sortcell"><strong>1192</strong></td><td><strong>10.6</strong></td><td><strong>11</strong></td><td><strong>53</strong></td><td><strong>13</strong></td><td><strong>238.4</strong></td><td><strong>1</strong></td><td><strong>1</strong></td><td><strong>408</strong></td><td><strong>58</strong></td></tr><tr align="right"><td align="left"><strong>Opponents</strong></td><td><strong>120</strong></td><td><strong>183</strong></td><td class="sortcell"><strong>1252</strong></td><td><strong>10.4</strong></td><td><strong>11</strong></td><td><strong>53</strong></td><td><strong>16</strong></td><td><strong>250.4</strong></td><td><strong>1</strong></td><td><strong>0</strong></td><td><strong>579</strong></td><td><strong>64</strong></td></tr></table></div></div><div class="mod-container mod-table mod-no-header-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="16">DEFENSE</td></tr><tr class="colhead" align="center"><td style="border-width:1px;"></td><td colspan="3" style="border-width:1px;">TACKLES</td><td colspan="3" style="border-width:1px;">SACKS</td><td colspan="5" style="border-width:1px;">INTERCEPTIONS</td><td colspan="3" style="border-width:1px;">FUMBLES</td><td style="border-width:1px;"></td></tr><tr class="colhead" align="right"><td align="left">NAME</td><td title="Unassisted tackles">SOLO</td><td title="Assisted tackles">AST</td><td title="Tackles">TOT</td><td title="Sacks">SACK</td><td title="Yards lost on sack">YDSL</td><td title="Tackles for a loss">TLOSS</td><td title="Passes defended">PD</td><td title="Interceptions">INT</td><td title="Intercepted returned yards">YDS</td><td title="Longest interception return">LONG</td><td title="Interceptions returned for touchdowns">TD</td><td title="Forced fumbles">FF</td><td title="Fumbles recovered">REC</td><td title="Fumbles returned for touchdowns">TD</td><td title="Blocked kicks both punts and field goal attempts">BK</td></tr><tr class="oddrow player-28-3052896" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3052896/jaylon-smith">Jaylon Smith</a></td><td>21</td><td>20</td><td class="sortcell">41</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-13284" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/13284/sean-lee">Sean Lee</a></td><td>23</td><td>2</td><td class="sortcell">25</td><td>0.0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-16473" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/16473/jeff-heath">Jeff Heath</a></td><td>19</td><td>5</td><td class="sortcell">24</td><td>0.0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-16802" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/16802/demarcus-lawrence">DeMarcus Lawrence</a></td><td>17</td><td>7</td><td class="sortcell">24</td><td>8.5</td><td>90</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-3045207" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3045207/jourdan-lewis">Jourdan Lewis</a></td><td>19</td><td>3</td><td class="sortcell">22</td><td>0.0</td><td>0</td><td>2</td><td>5</td><td>1</td><td>25</td><td>25</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-2513035" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2513035/byron-jones">Byron Jones</a></td><td>18</td><td>4</td><td class="sortcell">22</td><td>0.0</td><td>0</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-2977756" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2977756/anthony-brown">Anthony Brown</a></td><td>17</td><td>3</td><td class="sortcell">20</td><td>0.0</td><td>0</td><td>1</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-11366" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/11366/orlando-scandrick">Orlando Scandrick</a></td><td>10</td><td>2</td><td class="sortcell">12</td><td>0.0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-2972505" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2972505/kavon-frazier">Kavon Frazier</a></td><td>10</td><td>2</td><td class="sortcell">12</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-3040471" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3040471/maliek-collins">Maliek Collins</a></td><td>7</td><td>5</td><td class="sortcell">12</td><td>2.5</td><td>15</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-3040207" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3040207/damien-wilson">Damien Wilson</a></td><td>9</td><td>2</td><td class="sortcell">11</td><td>0.0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-14987" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/14987/tyrone-crawford">Tyrone Crawford</a></td><td>5</td><td>3</td><td class="sortcell">8</td><td>2.0</td><td>14</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-16528" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/16528/benson-mayowa">Benson Mayowa</a></td><td>4</td><td>2</td><td class="sortcell">6</td><td>0.0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-16883" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/16883/anthony-hitchens">Anthony Hitchens</a></td><td>3</td><td>3</td><td class="sortcell">6</td><td>0.0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-3040572" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3040572/xavier-woods">Xavier Woods</a></td><td>6</td><td>0</td><td class="sortcell">6</td><td>0.0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-3040661" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3040661/brian-price">Brian Price</a></td><td>5</td><td>1</td><td class="sortcell">6</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-3052101" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3052101/chidobe-awuzie">Chidobe Awuzie</a></td><td>3</td><td>3</td><td class="sortcell">6</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-10492" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/10492/justin-durant">Justin Durant</a></td><td>3</td><td>2</td><td class="sortcell">5</td><td>0.0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-13333" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/13333/nolan-carroll-ii">Nolan Carroll II</a></td><td>5</td><td>0</td><td class="sortcell">5</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-15858" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15858/damontre-moore">Damontre Moore</a></td><td>3</td><td>2</td><td class="sortcell">5</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-2577162" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2577162/david-irving">David Irving</a></td><td>3</td><td>2</td><td class="sortcell">5</td><td>2.0</td><td>15</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-14049" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/14049/stephen-paea">Stephen Paea</a></td><td>3</td><td>1</td><td class="sortcell">4</td><td>0.0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-15038" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15038/kyle-wilber">Kyle Wilber</a></td><td>2</td><td>1</td><td class="sortcell">3</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-17315" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/17315/keith-smith">Keith Smith</a></td><td>3</td><td>0</td><td class="sortcell">3</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-2512197" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2512197/rod-smith">Rod Smith</a></td><td>3</td><td>0</td><td class="sortcell">3</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-2976623" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2976623/charles-tapper">Charles Tapper</a></td><td>2</td><td>1</td><td class="sortcell">3</td><td>1.0</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-3045210" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3045210/taco-charlton">Taco Charlton</a></td><td>2</td><td>1</td><td class="sortcell">3</td><td>0.0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-14906" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/14906/james-hanna">James Hanna</a></td><td>1</td><td>0</td><td class="sortcell">1</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-15349" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15349/cole-beasley">Cole Beasley</a></td><td>1</td><td>0</td><td class="sortcell">1</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="evenrow player-28-15793" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15793/travis-frederick">Travis Frederick</a></td><td>1</td><td>0</td><td class="sortcell">1</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td></tr><tr class="oddrow player-28-2516053" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2516053/chaz-green">Chaz Green</a></td><td>1</td><td>0</td><td class="sortcell">1</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr class="total" align="right"><td align="left"><strong>Totals</strong></td><td><strong>239</strong></td><td><strong>77</strong></td><td class="sortcell"><strong>316</strong></td><td><strong>16.0</strong></td><td><strong>143</strong></td><td><strong>18</strong></td><td><strong>17</strong></td><td><strong>2</strong></td><td><strong>25</strong></td><td><strong>25</strong></td><td><strong>0</strong></td><td><strong>7</strong></td><td><strong>2</strong></td><td><strong>0</strong></td><td><strong>0</strong></td></tr><tr align="right"><td align="left"><strong>Opponents</strong></td><td><strong>219</strong></td><td><strong>78</strong></td><td class="sortcell"><strong>297</strong></td><td><strong>7.0</strong></td><td><strong>31</strong></td><td><strong>15</strong></td><td><strong>20</strong></td><td><strong>4</strong></td><td><strong>151</strong></td><td><strong>103</strong></td><td><strong>2</strong></td><td><strong>1</strong></td><td><strong>3</strong></td><td><strong>0</strong></td><td><strong>0</strong></td></tr></table></div></div><div class="mod-container mod-table mod-no-header-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="10">SCORING</td></tr><tr class="colhead" align="center"><td style="border-width:1px;"></td><td colspan="4" style="border-width:1px;">TOUCHDOWNS</td><td colspan="5" style="border-width:1px;">SCORING</td></tr><tr class="colhead" align="right"><td align="left">NAME</td><td title="Rushing touchdowns">RUSH</td><td title="Receiving touchdowns">REC</td><td title="Return touchdowns">RET</td><td title="Total touchdowns">TD</td><td title="Field goals">FG</td><td title="Extra points">XP</td><td title="Two-point conversions">2PT</td><td title="Total points">PTS</td><td title="Total points per game">PTS/G</td></tr><tr class="oddrow player-28-14322" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/14322/dan-bailey">Dan Bailey</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>14</td><td>0</td><td class="sortcell">35</td><td>7.0</td></tr><tr class="evenrow player-28-13215" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/13215/dez-bryant">Dez Bryant</a></td><td>0</td><td>3</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td class="sortcell">18</td><td>3.0</td></tr><tr class="oddrow player-28-3051392" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3051392/ezekiel-elliott">Ezekiel Elliott</a></td><td>2</td><td>1</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td class="sortcell">18</td><td>3.0</td></tr><tr class="evenrow player-28-4527" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/4527/jason-witten">Jason Witten</a></td><td>0</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="sortcell">12</td><td>2.0</td></tr><tr class="oddrow player-28-15349" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15349/cole-beasley">Cole Beasley</a></td><td>0</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="sortcell">12</td><td>2.0</td></tr><tr class="evenrow player-28-15896" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/15896/brice-butler">Brice Butler</a></td><td>0</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="sortcell">12</td><td>2.0</td></tr><tr class="oddrow player-28-2577417" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/2577417/dak-prescott">Dak Prescott</a></td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="sortcell">12</td><td>2.0</td></tr><tr class="evenrow player-28-14906" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/14906/james-hanna">James Hanna</a></td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="sortcell">6</td><td>1.0</td></tr><tr class="total" align="right"><td align="left"><strong>Totals</strong></td><td><strong>4</strong></td><td><strong>11</strong></td><td><strong>0</strong></td><td><strong>15</strong></td><td><strong>7</strong></td><td><strong>14</strong></td><td><strong>0</strong></td><td class="sortcell"><strong>125</strong></td><td><strong>25.0</strong></td></tr></table></div></div><div class="mod-container mod-table mod-no-header-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="12">RETURNING</td></tr><tr class="colhead" align="center"><td style="border-width:1px;"></td><td colspan="5" style="border-width:1px;">KICKOFFS</td><td colspan="6" style="border-width:1px;">PUNTS</td></tr><tr class="colhead" align="right"><td align="left">NAME</td><td title="Kickoff return attempts">ATT</td><td title="Kickoff return yards">YDS</td><td title="Average yards per kickoff return">AVG</td><td title="Longest kickoff return">LONG</td><td title="Kickoff return touchdowns">TD</td><td title="Punts returned">RET</td><td title="Yards returned on punts">RETY</td><td title="Average yards per punt return">AVG</td><td title="Longest punt return">LONG</td><td title="Punt return touchdowns">TD</td><td title="Fair catches">FC</td></tr><tr class="oddrow player-28-3039725" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/3039725/ryan-switzer">Ryan Switzer</a></td><td>7</td><td class="sortcell">163</td><td>23.3</td><td>28</td><td>0</td><td>8</td><td>61</td><td>7.6</td><td>21</td><td>0</td><td>4</td></tr><tr class="total" align="right"><td align="left"><strong>Totals</strong></td><td><strong>7</strong></td><td class="sortcell"><strong>163</strong></td><td><strong>23.3</strong></td><td><strong>28</strong></td><td><strong>0</strong></td><td><strong>8</strong></td><td><strong>61</strong></td><td><strong>7.6</strong></td><td><strong>21</strong></td><td><strong>0</strong></td><td><strong>4</strong></td></tr><tr align="right"><td align="left"><strong>Opponents</strong></td><td><strong>10</strong></td><td class="sortcell"><strong>247</strong></td><td><strong>24.7</strong></td><td><strong>66</strong></td><td><strong>0</strong></td><td><strong>8</strong></td><td><strong>45</strong></td><td><strong>5.6</strong></td><td><strong>20</strong></td><td><strong>0</strong></td><td><strong>5</strong></td></tr></table></div></div><div class="mod-container mod-table mod-no-header-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="13">KICKING</td></tr><tr class="colhead" align="center"><td style="border-width:1px;"></td><td colspan="9" style="border-width:1px;">FIELD GOALS</td><td colspan="3" style="border-width:1px;">EXTRA POINTS</td></tr><tr class="colhead" align="right"><td align="left">NAME</td><td title="Field goals made">FGM</td><td title="Field goal attempts">FGA</td><td title="Percentage of field goals made">PCT</td><td title="Longest field goal made">LONG</td><td title="1-19 yard field goals">1-19</td><td title="20-29 yard field goals">20-29</td><td title="30-39 yard field goals">30-39</td><td title="40-49 yard field goals">40-49</td><td title="50+ yard field goals">50+</td><td title="Extra points made">XPM</td><td title="Extra point attempts">XPA</td><td title="Percentage of extra points made">PCT</td></tr><tr class="oddrow player-28-14322" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/14322/dan-bailey">Dan Bailey</a></td><td class="sortcell">7</td><td>7</td><td>100.0</td><td>56</td><td>0-0</td><td>1-1</td><td>2-2</td><td>3-3</td><td>1-1</td><td>14</td><td>14</td><td>100.0</td></tr><tr class="total" align="right"><td align="left"><strong>Totals</strong></td><td class="sortcell"><strong>7</strong></td><td><strong>7</strong></td><td><strong>100.0</strong></td><td><strong>56</strong></td><td><strong>0-0</strong></td><td><strong>1-1</strong></td><td><strong>2-2</strong></td><td><strong>3-3</strong></td><td><strong>1-1</strong></td><td><strong>14</strong></td><td><strong>14</strong></td><td><strong>100.0</strong></td></tr><tr align="right"><td align="left"><strong>Opponents</strong></td><td class="sortcell"><strong>10</strong></td><td><strong>12</strong></td><td><strong>83.3</strong></td><td><strong>49</strong></td><td><strong>0-0</strong></td><td><strong>3-3</strong></td><td><strong>3-4</strong></td><td><strong>4-5</strong></td><td><strong>0-0</strong></td><td><strong>12</strong></td><td><strong>14</strong></td><td><strong>85.7</strong></td></tr></table></div></div><div class="mod-container mod-table mod-no-header-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="13">PUNTING</td></tr><tr class="colhead" align="right"><td align="left">NAME</td><td title="Total punts">PUNTS</td><td title="Gross punt yards">YDS</td><td title="Longest punt">LONG</td><td title="Gross punting average">AVG</td><td title="Net punting average">NET</td><td title="Blocked punts">BP</td><td title="Punts inside the 20 yard line">IN20</td><td title="Touchbacks">TB</td><td title="Fair catches">FC</td><td title="Punts returned">RET</td><td title="Yards returned on punts">RETY</td><td title="Average return yards on punts">AVG</td></tr><tr class="oddrow player-28-14723" align="right"><td align="left"><a href="http://www.espn.com/nfl/player/_/id/14723/chris-jones">Chris Jones</a></td><td>20</td><td class="sortcell">878</td><td>62</td><td>43.9</td><td>40.7</td><td>0</td><td>12</td><td>1</td><td>5</td><td>8</td><td>45</td><td>5.6</td></tr><tr class="total" align="right"><td align="left"><strong>Totals</strong></td><td><strong>20</strong></td><td class="sortcell"><strong>878</strong></td><td><strong>62</strong></td><td><strong>43.9</strong></td><td><strong>41.7</strong></td><td><strong>0</strong></td><td><strong>12</strong></td><td><strong>1</strong></td><td><strong>5</strong></td><td><strong>8</strong></td><td><strong>45</strong></td><td><strong>5.6</strong></td></tr><tr align="right"><td align="left"><strong>Opponents</strong></td><td><strong>19</strong></td><td class="sortcell"><strong>874</strong></td><td><strong>62</strong></td><td><strong>46.0</strong></td><td><strong>42.8</strong></td><td><strong>0</strong></td><td><strong>6</strong></td><td><strong>1</strong></td><td><strong>4</strong></td><td><strong>8</strong></td><td><strong>61</strong></td><td><strong>7.6</strong></td></tr></table></div></div><div class="mod-container mod-table mod-no-header"><div class="mod-content"></div><div class="mod-footer"><div class="foot-header stathead"><h4>GLOSSARY</h4></div><div class="foot-content"><ul style="width:30%;"><li><span>ATT:</span> Passing attempts</li><li><span>COMP:</span> Completions</li><li><span>PCT:</span> Completion percentage</li><li><span>YDS:</span> Gross passing yards</li><li><span>AVG:</span> Yards per pass attempt</li><li><span>YDS/G:</span> Net passing yards per game</li><li><span>LONG:</span> Longest pass</li><li><span>TD:</span> Passing touchdowns</li><li><span>TD%:</span> Passing touchdown percentage</li><li><span>INT:</span> Interceptions</li><li><span>INT%:</span> Interception percentage</li><li><span>SACK:</span> Sacks</li><li><span>YDSL:</span> Sacked yards lost</li><li><span>RATE:</span> Passer (QB) rating</li></ul><ul style="width:30%;"><li><span>ATT:</span> Rushing attempts</li><li><span>YDS:</span> Rushing yards</li><li><span>AVG:</span> Yards per rush attempt</li><li><span>LONG:</span> Longest rush</li><li><span>20+:</span> Carries over 20 yards</li><li><span>TD:</span> Rushing touchdowns</li><li><span>YDS/G:</span> Rushing yards per game</li><li><span>FUM:</span> Rushing fumbles</li><li><span>FUML:</span> Rushing fumbles lost</li><li><span>1DN:</span> Rushing first downs</li></ul><ul style="width:30%;"><li><span>REC:</span> Receptions</li><li><span>TAR:</span> Receiving targets</li><li><span>YDS:</span> Receiving yards</li><li><span>AVG:</span> Average yards per reception</li><li><span>TD:</span> Receiving touchdowns</li><li><span>LONG:</span> Longest reception</li><li><span>20+:</span> Receptions over 20 yards</li><li><span>YDS/G:</span> Receiving yards per game</li><li><span>FUM:</span> Receiving fumbles</li><li><span>FUML:</span> Receiving fumbles lost</li><li><span>YAC:</span> Yards after catch</li><li><span>1DN:</span> Receiving first downs</li></ul><div style="clear:both;"></div><ul style="width:30%;"><li><span>SOLO:</span> Unassisted tackles</li><li><span>AST:</span> Assisted tackles</li><li><span>TOT:</span> Tackles</li><li><span>SACK:</span> Sacks</li><li><span>YDSL:</span> Yards lost on sack</li><li><span>TLOSS:</span> Tackles for a loss</li><li><span>PD:</span> Passes defended</li><li><span>INT:</span> Interceptions</li><li><span>YDS:</span> Intercepted returned yards</li><li><span>LONG:</span> Longest interception return</li><li><span>TD:</span> Interceptions returned for touchdowns</li><li><span>FF:</span> Forced fumbles</li><li><span>REC:</span> Fumbles recovered</li><li><span>TD:</span> Fumbles returned for touchdowns</li><li><span>BK:</span> Blocked kicks both punts and field goal attempts</li></ul><ul style="width:30%;"><li><span>TD:</span> Rushing touchdowns</li><li><span>TD:</span> Receiving touchdowns</li><li><span>RET:</span> Return touchdowns</li><li><span>TD:</span> Total touchdowns</li><li><span>FG:</span> Field goals</li><li><span>XP:</span> Extra points</li><li><span>2PT:</span> Two-point conversions</li><li><span>PTS:</span> Total points</li><li><span>PTS/G:</span> Total points per game</li></ul><ul style="width:30%;"><li><span>ATT:</span> Kickoff return attempts</li><li><span>YDS:</span> Kickoff return yards</li><li><span>AVG:</span> Average yards per kickoff return</li><li><span>LONG:</span> Longest kickoff return</li><li><span>TD:</span> Kickoff return touchdowns</li><li><span>RET:</span> Punts returned</li><li><span>RETY:</span> Yards returned on punts</li><li><span>AVG:</span> Average yards per punt return</li><li><span>LONG:</span> Longest punt return</li><li><span>TD:</span> Punt return touchdowns</li><li><span>FC:</span> Fair catches</li></ul><div style="clear:both;"></div><ul style="width:30%;"><li><span>FGM:</span> Field goals made</li><li><span>FGA:</span> Field goal attempts</li><li><span>PCT:</span> Percentage of field goals made</li><li><span>LONG:</span> Longest field goal made</li><li><span>1-19:</span> 1-19 yard field goals</li><li><span>20-29:</span> 20-29 yard field goals</li><li><span>30-39:</span> 30-39 yard field goals</li><li><span>40-49:</span> 40-49 yard field goals</li><li><span>50+:</span> 50+ yard field goals</li><li><span>XPM:</span> Extra points made</li><li><span>XPA:</span> Extra point attempts</li><li><span>PCT:</span> Percentage of extra points made</li></ul><ul style="width:30%;"><li><span>PUNTS:</span> Total punts</li><li><span>YDS:</span> Gross punt yards</li><li><span>LONG:</span> Longest punt</li><li><span>AVG:</span> Gross punting average</li><li><span>NET:</span> Net punting average</li><li><span>BP:</span> Blocked punts</li><li><span>IN20:</span> Punts inside the 20 yard line</li><li><span>TB:</span> Touchbacks</li><li><span>FC:</span> Fair catches</li><li><span>RET:</span> Punts returned</li><li><span>RETY:</span> Yards returned on punts</li><li><span>AVG:</span> Average return yards on punts</li></ul></div></div></div></div><div class="span-6"><div class="span-4"><!-- begin sponsored links -->
+<div id="sponsored" class="mod-container mod-no-footer">
+<!-- begin sp links -->
+<div style="margin: 10px 0 0 0;">
+<div class="bg-opaque mod-outbrain mod-no-border">
+<div class="mod-content">
+<div class="col-full">
+<h4 class="first">SPONSORED HEADLINES</h4>
+<div class="OUTBRAIN" data-src="http://www.espn.com/nfl/team/stats?name=dal" data-widget-id="AR_24" data-ob-template="espn" ></div></div>
+</div>
+</div>
+<!-- vendor version 2: stats/players/teams-bottom:614w250h vendorId: 09stats614 sport: nfl widgetId AR_24 --></div>
+<!-- end sp links -->
+</div>
+<!-- end sponsored links -->
+</div><div class="span-2 last"><div class="ad-box">
+<!-- begin InContent -->
+<div class="gutter">
+<!-- gpt ad type: incontent -->
+<div class="ad-slot ad-slot-incontent" data-slot-type="incontent" data-slot-kvps="pos=incontent"></div></div>
+<!-- end InContent -->
+</div>
+<!-- pageType: nflteamstatistics showVendor: false--></div></div><div class="span-6">
+	<style>
+		img.teamlogo {
+			width: 50px;
+			height: 50px;
+		}
+	</style>
+	<div class="mod-container mod-team-footer"><div class="logo-medium logo-nfl-medium"><img src=" http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/dal.png&w=100&h=100&transparent=true " class="teamlogo"></div><h3 class="txt-nfl-dal">Dallas Cowboys</h3><ul><li ><a href="/nfl/team/_/name/dal/dallas-cowboys">Clubhouse</a></li><li class="active"><a href="/nfl/team/stats/_/name/dal/dallas-cowboys">Stats</a></li><li ><a href="/nfl/team/schedule/_/name/dal/dallas-cowboys">Schedule</a></li><li ><a href="/nfl/team/roster/_/name/dal/dallas-cowboys">Roster</a></li><li ><a href="/nfl/team/splits/_/name/dal/dallas-cowboys">Splits</a></li><li ><a href="/nfl/team/depth/_/name/dal/dallas-cowboys">Depth Chart</a></li><li ><a href="/nfl/team/transactions/_/name/dal/dallas-cowboys">Transactions</a></li><li ><a href="/nfl/team/rankings/_/name/dal/dallas-cowboys">Rankings</a></li><li ><a href="/nfl/team/photos/_/name/dal/dallas-cowboys">Photos</a></li><li ><a href="/nfl/team/stadium/_/name/dal/dallas-cowboys">Stadium</a></li><li ><a href="/blog/dallas-cowboys">Blog</a></li></ul></div></div><div class="clear"></div></div></div>
+<script type="text/javascript">
+
+				// load new edition settings
+				var espn = espn || {};
+				espn.i18n = espn.i18n || {};
+				espn.i18n.lang = "en";
+				espn.i18n.siteId = "1";
+				espn.i18n.site = "espn";
+				espn.i18n.editionKey = "espn-en";
+				espn.i18n.personalization = true;
+				espn.i18n.country = "us";
+				espn.i18n.countryName = "null";
+				espn.i18n.domain = "www.espn.com";
+				espn.i18n.searchUrl = "http://search.espn.com/";
+				espn.i18n.hasSearch = true;
+				espn.i18n.defaultSearchParams = {};
+				espn.i18n.nowFeed = true;
+				espn.i18n.temperature = {scale: "fahrenheit", symbol: "&deg; F" };
+				espn.i18n.facebook = {appId: "116656161708917", locale: "en_US" };
+				espn.i18n.twitter = {language: "en"};
+				espn.i18n.outbrain = {"mobile":{"compliantId":"MB_4","nonCompliantId":"MB_5"},"desktop":{"compliantId":"AR_15","nonCompliantId":"AR_12"},"video":{"mobile":{"compliantId":"MB_6"},"desktop":{"compliantId":"AR_16"}},"recap":{"mobile":{"compliantId":"MB_9"},"desktop":{"compliantId":"AR_30"}}}
+				espn.i18n.betting = {show: true, provider: "", bet365blacklist: ["ww", "us", "pk", "in", "eg", "ir", "sa", "sy", "ae", "il", "jo", "ps", "lb", "om", "kw", "qa", "bh", "ye", "lk", "fr", "fx", "au"]};
+				espn.i18n.tickets = {"enabled":true,"provider":"VividSeats","baseUrl":"https://www.vividseats.com","callToAction":"Buy on Vivid Seats","trackSection":"vivid"};
+				espn.i18n.translations = {};
+				espn.i18n.environment = "prod";
+				espn.i18n.sportBranding = {"soccer":"logos/logo-uk-fc.png","wnba":"logos/ESPNcom-powerby-espnw.png","womenbb":"logos/ESPNcom-powerby-espnw.png","ncw":"logos/ESPNcom-powerby-espnw.png","cricket":"logos/logo-uk-cricinfo.png","rugby":"logos/logo-uk-scrum.png","ncaaw":"logos/ESPNcom-powerby-espnw.png"};
+				espn.i18n.sportToUrl = {"soccer":"http://www.espnfc.us","wnba":"http://espnw.com","womenbb":"http://espnw.com","ncw":"http://espnw.com","cricket":"http://www.espncricinfo.com","ncaaw":"http://espnw.com"};
+				espn.i18n.showWatch = true;
+				
+				espn.i18n.showFCContent = false;
+				espn.i18n.showCricInfoContent = false;
+				espn.i18n.showInsider = true;
+				espn.i18n.indexAutoStart = false;
+				espn.i18n.videoAutoStart = {index: false, scoreboard: false };
+				espn.i18n.customPrimaryNav = false;
+				espn.i18n.isSingleSport = false;
+				espn.i18n.sportReplacements = "null";
+
+				espn.i18n.uriRewrites = {"paramValues":{"toEnglish":{},"toEdition":{}},"urls":{"toEdition":{},"toEnglish":{}},"paramKeys":{"toEnglish":{},"toEdition":{}},"roots":{"toEdition":{"/horse/":"/horse-racing/","/nascar/":"/racing/nascar/","/ncaa/":"/college-sports/","/ncb/":"/mens-college-basketball/","/ncf/":"/college-football/","/oly/":"/olympics/","/rpm/":"/racing/","/womenbb/":"/womens-basketball/","/flb/":"/fantasy/baseball/","/fba/":"/fantasy/basketball/","/ffl/":"/fantasy/football/","/fhl/":"/fantasy/hockey/","/recruitingfb/":"/college-sports/football/recruiting/","/recruitingbb/":"/college-sports/basketball/recruiting/","/espys/":"/espys/","/nba/summerleague/":"/nba-summer-league/"},"toEnglish":{"/oly/summer/gymnastics/":"/oly/summer/gymnastics/","/oly/summer/cycling/":"/oly/summer/cycling/","/racing/nascar/":"/nascar/","/racing/":"/rpm/","/college-football/":"/ncf/","/college-football/rumors":"/college-football/rumors","/mens-college-basketball/":"/ncb/","/mens-college-basketball/rumors":"/mens-college-basketball/rumors","/womens-college-basketball/":"/ncw/","/womens-basketball/":"/womenbb/","/olympics/":"/oly/","/cycling/":"/oly/","/figure-skating/":"/oly/","/college-sports/":"/ncaa/","/gymnastics/":"/oly/","/skiing/":"/oly/","/horse-racing/":"/horse/","/sports/womenbb/":"/womenbb/","/sports/horse/":"/horse/","/sports/endurance/":"/endurance/","/losangeles/":"/los-angeles/","/newyork/":"/new-york/","/espn/onenacion/":"/onenacion/","/fantasy/baseball/":"/flb/","/fantasy/basketball/":"/fba/","/fantasy/football/":"/ffl/","/fantasy/hockey/":"/fhl/","/college-sports/football/recruiting/":"/recruitingfb/","/college-sports/basketball/recruiting/":"/recruitingbb/","/nba-summer-league/":"/nba/summerleague/"}},"pathSegments":{"toEnglish":{},"toEdition":{}}};
+
+				try {
+					var translations = {"cancel":"Cancel","manageSettingInPersonalSettings":"You can manage this setting in the future under your <a href=\"#\">Personal Settings<\/a>","video.next.text":"Up Next","favoritesmgmt.manualSortSelected":"You have chosen to manually order how your favorites will appear across ESPN products. At any time, you may return to having ESPN order your favorites by selecting the \"Auto\" option.","preferences.sport_labels.8367":"Esports","preferences.sport_labels.2020":"NASCAR","draftcast.onTheClock":"On The Clock","Soccer Scores":"Football Scores","preferences.sport_labels.800":"Field Hockey","message.leaguemanager":"Message LM","draftcast.teamNews_%{teamName}":"Full ${teamName} Draft Coverage","favoritesmgmt.suggestedHeader":"Suggestions for your location","score":"Score","favorites.carousel.espnapp.link":"http://www.espn.com/espn/mobile/products/products/_/id/6857590","preferences.sport_labels.3918":"English FA Cup","driveChart.winper":"Win %","enter":"Enter","favoritesmgmt.confirmHideFavorite":"Hide this from my favorites?","links.event.game.desktop.href.cricket":"http://www.espncricinfo.com/${matchName}/engine/match/${competitionId}.html","draftcast.endOfDraft":"End of Draft","nflBye":"Bye","linescore.errors.short":"E","preferences.sport_labels.3520":"Poker","preferences.sport_labels.2030":"Formula 1","redesignWelcomeText":"We've redesigned the site with some new and exciting features. You have been selected as part of a limited set of fans who get to experience our new site and give it feedback before it launches!","videoSettings":"Video Settings","edit":"Edit","draftcast.previousPick":"Previous Pick","reactivate":"Reactivate","to_be_determined.abbrev":"TBD","favoriteadded":"Favorite Added","preferences.sport_labels.8374":"Kabaddi","signOut":"Log Out","preferences.sport_labels.8098":"X Games","preferences.sport_labels.8373":"Badminton","createAccount":"Sign Up","draftcast.bestAvailable":"Best Available","preferences.sport_labels.8372":"Chess","draftcast.emptyPositionTable":"No selections have been made for this position.","favoritesmgmt.favoriteEntity":"${entity} - Favorite","connectedfacebook":"Connected to Facebook","draftcast.roundNotStartedYet_%{round}":"Rd ${round} not started","preferences.sport_labels.1106":"Golf","draftcast.emptyTeamsTable_%{season}_%{league}_%{fullTeamName}":"The ${fullTeamName} have no picks for the ${season} ${league} draft.","linescore.runs.short":"R","onefeed.scheduleDraft":"Schedule Draft","insider.pickcenter.login_message":"To get exclusive PickCenter analysis, you must be an ESPN Insider","preferences.sport_labels.3920":"English Capital One Cup","favorites.streakLabel":"Streak:","favoritesmgmt.confirmRemoveFavorite":"Remove Favorite?","onefeed.draftNow":"Draft Now","preferences.sport_labels.781":"European Championship","preferences.sport_labels.2000":"Racing","preferences.sport_labels.300":"Rugby","facebook.conversation.account_policy":"Use a <a href=\"https://www.facebook.com/r.php\" rel=\"nofollow\">Facebook account<\/a> to add a comment, subject to Facebook's <a href=\"https://www.facebook.com/policies/\" rel=\"nofollow\">Terms of Service<\/a> and <a href=\"https://www.facebook.com/about/privacy/\" rel=\"nofollow\">Privacy Policy<\/a>. Your Facebook name, photo & other personal information you make public on Facebook will appear with your comment, and may be used on ESPN's media platforms. <a href=\"http://espn.com/espn/story/_/id/8756098/espn-facebook-comments-faq\">Learn more<\/a>.","preferences.sport_labels.3170":"College Sports","preferences.sport_labels.700":"English Premier League","draftcast.shareText_%{pick}_%{round}_%{team}_%{player}_%{href}":"With the ${pick} Pick of the ${round} Round, the ${team} select ${player}. Follow via Draftcast. ${href}","linescore.hits.short":"H","search":"Search","insiderSubscription":"Insider Subscription","draftcast.postdraftAnalysisHeadline":"How He Fits","favorites.tooManySportsToAdd":"Maximum favorite sports limit reached. Please remove at least one sport prior to adding additional sports.","welcometext":"Welcome","connectfacebook":"Connect with Facebook","video.nowPlaying.text":"Now Playing","close":"Close","email":"Email","preferences.sport_labels.770":"MLS","thereAreNoEventsByDisplayNameByDate":"There are no ${displayName} events for ${readableDate}","draftcast.emptyNews":"No recent team news found.","preferences.sport_labels.1200":"Horse Racing","preferences.sport_labels.775":"UEFA Champions League","preferences.sport_labels.776":"UEFA Europa League","viewAllResultsBySearchTerm":"View all results for '${search_term}'","draftcast.rank":"RK","tc.play.text":"Bracket","confirm":"Confirm","thingsHaveChanged":"As you may notice, things have definitely changed","earnings":"Earnings","hide":"Hide","preferences.sport_labels.10":"MLB","favorites.tooManyTeamsToAdd":"Maximum favorite teams limit reached. Please remove at least one team prior to adding additional teams.","draftcast.emptyTable":"No players are available for this position.","addSomeForQuickAccess":"Add some for quick access","draftcast.pickIsIn":"The Pick is In...","preferences.sport_labels.90":"NHL","purse":"Purse","removedFromYourFavorites":"<p>You've removed<\/p><h1>${title}<\/h1>${subTitle}<p>as a suggested favorite<\/p>","register":"Register","position.abbrev":"POS","submit.mobile.filters":"submit","preferences.sport_labels.1650":"Wrestling","draftcast.nextPick":"Next Pick","cricinfo.footerText":"ESPN Sports Media Ltd. <a href=\"http://disneytermsofuse.com/\" rel=\"nofollow\">Terms of Use<\/a>, <a href=\"http://disneytermsofuse.com/\" rel=\"nofollow\">Privacy Policy<\/a>, <a href=\"https://disneyprivacycenter.com/notice-to-california-residents/\" rel=\"nofollw\">Your California Privacy Rights<\/a>, <a href=\"https://disneyprivacycenter.com/kids-privacy-policy/english/\" rel=\"nofollow\">Children's Online Privacy Policy<\/a> and <a href=\"http://preferences-mgr.truste.com/?type=espn&affiliateId=148\" rel=\"nofollow\">Interest-Based Ads<\/a> are applicable to you. All rights reserved.","addMoreFavorites":"Try adding more teams for the latest scores and highlights!","preferences.sport_labels.200":"Cricket","addfavorite":"Add Favorite","video.messages.geoRestricted":"Video is not available in your country.","inprogress":"In Progress","preferences.sport_labels.28":"NFL","preferences.sport_labels.600":"Soccer","preferences.sport_labels.606":"Football","videoDockingDisabled":"Video docking disabled","preferences.sport_labels.23":"NCAAF","newsletters":"Newsletters","preferences.sport_labels.1652":"WWE","draftcast.needs":"Needs","draftcast.predraftAnalysisHeadline":"What He Brings","activateInsider":"Subscribe","add":"Add","filter.mobile.filters":"filter","preferences.sport_labels.5501":"FIFA Club World Cup","draftcast.selectionMade":"Selection Made","pageTitle.Scores_%{leagueOrSport}":"${leagueOrSport} Scores","manageMy":"Manage my","onefeed.draft":"Draft","onefeed.insider.manage":"Manage","preferences.sport_labels.33":"CFL","pop-out":"Pop-out","favoritesmgmt.sportTeam":"${sportLabel} Team","favoritesmgmt.suggestedHeaderReset":"Suggestions","preferences.sport_labels.1700":"Track and Field","favoritesmgmt.alertType":"Alert Type","tc.view.text":"VIEW","preferences.sport_labels.1300":"Cycling","favoritesmgmt.noSuggestedFavorites":"Additional Suggested Favorites are not available at this time","favorites":"Favorites","favoritesmgmt.noFavorites":"You have not chosen any favorites yet","no":"No","reset.mobile.filters":"reset","espn.anonymous_favorites":"true","footerText":"ESPN Internet Ventures. <a href=\"http://disneytermsofuse.com/\" rel=\"nofollow\">Terms of Use<\/a>, <a href=\"http://disneyprivacycenter.com/\" rel=\"nofollow\">Privacy Policy<\/a>, <a href=\"https://disneyprivacycenter.com/notice-to-california-residents/\" rel=\"nofollow\">Your California Privacy Rights<\/a>, <a href=\"https://disneyprivacycenter.com/kids-privacy-policy/english/\">Children's Online Privacy Policy<\/a> and <a href=\"http://preferences-mgr.truste.com/?type=espn&affiliateId=148\">Interest-Based Ads<\/a> are applicable to you. All rights reserved.<\/span><span class=\"link-text-short\">Footer<\/span>","preferences.sport_labels.2040":"IndyCar","scores":"Scores","preferences.sport_labels.8300":"College Sports","show":"Show","manageFavoritesSignIn":"To manage favorites please sign-in or create an ESPN account","noTeamsInFavorites":"No teams in your favorites yet","preferences.sport_labels.46":"NBA","remove":"Remove","viewall":"View All","video.messages.deviceRestricted":"Video is not available for this device.","undo":"Undo","accountInformation":"Account Information","alert":"Alert","preferences.sport_labels.41":"NCAAM","today":"Today","onefeed.suggested":"Suggested Favorites","preferences.sport_labels.1000":"Boxing","soccer":"Soccer","move":"Move","preferences.sport_labels.3301":"MMA","season.mobile.filters":"season","comments":"Comments","sports":"Sports","year.mobile.filters":"year","subscribe":"Subscribe","preferences.sport_labels.850":"Tennis","yes":"Yes","addFavorites":"Add favorites","app.error.suppFeed.noBoxScore":"No Box Score Available","tweet":"Tweet","preferences.sport_labels.59":"WNBA","heliumdown":"Login Temporarily Unavailable","pts":"Pts","home":"Home","favoritesmgmt.reorderSports":"Reorder Sports","links.team.clubhouse.desktop.href.cricket":"http://www.espncricinfo.com/${_slug(team.name)}/content/team/${team.id}.html","suggested":"Suggested","preferences.sport_labels.54":"NCAAW","favorites.draftingNow":"Drafting Now","signIn":"Log In","draftcast.bestFit":"Best Fit","opponent.abbrev":"OPP","resize":"Resize","disableVideoDockingPermanently":"Disable video docking permanently","over/under.abbrev":"O/U","welcomeToESPN":"Welcome to the new ESPN.com","preferences.sport_labels.8319":"Snooker","preferences.sport_labels.3700":"Olympic Sports","preferences.sport_labels.8318":"Darts"};
+					if(Object.keys(translations).length > 0) {
+						espn.i18n.translations = translations;
+					}
+				} catch (err) {
+					window.console.log('Error in espn.i18n loading translations', err);
+				}
+
+				espn.i18n.dateTime = {
+					dateFormats: {
+						time1: "h:mm A",
+						date1: "MMM D, YYYY",
+						date2: "M/D/YYYY",
+						date3: "MM/DD/YYYY",
+						date4: "MMDDYYYY",
+						date5: "MMMM Do YYYY",
+						date6: "dddd, MMMM Do YYYY",
+						date7: "ddd, MMM D YYYY",
+						date8: "M/D",
+						date9: "ddd",
+						date10: "dddd, MMMM Do",
+						date11: "ddd, MMMM D",
+						date12: "MMMM D, YYYY",
+						date13: "dddd, M/D",
+						date14: "MMM D",
+						date15: "ddd, M/D"
+
+					},
+
+					
+					firstDayOfWeek: "Sunday",
+					timeZoneBucket: "America/New_York",
+					dayNamesShort: ["Su","Mo","Tu","We","Th","Fr","Sa"],dayNamesMedium: ["Sun","Mon","Tues","Wed","Thu","Fri","Sat"],
+
+dayNamesLong: ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+
+monthNamesShort: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+
+monthNamesLong: ["January","February","March","April","May","June","July","August","September","October","November","December"]
+				};
+				</script><div id="global-viewport" data-behavior="global_nav_condensed global_nav_full"  class =" interior" >
+<nav id="global-nav-mobile" data-loadtype="server"></nav><div class="menu-overlay-primary"></div><div id="header-wrapper" data-behavior="global_header">
+<header id="global-header" class="espn-en user-account-management has-search">
+    <div class="menu-overlay-secondary"></div>
+
+	<div class="container">
+		<a id="global-nav-mobile-trigger" href="#" data-route="false"><span>Menu</span></a><h1><a href="http://www.espn.com"  name="&lpos=sitenavdefault&lid=sitenav_main-logo">ESPN</a></h1><ul class="tools"><li class="search">
+<a href="#" class="icon-font-after icon-search-solid-after" id="global-search-trigger"></a>
+<div id="global-search" class="global-search">
+	<input type="text" class="search-box" placeholder="Search Sports, Teams or Players..."><input type="submit" class="btn-search">
+</div></li><li class="user" data-behavior="favorites_mgmt"></li><li id="scores-link"><a href="#" id="global-scoreboard-trigger" data-route="false">Scores</a></ul>
+	</div>
+	
+<nav id="global-nav" data-loadtype="server">
+<ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
+
+<li itemprop="name"><a itemprop="url" href="/nfl/">NFL</a></li><li itemprop="name"><a itemprop="url" href="/nba/">NBA</a></li><li itemprop="name"><a itemprop="url" href="/mlb/">MLB</a></li><li itemprop="name"><a itemprop="url" href="/college-football/">NCAAF</a></li><li itemprop="name"><a itemprop="url" href="http://www.espnfc.com">Soccer</a></li><li itemprop="name"><a itemprop="url" href="/nhl/">NHL</a></li><li itemprop="name"><a itemprop="url" href="#">&hellip;</a><div><ul class="split"><li itemprop="name"><a itemprop="url" href="/tennis/">Tennis</a></li><li itemprop="name"><a itemprop="url" href="/golf/">Golf</a></li><li itemprop="name"><a itemprop="url" href="/mens-college-basketball/">NCAAM</a></li><li itemprop="name"><a itemprop="url" href="/mma/">MMA</a></li><li itemprop="name"><a itemprop="url" href="/wwe/">WWE</a></li><li itemprop="name"><a itemprop="url" href="/boxing/">Boxing</a></li><li itemprop="name"><a itemprop="url" href="/esports/">esports</a></li><li itemprop="name"><a itemprop="url" href="/chalk/">Chalk</a></li><li itemprop="name"><a itemprop="url" href="/analytics/">Analytics</a></li><li itemprop="name"><a itemprop="url" href="/womens-basketball/">NCAAW</a></li><li itemprop="name"><a itemprop="url" href="/womens-basketball/">WNBA</a></li><li itemprop="name"><a itemprop="url" href="/racing/nascar/">NASCAR</a></li><li itemprop="name"><a itemprop="url" href="/jayski/">Jayski </a></li><li itemprop="name"><a itemprop="url" href="/racing/">Racing</a></li><li itemprop="name"><a itemprop="url" href="/horse-racing/">Horse</a></li><li itemprop="name"><a itemprop="url" href="http://www.espn.com/college-sports/football/recruiting/">RN FB</a></li><li itemprop="name"><a itemprop="url" href="http://www.espn.com/college-sports/basketball/recruiting/index">RN BB</a></li><li itemprop="name"><a itemprop="url" href="/college-sports/">NCAA</a></li><li itemprop="name"><a itemprop="url" href="http://www.espn.com/sports/llws17/story/_/page/LittleLeagueWorldSeries/little-league-world-series-espn">LLWS</a></li><li itemprop="name"><a itemprop="url" href="/olympics/">Olympic Sports</a></li><li itemprop="name"><a itemprop="url" href="http://www.espn.com/specialolympics/">Special Olympics</a></li><li itemprop="name"><a itemprop="url" href="http://xgames.com/">X Games</a></li><li itemprop="name"><a itemprop="url" href="http://espncricinfo.com/">Cricket</a></li><li itemprop="name"><a itemprop="url" href="http://www.espnscrum.com/">Rugby</a></li><li itemprop="name"><a itemprop="url" href="/endurance/">Endurance</a></li><li itemprop="name"><a itemprop="url" href="http://www.tsn.ca/cfl">CFL</a></li></ul></div></li><li class="pillar more-espn"><a href="#">More ESPN</a></li><li class="pillar fantasy"><a href="/fantasy/">Fantasy</a></li><li class="pillar listen"><a href="http://www.espn.com/espnradio/index">Listen</a></li><li class="pillar watch"><a href="http://www.espn.com/watch/">Watch</a></li></ul>
+
+</nav>
+
+
+
+
+
+
+<nav id="global-nav-secondary" data-loadtype="tier-2-server" >
+<div class="global-nav-container">
+<ul class="first-group"><li class="sports" itemprop="name"><span class="positioning"><a href="/nfl/"><span class="brand-logo "><img src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png&w=80&h=80&transparent=true"></span><span class="link-text">NFL</span><span class="link-text-short">NFL</span></a></span></li><li class="sub"><a href="/nfl/"  data-breakpoints="desktop,desktop-lg,mobile,tablet" ><span class="link-text">Home</span><span class="link-text-short">Home</span></a></li><li class="sub"><a href="/nfl/scoreboard" ><span class="link-text">Scores</span><span class="link-text-short">Scores</span></a></li><li class="sub"><a href="/nfl/schedule" ><span class="link-text">Schedule</span><span class="link-text-short">Schedule</span></a></li><li class="sub"><a href="/nfl/standings"  data-match-url="/standings/" ><span class="link-text">Standings</span><span class="link-text-short">Standings</span></a></li><li class="sub has-sub"><a href="http://www.espn.com/nfl/statistics"  data-mobile="false" ><span class="link-text">Stats</span><span class="link-text-short">Stats</span></a></li><li class="sub"><a href="http://www.espn.com/nfl/teams"  data-sportAbbrev="nfl" ><span class="link-text">Teams</span><span class="link-text-short">Teams</span></a></li><li class="sub"><a href="http://www.espn.com/nfl/story/_/page/NFLpowerrankingsx171010/nfl-2017-week-6-power-rankings-kansas-city-chiefs-green-bay-packers-atlanta-falcons-lead-playoff-chances" ><span class="link-text">Power Rankings</span><span class="link-text-short">Power Rankings</span></a></li><li class="sub"><a href="/blog/nflnation"  data-blog="true" ><span class="link-text">NFL Nation</span><span class="link-text-short">NFL Nation</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/nfl/picks" ><span class="link-text">Expert Picks</span><span class="link-text-short">Expert Picks</span></a></li><li class="sub has-sub pre-loadSubNav"><a href="http://games.espn.com/ffl/welcome?ex_cid=FFL2017_NFLIndexNav" ><span class="link-text">Fantasy: Sign Up</span><span class="link-text-short">Fantasy: Sign Up</span></a></li><li class="sub pre-loadSubNav"><a href="http://games.espn.com/nfl-pigskin-pickem/2017/en/?ex_cid=PP2017_NFLNav" ><span class="link-text">Pigskin Pick'em</span><span class="link-text-short">Pigskin Pick'em</span></a></li><li class="sub pre-loadSubNav"><a href="http://games.espn.com/nfl-eliminator-challenge/2017/en/?ex_cid=EC2017_NFLNav" ><span class="link-text">Eliminator Challenge</span><span class="link-text-short">Eliminator Challenge</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/nfl/playoffs/machine"  data-mobile="false" ><span class="link-text">Playoff Machine</span><span class="link-text-short">Playoff Machine</span></a></li><li class="sub pre-loadSubNav"><a href="/nfl/draft" ><span class="link-text">Draft</span><span class="link-text-short">Draft</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/nfl/story/_/id/21113016/biggest-nfl-injuries-week-7" ><span class="link-text">Week 7 Injuries</span><span class="link-text-short">Week 7 Injuries</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/nfl/transactions"  data-mobile="false" ><span class="link-text">Transactions</span><span class="link-text-short">Transactions</span></a></li><li class="sub pre-loadSubNav"><a href="/blog/nfl/rumors" ><span class="link-text">Rumors</span><span class="link-text-short">Rumors</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/nfl/story/_/page/Football-Power-Index/espn-nfl-football-power-index" ><span class="link-text">Football Power Index</span><span class="link-text-short">FPI</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/nfl/story/_/page/mnfhq2017/2017-nfl-monday-night-football-schedule-mnf-headquarters-scores" ><span class="link-text">Monday Night HQ</span><span class="link-text-short">MNF HQ</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/chalk/" ><span class="link-text">Chalk</span><span class="link-text-short">Chalk</span></a></li><li class="sub insider pre-loadSubNav"><a href="http://insider.espn.com/insider/pickcenter/index?sport=nfl"  data-mobile="false" ><span class="link-text">PickCenter</span><span class="link-text-short">PickCenter</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/nfl/lines"  data-mobile="false" ><span class="link-text">Daily Lines</span><span class="link-text-short">Daily Lines</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/nfl/coaches"  data-mobile="false" ><span class="link-text">Coaches</span><span class="link-text-short">Coaches</span></a></li><li class="sub pre-loadSubNav"><a href="http://www.espn.com/blog/nflnation/post/_/id/225530/selections-for-the-2017-nfl-pro-bowl" ><span class="link-text">Pro Bowl</span><span class="link-text-short">Pro Bowl</span></a></li><li class="sub external pre-loadSubNav"><a href="http://www.vividseats.com/nfl?wsUser=717&wsVar=NFLindexnav" ><span class="link-text">Tickets</span><span class="link-text-short">Tickets</span></a></li></ul>
+	<script type="text/javascript">
+		var espn = espn || {};
+		espn.nav = espn.nav || {};
+		espn.nav.navId = 11929946;
+		espn.nav.isFallback = false;
+
+		
+			espn.nav.tier2 = {"subNavMenu":{"navigation":{"links":[{"isExternal":false,"shortText":"NFL","rel":["sports"],"text":"NFL","href":"/nfl/","isPremium":false}],"attributes":{"sport_id":"28","root":"nfl"},"text":"NFL","title":"NFL Menu - LIVE","$ref":"/v2/navigation/12002009","items":[{"links":[{"isExternal":false,"shortText":"Home","rel":["sub"],"attributes":{"breakpoints":"desktop,desktop-lg,mobile,tablet"},"text":"Home","href":"/nfl/","isPremium":false}],"title":"NFL Home Desktop Only","$ref":"/v2/navigation/12002015"},{"links":[{"isExternal":false,"shortText":"News","rel":["sub"],"attributes":{"pagetype":"index","tab":"2","breakpoints":"tablet"},"text":"News","href":"/nfl/index?tab=2","isPremium":false}],"title":"NFL News","$ref":"/v2/navigation/12002014"},{"links":[{"isExternal":false,"shortText":"Scores","rel":["sub"],"text":"Scores","href":"/nfl/scoreboard","isPremium":false}],"title":"NFL Scoreboard","$ref":"/v2/navigation/11452910"},{"links":[{"isExternal":false,"shortText":"More","rel":["sub"],"attributes":{"placeholder":"more","breakpoints":"mobile"},"text":"More","href":"#","isPremium":false}],"title":"Subnav More - DO NOT EDIT","$ref":"/v2/navigation/11494110"},{"links":[{"isExternal":false,"shortText":"Schedule","rel":["sub"],"text":"Schedule","href":"/nfl/schedule","isPremium":false}],"title":"NFL Schedule","$ref":"/v2/navigation/11586080"},{"links":[{"isExternal":false,"shortText":"Standings","rel":["sub"],"attributes":{"match-url":"/standings/"},"text":"Standings","href":"/nfl/standings","isPremium":false}],"title":"NFL Standings","$ref":"/v2/navigation/11493975"},{"links":[{"isExternal":false,"shortText":"Stats","rel":["none","sub"],"attributes":{"mobile":"false"},"text":"Stats","href":"http://www.espn.com/nfl/statistics","isPremium":false},{"isExternal":false,"shortText":"Stats","rel":["sub"],"attributes":{"mobile":"true"},"text":"Stats","href":"http://m.espn.com/nfl/leagueleaders","isPremium":false}],"text":"Stats","title":"NFL - Stats (nav)","$ref":"/v2/navigation/17678791","items":[{"links":[{"isExternal":false,"shortText":"Total QBR","attributes":{"mobile":"false"},"text":"Total QBR","href":"http://www.espn.com/nfl/qbr","isPremium":false},{"isExternal":false,"shortText":"QBR","attributes":{"mobile":"true"},"text":"QBR","href":"http://m.espn.com/nfl/qbr","isPremium":false}],"title":"NFL QBR","$ref":"/v2/navigation/11586414"},{"links":[{"isExternal":false,"shortText":"Weekly Leaders","attributes":{"mobile":"false"},"text":"Weekly Leaders","href":"http://www.espn.com/nfl/weekly/leaders","isPremium":false}],"title":"NFL Weekly Leaders","$ref":"/v2/navigation/11586367"},{"links":[{"isExternal":false,"shortText":"Attendance","attributes":{"mobile":"false"},"text":"Attendance","href":"http://www.espn.com/nfl/attendance","isPremium":false}],"title":"NFL Attendance","$ref":"/v2/navigation/11586369"}]},{"links":[{"isExternal":false,"shortText":"Teams","rel":["sub"],"attributes":{"sportAbbrev":"nfl"},"text":"Teams","href":"http://www.espn.com/nfl/teams","isPremium":false}],"title":"NFL Teams","$ref":"/v2/navigation/11452914"},{"links":[{"isExternal":false,"shortText":"Power Rankings","rel":["sub"],"text":"Power Rankings","href":"http://www.espn.com/nfl/story/_/page/NFLpowerrankingsx171010/nfl-2017-week-6-power-rankings-kansas-city-chiefs-green-bay-packers-atlanta-falcons-lead-playoff-chances","isPremium":false}],"title":"NFL Power Rankings","$ref":"/v2/navigation/17678890"},{"links":[{"isExternal":false,"shortText":"NFL Nation","rel":["sub"],"attributes":{"blog":"true"},"text":"NFL Nation","href":"/blog/nflnation","isPremium":false}],"title":"NFL Nation","$ref":"/v2/navigation/11491767"},{"links":[{"isExternal":false,"shortText":"Expert Picks","rel":["sub"],"text":"Expert Picks","href":"http://www.espn.com/nfl/picks","isPremium":false}],"title":"NFL Expert Picks","$ref":"/v2/navigation/18167081"},{"links":[{"isExternal":false,"shortText":"Fantasy: Sign Up","rel":["none","sub"],"text":"Fantasy: Sign Up","href":"http://games.espn.com/ffl/welcome?ex_cid=FFL2017_NFLIndexNav","isPremium":false}],"text":"Fantasy: Sign Up","title":"Fantasy Football: Sign Up Menu","$ref":"/v2/navigation/19403574","items":[{"links":[{"isExternal":false,"shortText":"Reactivate League","text":"Reactivate League","href":"http://games.espn.com/ffl/welcome/activate?ex_cid=FFL2017_FantasyIndexNavReactivate","isPremium":false}],"title":"Reactivate League","$ref":"/v2/navigation/19396919"},{"links":[{"isExternal":false,"shortText":"Live Draft Lobby","text":"Live Draft Lobby","href":"http://games.espn.com/ffl/livedraftlobby?ex_cid=FFL2017_FantasyIndexNavLiveLobby","isPremium":false}],"title":"Live Draft Lobby","$ref":"/v2/navigation/19396594"},{"links":[{"isExternal":false,"shortText":"League Directory","text":"League Directory","href":"http://games.espn.com/ffl/leaguedirectory?ex_cid=FFL2017_FantasyIndexNavLeagueDir","isPremium":false}],"title":"League Directory","$ref":"/v2/navigation/19396596"},{"links":[{"isExternal":false,"shortText":"Mock Draft Lobby","text":"Mock Draft Lobby","href":"http://games.espn.com/ffl/mockdraftlobby?ex_cid=FFL2017_FantasyIndexNavMockLobby","isPremium":false}],"title":"Mock Draft Lobby","$ref":"/v2/navigation/19396597"},{"links":[{"isExternal":false,"shortText":"ESPN Fantasy App","text":"ESPN Fantasy App","href":"http://www.espn.com/espn/apps/download?app=fantasy","isPremium":false}],"title":"ESPN Fantasy App","$ref":"/v2/navigation/19410110"}]},{"links":[{"isExternal":false,"shortText":"Pigskin Pick'em","rel":["sub"],"text":"Pigskin Pick'em","href":"http://games.espn.com/nfl-pigskin-pickem/2017/en/?ex_cid=PP2017_NFLNav","isPremium":false}],"title":"Pigskin Pick'em","$ref":"/v2/navigation/20229225"},{"links":[{"isExternal":false,"shortText":"Eliminator Challenge","rel":["sub"],"text":"Eliminator Challenge","href":"http://games.espn.com/nfl-eliminator-challenge/2017/en/?ex_cid=EC2017_NFLNav","isPremium":false}],"title":"Eliminator Challenge","$ref":"/v2/navigation/20229441"},{"links":[{"isExternal":false,"shortText":"Playoff Machine","rel":["sub"],"attributes":{"mobile":"false"},"text":"Playoff Machine","href":"http://www.espn.com/nfl/playoffs/machine","isPremium":false}],"title":"NFL - Playoff Machine","$ref":"/v2/navigation/18165101"},{"links":[{"isExternal":false,"shortText":"Draft","rel":["sub"],"text":"Draft","href":"/nfl/draft","isPremium":false}],"title":"NFL Draft","$ref":"/v2/navigation/11493979"},{"links":[{"isExternal":false,"shortText":"Week 7 Injuries","rel":["sub"],"text":"Week 7 Injuries","href":"http://www.espn.com/nfl/story/_/id/21113016/biggest-nfl-injuries-week-7","isPremium":false}],"title":"Week 7 Injuries","$ref":"/v2/navigation/11586277"},{"links":[{"isExternal":false,"shortText":"Transactions","rel":["sub"],"attributes":{"mobile":"false"},"text":"Transactions","href":"http://www.espn.com/nfl/transactions","isPremium":false},{"isExternal":false,"shortText":"Transactions","rel":["sub"],"attributes":{"mobile":"true"},"text":"Transactions","href":"http://m.espn.com/nfl/transactions","isPremium":false}],"title":"NFL Transactions","$ref":"/v2/navigation/11586361"},{"links":[{"isExternal":false,"shortText":"Rumors","rel":["sub"],"text":"Rumors","href":"/blog/nfl/rumors","isPremium":false}],"title":"NFL Rumors","$ref":"/v2/navigation/12393192"},{"links":[{"isExternal":false,"shortText":"FPI","rel":["sub"],"text":"Football Power Index","href":"http://www.espn.com/nfl/story/_/page/Football-Power-Index/espn-nfl-football-power-index","isPremium":false}],"title":"NFL Football Power Index","$ref":"/v2/navigation/17678899"},{"links":[{"isExternal":false,"shortText":"MNF HQ","rel":["sub"],"text":"Monday Night HQ","href":"http://www.espn.com/nfl/story/_/page/mnfhq2017/2017-nfl-monday-night-football-schedule-mnf-headquarters-scores","isPremium":false}],"title":"Monday Night Football HQ","$ref":"/v2/navigation/13683733"},{"links":[{"isExternal":false,"shortText":"Chalk","rel":["sub"],"text":"Chalk","href":"http://www.espn.com/chalk/","isPremium":false}],"title":"NFL Chalk","$ref":"/v2/navigation/12600774"},{"links":[{"isExternal":false,"shortText":"Odds","rel":["sub"],"attributes":{"mobile":"true"},"text":"Odds","href":"http://m.espn.com/nfl/dailyline","isPremium":false}],"title":"NFL Odds","$ref":"/v2/navigation/11586410"},{"links":[{"isExternal":false,"shortText":"PickCenter","rel":["sub"],"attributes":{"mobile":"false"},"text":"PickCenter","href":"http://insider.espn.com/insider/pickcenter/index?sport=nfl","isPremium":true},{"isExternal":false,"shortText":"PickCenter","rel":["sub"],"attributes":{"mobile":"true"},"text":"PickCenter","href":"http://m.espn.com/nfl/pickcenter","isPremium":true}],"title":"NFL PickCenter","$ref":"/v2/navigation/11494102"},{"links":[{"isExternal":false,"shortText":"Daily Lines","rel":["sub"],"attributes":{"mobile":"false"},"text":"Daily Lines","href":"http://www.espn.com/nfl/lines","isPremium":false}],"title":"NFL Daily Lines","$ref":"/v2/navigation/12711996"},{"links":[{"isExternal":false,"shortText":"Coaches","rel":["sub"],"attributes":{"mobile":"false"},"text":"Coaches","href":"http://www.espn.com/nfl/coaches","isPremium":false}],"title":"NFL Coaches","$ref":"/v2/navigation/11586370"},{"links":[{"isExternal":false,"shortText":"Pro Bowl","rel":["sub"],"text":"Pro Bowl","href":"http://www.espn.com/blog/nflnation/post/_/id/225530/selections-for-the-2017-nfl-pro-bowl","isPremium":false}],"title":"Pro Bowl","$ref":"/v2/navigation/18538014"},{"links":[{"isExternal":true,"shortText":"Tickets","rel":["sub"],"text":"Tickets","href":"http://www.vividseats.com/nfl?wsUser=717&wsVar=NFLindexnav","isPremium":false}],"title":"NFL Tickets","$ref":"/v2/navigation/11586402"}]},"navId":12002009,"fallback":false}};
+		
+		
+
+	</script>
+</div>
+</nav>
+
+</header></div></div>
+<script>
+	(function() { 
+		var path = window.location.pathname;
+		window._espntrack = window._espntrack || [];
+		window._espntrack.push( { 'prop58': 'isIndex=' + !!path.match(/\/(index)?$/) } );
+	}());
+</script></div>
+<!-- end content -->
+</div>
+<!-- end subheader -->
+<!-- begin footer -->
+<div id="footer" class="container">
+<script type="text/javascript">
+void 0!==window.jQuery&&jQuery(document).on("track.search",function(n,o,c,e,t){"function"==typeof t&&t.call()});
+
+//<![CDATA[
+var link = window.location;
+var bugText = '<a href="#" onclick="window.open(\'http://proxy.espn.com/espn/bugs?url=' + escape(link) + '\', \'Bugs\',\'noresizable,noscrollbars,height=400,width=400\');">Report a Bug</a> | ';
+//]]>
+</script>
+<span style="font-weight:bold;">ESPN.com:</span> <a href="http://www.espn.com/espn/news/story?page=help">Help</a> | <a href="http://espnmediazone.com/us/" rel="nofollow">Press</a> | <a href="http://www.espncms.com/Advertise-on-ESPN.aspx" rel="nofollow">Advertise on ESPN.com</a> | <a href="http://www.espncms.com" rel="nofollow">Sales Media Kit</a> | <a href="http://preferences.truste.com/2.0/?type=espn&affiliateId=148" onclick="window.open('http://preferences.truste.com/2.0/?type=espn&affiliateId=148','popup','width=986,height=878,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Interest-Based Ads</a> | <script type="text/javascript">document.write(bugText);</script><a href="http://www.espn.com/espn/corrections">Corrections</a> | <a href="http://www.espn.com/espn/news/story?page=contact-index">Contact Us</a> | <a href="http://www.espn.com/espn/sitemap">Site Map</a> | <a href="http://espncareers.com">Jobs at ESPN</a> <br/>&copy; 2017  ESPN Internet Ventures. <a href="http://disneytermsofuse.com/" rel="nofollow">Terms of Use</a>, <a href="http://disneyprivacycenter.com/" rel="nofollow">Privacy Policy</a>, <a href="https://disneyprivacycenter.com/notice-to-california-residents/" rel="nofollow">Your California Privacy Rights</a>,  <a href="https://disneyprivacycenter.com/kids-privacy-policy/english/">Children's Online Privacy Policy</a> and <a href="http://preferences-mgr.truste.com/?type=espn&affiliateId=148">Interest-Based Ads</a> are applicable to you.  All rights reserved.
+
+<!--
+<a href="http://www.espnshop.com/" onClick="location.href('http://log.espn.com/log?srvc=sz&guid=73B641A0-6660-4EFC-B8FF-9DE23E8CD9BD&drop=0&addata=3374:65:478847:65&a=1&goto=http://www.espnshop.com/');return false">Shop</a>
+-->
+
+<style>
+.videoplayer-show{
+z-index:1000;
+}
+</style></div>
+<!-- end footer -->
+<!--[if lte IE 9]></div><![endif]-->
+</div>
+<!-- end bg-elements -->
+<script type="text/javascript" src="http://a.espncdn.com/legacy/transitionalHeader/1.0.53/js/nav-external.js"></script>
+
+	<script type="text/javascript">
+		(function($) {
+			$(document).on('mousedown', 'a[href*="www.vividseats.com"]', function(e) {
+				var url = $(this).attr('href');
+
+				if (! $.parseUri(url).queryKey['wsVar']){
+					var wsVar = [],
+						sport = espn.sports.getSport(),
+						teamName = ("Dallas Cowboys" && "Dallas Cowboys".toLowerCase().split(' ').join('-')),
+						awayTeamName = (espn && espn.gamepackage && espn.gamepackage.awayTeamName),
+						homeTeamName = (espn && espn.gamepackage && espn.gamepackage.homeTeamName),
+						pageType = $('body').attr('data-pagetype'),
+						device = (espn_ui && espn_ui.Helpers && espn_ui.Helpers.get_media_query_in_use && espn_ui.Helpers.get_media_query_in_use()),
+						lang = (espn && espn.i18n && espn.i18n.lang) || 'en',
+						normalizedDevice = {
+							'desktop-lg': 'desktop',
+							'mobile': 'handset'
+						},
+						sportSlugs = {
+					        ncf: "college-football",
+					        ncaaf: "college-football",
+					        ncb: "mens-college-basketball",
+					        ncaab: "mens-college-basketball",
+					        ncaam: "mens-college-basketball",
+					        ncw: "womens-college-basketball",
+					        ncaaw: "womens-college-basketball"
+					    };
+
+					if(pageType.indexOf('teamschedule') !== -1) {
+						pageType = 'teamschedule';
+					} else if(pageType.indexOf('teamstadium') !== -1){
+						pageType = 'teamstadium';
+					} else if(pageType.indexOf('scoreboard') !== -1) {
+						pageType = 'scoreboard';
+					}
+
+					if(device) {
+						device = normalizedDevice[device] ? normalizedDevice[device] : device;
+					}
+
+					if(sport && sport !== 'top') {
+						sport = (sportSlugs[sport]) ? sportSlugs[sport] : sport;
+						if(pageType) {
+							wsVar.push(sport + '~' + pageType);
+						} else {
+							wsVar.push(sport);
+						}
+					} else if(pageType) {
+						wsVar.push(pageType);
+					}
+
+					if((pageType === 'index' || pageType === 'schedule' || pageType === 'scoreboard') && sport) {
+						wsVar.push(sport);
+					} else if(pageType === 'clubhouse' || pageType === 'teamschedule' || pageType === 'teamstadium') {
+						wsVar.push(teamName);
+					} else if(pageType === 'gamepackage') {
+						wsVar.push(awayTeamName + '~' + homeTeamName);
+					}
+
+					if(device) {
+						device = normalizedDevice[device] ? normalizedDevice[device] : device;
+						wsVar.push(device);
+					}
+
+
+					wsVar.push(lang);
+					wsVar = wsVar.join(',');
+
+					url += (url.indexOf("?") !== -1 ? "&" : "?") + 'wsVar=' + wsVar;
+				}
+
+				if (! $.parseUri(url).queryKey['wsUser']){
+					url += (url.indexOf("?") !== -1 ? "&" : "?") + 'wsUser=717';
+				}
+
+				$(this).attr('href', url);
+			}).on('click', 'a[href*="www.vividseats.com"]', function(e) {
+				e.preventDefault();
+				window.open($(this).attr('href'));
+			});
+		})(window.jQuery)
+	</script>
+	<script type="text/javascript" src="http://a.espncdn.com/legacy/transitionalHeader/1.0.53/js/espn-ads-external.js"></script>
+
+
+
+<!-- SiteCatalyst code version: H.21.3 Copyright 1997-2010 Omniture, Inc. http://www.omniture.com -->
+<script type="text/javascript">
+	var undef = "undefined";
+	var s_account="wdgespcom";
+	var omniSite = "espn";
+	var omniPageName = "espn:nfl:teampages:stats:dallas+cowboys";
+	
+	var insiderStatus = ""
+	,anGen = ""
+	,anYear = ""
+	,anDateString = ""
+	,anLoginStatus = ""
+	,callOmniture = function(){
+		/*-- core story s_omni properties --*/
+		if (typeof anCV != "undefined"){anParseLoginBarInfo(anCV);}
+		s_omni.pageName="nfl:teampages:stats:dallas+cowboys";
+		s_omni.server = window.location.host; // Server from the Host
+		s_omni.channel = "nfl";
+		s_omni.prop1 = "espn";
+		s_omni.prop4 = "stats";
+		s_omni.prop5 = "nfl:teampages";
+		s_omni.prop11 = (insiderStatus !== null) ? insiderStatus + ":premium-no" : "premium-no";
+		s_omni.prop13 = "automated-general";
+		s_omni.prop17 = "en";
+		s_omni.prop32 = "nfl:teamid=6-dallas+cowboys";
+		s_omni.hier1 = "nfl:teampages:stats:dallas+cowboys";
+		s_omni.eVar7 = anYear + ":" + anGen + ":" + anLoginStatus + ":" + s_omni.prop11 + ":";
+		s_omni.eVar9 = "en";
+		s_omni.eVar13 = "nfl:teampages:stats:dallas+cowboys";
+		s_omni.eVar19 = "football";
+		s_omni.eVar21 = "nfl";
+		
+		if (s_omni.prop11=="anonymous:premium-yes" || s_omni.prop11=="insider-no:premium-yes" && typeof s_omni.prop4!="undefined" &&
+			(s_omni.prop4=="story" || s_omni.prop4=="blog")) {
+			if (typeof s_omni.events != "undefined" && s_omni.events!="") {
+				s_omni.events = s_omni.events+",event8";
+			} else {
+				s_omni.events="event8";
+			}
+		}
+		
+		s_omni.prop38 = "Desktop";
+		s_omni.eVar38 = "D=c38";
+		
+		
+		anVersion = "_11apr14_v2_0_r5_";
+		
+		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+		
+		var s_code = s_omni.t();
+		if(s_code) {
+			var sci = new Image(1,1);
+			sci.onload = function() {console.log("loaded no append")};
+			sci.src = s_code;
+		}
+		
+		
+	};
+</script>
+
+
+
+<script type="text/javascript">
+	if (typeof(s_omni) === 'undefined') {
+		(function($) {
+			// we want to load the analytics files from the cache if possible - so, let's use full $.ajax() calls
+			$.ajax({
+				type:'GET',
+				url: 'http://a.espncdn.com/combiner/c?js=analytics/sOmni.js,analytics/analytics.js,analytics/externalnielsen.js&v=19',
+				dataType: 'script',
+				cache: true,
+				success: function() {
+					if(typeof anCV !== undef && anCV === '' && $('#form-memberarea').length > 0) {
+						$(document).on('user.parsed', callOmniture);
+					} else {
+						callOmniture();
+					}
+				}
+			});
+
+		}(jQuery));
+	}
+</script>
+
+<!-- End SiteCatalyst code version: H.21. -->
+
+
+<!-- Begin comScore Tag -->
+<script type="text/javascript">
+	if (typeof(jQuery) !== 'undefined') {
+		jQuery(function($) {
+			if(typeof window._comscore === 'undefined') {
+				window._comscore = window._comscore || [];
+				window._comscore.push({ c1: "2", c2: "3000005" });
+				jQuery.getScript((document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js");
+			}
+		});
+	}
+</script>
+<!-- End comScore Tag -->
+		<script>
+		var _sf_async_config={
+			"uid":22222,
+			"domain":"espn.com",
+			"pingServer":"pespn.chartbeat.net",
+			"useCanonical":true,
+			"useSubDomains":false,
+			"sections":"nfl",
+			"authors":"statistics"
+		};
+		if (typeof(ad_site) !== 'undefined') { _sf_async_config.zone = ad_site; }
+
+		// load both chartbeat_pub and chartbeat_video
+		(function () {
+			function a() {
+				window._sf_endpt = (new Date()).getTime();
+
+				var cbDomain = (("https:"==document.location.protocol)?"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/":"http://static.chartbeat.com/");
+
+				var c = document.createElement("script");
+				c.setAttribute("language","javascript");
+				c.setAttribute("type","text/javascript");
+				c.setAttribute("src", cbDomain+"js/chartbeat_pub.js");
+				document.body.appendChild(c);
+
+				if(typeof StrategyInterface !== 'undefined' && (typeof espn !== 'undefined' && typeof espn.video !== 'undefined')){
+					var e = document.createElement("script");
+					e.setAttribute("language",	"javascript");
+					e.setAttribute("type", "text/javascript");
+					e.setAttribute("src", cbDomain+"js/chartbeat_video.js");
+					document.body.appendChild(e);
+				}
+			}
+			var b = window.onload;
+			window.onload = (typeof window.onload != "function") ? a : function () { b(); a() }
+		})();
+		//(function(){function a(){window._sf_endpt=(new Date()).getTime();var c=document.createElement("script");c.setAttribute("language","javascript");c.setAttribute("type","text/javascript");c.setAttribute("src",(("https:"==document.location.protocol)?"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/":"http://static.chartbeat.com/")+"js/chartbeat_pub.js");document.body.appendChild(c)}var b=window.onload;window.onload=(typeof window.onload!="function")?a:function(){b();a()}})();
+		</script>
+	
+<!-- dynamic logic: safecount -->
+<script src="http://content.dl-rms.com/rms/mother/508/nodetag.js"></script>
+
+<script type="text/javascript">
+   var isInIFrame = (window.location != window.parent.location) ? true : false;
+   if(isInIFrame){ if(document.referrer){ if(document.referrer.indexOf(".go.com")==-1){ top.location.href=self.location.href; } } }
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+    (function(){
+    window.gravityInsightsParams = {
+      'type': 'content',
+      'action': '',
+      'site_guid': '9a41401e9b7c945344e001ee7f23031e'
+    };
+    var b,c;b="https:"===document.location.protocol?"https://b-ssl.grvcdn.com/moth-min.js":"http://b.grvcdn.com/moth-min.js";window.grvMakeScript=function(d){var a;a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=d;return a};c=document.getElementsByTagName("script")[0];b&&c.parentNode.insertBefore(window.grvMakeScript(b),c);})();
+  //]]>
+</script></body>
+</html>

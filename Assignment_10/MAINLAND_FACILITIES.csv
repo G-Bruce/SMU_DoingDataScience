@@ -1,0 +1,482 @@
+"";"State";"Facility_Type";"Facility_Count_By_State"
+"1";"AL    ";"Psychiatric hospital";11
+"2";"AL    ";"Separate inpatient psychiatric unit of a general hospital";29
+"3";"AL    ";"Residential treatment center for children";2
+"4";"AL    ";"Residential treatment center for adults";29
+"5";"AL    ";"Other type of residential treatment facility";1
+"6";"AL    ";"Veterans Administration medical center (VAMC) or other VA health care facility";4
+"7";"AL    ";"Community mental health center (CMHC)";72
+"8";"AL    ";"Partial hospitalization/day treatment facility";3
+"9";"AL    ";"Outpatient mental health facility";41
+"10";"AL    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";4
+"11";"AL    ";"Other";1
+"12";"AR    ";"Psychiatric hospital";12
+"13";"AR    ";"Separate inpatient psychiatric unit of a general hospital";23
+"14";"AR    ";"Residential treatment center for children";9
+"15";"AR    ";"Residential treatment center for adults";1
+"16";"AR    ";"Veterans Administration medical center (VAMC) or other VA health care facility";7
+"17";"AR    ";"Community mental health center (CMHC)";68
+"18";"AR    ";"Partial hospitalization/day treatment facility";13
+"19";"AR    ";"Outpatient mental health facility";115
+"20";"AR    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";11
+"21";"AZ    ";"Psychiatric hospital";23
+"22";"AZ    ";"Separate inpatient psychiatric unit of a general hospital";7
+"23";"AZ    ";"Residential treatment center for children";22
+"24";"AZ    ";"Residential treatment center for adults";62
+"25";"AZ    ";"Other type of residential treatment facility";2
+"26";"AZ    ";"Veterans Administration medical center (VAMC) or other VA health care facility";4
+"27";"AZ    ";"Community mental health center (CMHC)";37
+"28";"AZ    ";"Partial hospitalization/day treatment facility";3
+"29";"AZ    ";"Outpatient mental health facility";213
+"30";"AZ    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";12
+"31";"AZ    ";"Other";1
+"32";"CA    ";"Psychiatric hospital";60
+"33";"CA    ";"Separate inpatient psychiatric unit of a general hospital";55
+"34";"CA    ";"Residential treatment center for children";38
+"35";"CA    ";"Residential treatment center for adults";94
+"36";"CA    ";"Other type of residential treatment facility";6
+"37";"CA    ";"Veterans Administration medical center (VAMC) or other VA health care facility";18
+"38";"CA    ";"Community mental health center (CMHC)";113
+"39";"CA    ";"Partial hospitalization/day treatment facility";17
+"40";"CA    ";"Outpatient mental health facility";469
+"41";"CA    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";43
+"42";"CO    ";"Psychiatric hospital";10
+"43";"CO    ";"Separate inpatient psychiatric unit of a general hospital";10
+"44";"CO    ";"Residential treatment center for children";23
+"45";"CO    ";"Residential treatment center for adults";21
+"46";"CO    ";"Other type of residential treatment facility";2
+"47";"CO    ";"Veterans Administration medical center (VAMC) or other VA health care facility";7
+"48";"CO    ";"Community mental health center (CMHC)";98
+"49";"CO    ";"Partial hospitalization/day treatment facility";3
+"50";"CO    ";"Outpatient mental health facility";28
+"51";"CO    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";1
+"52";"CT    ";"Psychiatric hospital";6
+"53";"CT    ";"Separate inpatient psychiatric unit of a general hospital";21
+"54";"CT    ";"Residential treatment center for children";5
+"55";"CT    ";"Residential treatment center for adults";16
+"56";"CT    ";"Other type of residential treatment facility";6
+"57";"CT    ";"Veterans Administration medical center (VAMC) or other VA health care facility";1
+"58";"CT    ";"Community mental health center (CMHC)";22
+"59";"CT    ";"Partial hospitalization/day treatment facility";14
+"60";"CT    ";"Outpatient mental health facility";139
+"61";"CT    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";10
+"62";"CT    ";"Other";1
+"63";"DC    ";"Psychiatric hospital";1
+"64";"DC    ";"Separate inpatient psychiatric unit of a general hospital";5
+"65";"DC    ";"Residential treatment center for adults";2
+"66";"DC    ";"Other type of residential treatment facility";1
+"67";"DC    ";"Veterans Administration medical center (VAMC) or other VA health care facility";1
+"68";"DC    ";"Community mental health center (CMHC)";8
+"69";"DC    ";"Partial hospitalization/day treatment facility";1
+"70";"DC    ";"Outpatient mental health facility";17
+"71";"DC    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";2
+"72";"DE    ";"Psychiatric hospital";3
+"73";"DE    ";"Separate inpatient psychiatric unit of a general hospital";2
+"74";"DE    ";"Residential treatment center for children";1
+"75";"DE    ";"Residential treatment center for adults";6
+"76";"DE    ";"Veterans Administration medical center (VAMC) or other VA health care facility";1
+"77";"DE    ";"Community mental health center (CMHC)";8
+"78";"DE    ";"Outpatient mental health facility";7
+"79";"DE    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";3
+"80";"FL    ";"Psychiatric hospital";41
+"81";"FL    ";"Separate inpatient psychiatric unit of a general hospital";47
+"82";"FL    ";"Residential treatment center for children";26
+"83";"FL    ";"Residential treatment center for adults";45
+"84";"FL    ";"Other type of residential treatment facility";5
+"85";"FL    ";"Veterans Administration medical center (VAMC) or other VA health care facility";27
+"86";"FL    ";"Community mental health center (CMHC)";105
+"87";"FL    ";"Partial hospitalization/day treatment facility";11
+"88";"FL    ";"Outpatient mental health facility";193
+"89";"FL    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";17
+"90";"FL    ";"Other";6
+"91";"GA    ";"Psychiatric hospital";18
+"92";"GA    ";"Separate inpatient psychiatric unit of a general hospital";19
+"93";"GA    ";"Residential treatment center for children";10
+"94";"GA    ";"Residential treatment center for adults";10
+"95";"GA    ";"Other type of residential treatment facility";1
+"96";"GA    ";"Veterans Administration medical center (VAMC) or other VA health care facility";9
+"97";"GA    ";"Community mental health center (CMHC)";49
+"98";"GA    ";"Partial hospitalization/day treatment facility";4
+"99";"GA    ";"Outpatient mental health facility";108
+"100";"GA    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";7
+"101";"GA    ";"Other";1
+"102";"GU    ";"Outpatient mental health facility";1
+"103";"GU    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";1
+"104";"IA    ";"Psychiatric hospital";4
+"105";"IA    ";"Separate inpatient psychiatric unit of a general hospital";22
+"106";"IA    ";"Residential treatment center for children";8
+"107";"IA    ";"Residential treatment center for adults";11
+"108";"IA    ";"Veterans Administration medical center (VAMC) or other VA health care facility";9
+"109";"IA    ";"Community mental health center (CMHC)";62
+"110";"IA    ";"Partial hospitalization/day treatment facility";2
+"111";"IA    ";"Outpatient mental health facility";45
+"112";"IA    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";3
+"113";"ID    ";"Psychiatric hospital";5
+"114";"ID    ";"Separate inpatient psychiatric unit of a general hospital";6
+"115";"ID    ";"Residential treatment center for children";5
+"116";"ID    ";"Veterans Administration medical center (VAMC) or other VA health care facility";5
+"117";"ID    ";"Community mental health center (CMHC)";37
+"118";"ID    ";"Outpatient mental health facility";128
+"119";"ID    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";13
+"120";"IL    ";"Psychiatric hospital";23
+"121";"IL    ";"Separate inpatient psychiatric unit of a general hospital";51
+"122";"IL    ";"Residential treatment center for children";19
+"123";"IL    ";"Residential treatment center for adults";55
+"124";"IL    ";"Other type of residential treatment facility";5
+"125";"IL    ";"Veterans Administration medical center (VAMC) or other VA health care facility";24
+"126";"IL    ";"Community mental health center (CMHC)";115
+"127";"IL    ";"Partial hospitalization/day treatment facility";9
+"128";"IL    ";"Outpatient mental health facility";122
+"129";"IL    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";24
+"130";"IN    ";"Psychiatric hospital";29
+"131";"IN    ";"Separate inpatient psychiatric unit of a general hospital";28
+"132";"IN    ";"Residential treatment center for children";11
+"133";"IN    ";"Residential treatment center for adults";39
+"134";"IN    ";"Other type of residential treatment facility";4
+"135";"IN    ";"Veterans Administration medical center (VAMC) or other VA health care facility";7
+"136";"IN    ";"Community mental health center (CMHC)";137
+"137";"IN    ";"Partial hospitalization/day treatment facility";1
+"138";"IN    ";"Outpatient mental health facility";42
+"139";"IN    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";5
+"140";"IN    ";"Other";1
+"141";"KS    ";"Psychiatric hospital";5
+"142";"KS    ";"Separate inpatient psychiatric unit of a general hospital";11
+"143";"KS    ";"Residential treatment center for children";5
+"144";"KS    ";"Residential treatment center for adults";10
+"145";"KS    ";"Veterans Administration medical center (VAMC) or other VA health care facility";2
+"146";"KS    ";"Community mental health center (CMHC)";72
+"147";"KS    ";"Outpatient mental health facility";17
+"148";"KS    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";8
+"149";"KY    ";"Psychiatric hospital";13
+"150";"KY    ";"Separate inpatient psychiatric unit of a general hospital";18
+"151";"KY    ";"Residential treatment center for children";28
+"152";"KY    ";"Residential treatment center for adults";4
+"153";"KY    ";"Veterans Administration medical center (VAMC) or other VA health care facility";11
+"154";"KY    ";"Community mental health center (CMHC)";107
+"155";"KY    ";"Partial hospitalization/day treatment facility";2
+"156";"KY    ";"Outpatient mental health facility";29
+"157";"KY    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";4
+"158";"KY    ";"Other";2
+"159";"LA    ";"Psychiatric hospital";35
+"160";"LA    ";"Separate inpatient psychiatric unit of a general hospital";25
+"161";"LA    ";"Residential treatment center for children";2
+"162";"LA    ";"Veterans Administration medical center (VAMC) or other VA health care facility";2
+"163";"LA    ";"Community mental health center (CMHC)";12
+"164";"LA    ";"Partial hospitalization/day treatment facility";8
+"165";"LA    ";"Outpatient mental health facility";97
+"166";"LA    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";4
+"167";"LA    ";"Other";1
+"168";"MA    ";"Psychiatric hospital";21
+"169";"MA    ";"Separate inpatient psychiatric unit of a general hospital";39
+"170";"MA    ";"Residential treatment center for children";40
+"171";"MA    ";"Residential treatment center for adults";23
+"172";"MA    ";"Other type of residential treatment facility";4
+"173";"MA    ";"Veterans Administration medical center (VAMC) or other VA health care facility";10
+"174";"MA    ";"Community mental health center (CMHC)";29
+"175";"MA    ";"Partial hospitalization/day treatment facility";10
+"176";"MA    ";"Outpatient mental health facility";141
+"177";"MA    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";22
+"178";"MA    ";"Other";1
+"179";"MD    ";"Psychiatric hospital";14
+"180";"MD    ";"Separate inpatient psychiatric unit of a general hospital";23
+"181";"MD    ";"Residential treatment center for children";12
+"182";"MD    ";"Residential treatment center for adults";30
+"183";"MD    ";"Other type of residential treatment facility";2
+"184";"MD    ";"Veterans Administration medical center (VAMC) or other VA health care facility";1
+"185";"MD    ";"Community mental health center (CMHC)";51
+"186";"MD    ";"Partial hospitalization/day treatment facility";4
+"187";"MD    ";"Outpatient mental health facility";155
+"188";"MD    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";13
+"189";"ME    ";"Psychiatric hospital";5
+"190";"ME    ";"Separate inpatient psychiatric unit of a general hospital";6
+"191";"ME    ";"Residential treatment center for children";15
+"192";"ME    ";"Residential treatment center for adults";42
+"193";"ME    ";"Other type of residential treatment facility";1
+"194";"ME    ";"Veterans Administration medical center (VAMC) or other VA health care facility";6
+"195";"ME    ";"Community mental health center (CMHC)";29
+"196";"ME    ";"Partial hospitalization/day treatment facility";5
+"197";"ME    ";"Outpatient mental health facility";103
+"198";"ME    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";5
+"199";"MI    ";"Psychiatric hospital";17
+"200";"MI    ";"Separate inpatient psychiatric unit of a general hospital";38
+"201";"MI    ";"Residential treatment center for children";10
+"202";"MI    ";"Residential treatment center for adults";13
+"203";"MI    ";"Veterans Administration medical center (VAMC) or other VA health care facility";12
+"204";"MI    ";"Community mental health center (CMHC)";102
+"205";"MI    ";"Partial hospitalization/day treatment facility";4
+"206";"MI    ";"Outpatient mental health facility";172
+"207";"MI    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";6
+"208";"MI    ";"Other";1
+"209";"MN    ";"Psychiatric hospital";7
+"210";"MN    ";"Separate inpatient psychiatric unit of a general hospital";31
+"211";"MN    ";"Residential treatment center for children";12
+"212";"MN    ";"Residential treatment center for adults";31
+"213";"MN    ";"Other type of residential treatment facility";2
+"214";"MN    ";"Veterans Administration medical center (VAMC) or other VA health care facility";3
+"215";"MN    ";"Community mental health center (CMHC)";56
+"216";"MN    ";"Partial hospitalization/day treatment facility";6
+"217";"MN    ";"Outpatient mental health facility";87
+"218";"MN    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";7
+"219";"MN    ";"Other";1
+"220";"MO    ";"Psychiatric hospital";22
+"221";"MO    ";"Separate inpatient psychiatric unit of a general hospital";30
+"222";"MO    ";"Residential treatment center for children";22
+"223";"MO    ";"Residential treatment center for adults";7
+"224";"MO    ";"Other type of residential treatment facility";1
+"225";"MO    ";"Veterans Administration medical center (VAMC) or other VA health care facility";8
+"226";"MO    ";"Community mental health center (CMHC)";61
+"227";"MO    ";"Partial hospitalization/day treatment facility";6
+"228";"MO    ";"Outpatient mental health facility";69
+"229";"MO    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";11
+"230";"MO    ";"Other";1
+"231";"MS    ";"Psychiatric hospital";11
+"232";"MS    ";"Separate inpatient psychiatric unit of a general hospital";32
+"233";"MS    ";"Residential treatment center for children";8
+"234";"MS    ";"Residential treatment center for adults";4
+"235";"MS    ";"Other type of residential treatment facility";1
+"236";"MS    ";"Veterans Administration medical center (VAMC) or other VA health care facility";4
+"237";"MS    ";"Community mental health center (CMHC)";90
+"238";"MS    ";"Partial hospitalization/day treatment facility";19
+"239";"MS    ";"Outpatient mental health facility";36
+"240";"MS    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";5
+"241";"MT    ";"Psychiatric hospital";2
+"242";"MT    ";"Separate inpatient psychiatric unit of a general hospital";6
+"243";"MT    ";"Residential treatment center for children";6
+"244";"MT    ";"Residential treatment center for adults";5
+"245";"MT    ";"Other type of residential treatment facility";2
+"246";"MT    ";"Veterans Administration medical center (VAMC) or other VA health care facility";1
+"247";"MT    ";"Community mental health center (CMHC)";45
+"248";"MT    ";"Partial hospitalization/day treatment facility";3
+"249";"MT    ";"Outpatient mental health facility";23
+"250";"MT    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";4
+"251";"NC    ";"Psychiatric hospital";15
+"252";"NC    ";"Separate inpatient psychiatric unit of a general hospital";31
+"253";"NC    ";"Residential treatment center for children";60
+"254";"NC    ";"Residential treatment center for adults";66
+"255";"NC    ";"Other type of residential treatment facility";1
+"256";"NC    ";"Veterans Administration medical center (VAMC) or other VA health care facility";8
+"257";"NC    ";"Community mental health center (CMHC)";16
+"258";"NC    ";"Partial hospitalization/day treatment facility";20
+"259";"NC    ";"Outpatient mental health facility";106
+"260";"NC    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";19
+"261";"ND    ";"Psychiatric hospital";3
+"262";"ND    ";"Separate inpatient psychiatric unit of a general hospital";6
+"263";"ND    ";"Residential treatment center for children";8
+"264";"ND    ";"Community mental health center (CMHC)";8
+"265";"ND    ";"Partial hospitalization/day treatment facility";1
+"266";"ND    ";"Outpatient mental health facility";7
+"267";"NE    ";"Separate inpatient psychiatric unit of a general hospital";11
+"268";"NE    ";"Residential treatment center for children";5
+"269";"NE    ";"Residential treatment center for adults";8
+"270";"NE    ";"Veterans Administration medical center (VAMC) or other VA health care facility";6
+"271";"NE    ";"Community mental health center (CMHC)";17
+"272";"NE    ";"Partial hospitalization/day treatment facility";1
+"273";"NE    ";"Outpatient mental health facility";67
+"274";"NE    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";7
+"275";"NH    ";"Psychiatric hospital";2
+"276";"NH    ";"Separate inpatient psychiatric unit of a general hospital";6
+"277";"NH    ";"Residential treatment center for children";8
+"278";"NH    ";"Residential treatment center for adults";6
+"279";"NH    ";"Other type of residential treatment facility";1
+"280";"NH    ";"Veterans Administration medical center (VAMC) or other VA health care facility";2
+"281";"NH    ";"Community mental health center (CMHC)";30
+"282";"NH    ";"Outpatient mental health facility";6
+"283";"NH    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";6
+"284";"NJ    ";"Psychiatric hospital";16
+"285";"NJ    ";"Separate inpatient psychiatric unit of a general hospital";31
+"286";"NJ    ";"Residential treatment center for children";17
+"287";"NJ    ";"Residential treatment center for adults";19
+"288";"NJ    ";"Other type of residential treatment facility";5
+"289";"NJ    ";"Veterans Administration medical center (VAMC) or other VA health care facility";14
+"290";"NJ    ";"Community mental health center (CMHC)";41
+"291";"NJ    ";"Partial hospitalization/day treatment facility";42
+"292";"NJ    ";"Outpatient mental health facility";131
+"293";"NJ    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";18
+"294";"NJ    ";"Other";1
+"295";"NM    ";"Psychiatric hospital";8
+"296";"NM    ";"Separate inpatient psychiatric unit of a general hospital";8
+"297";"NM    ";"Residential treatment center for children";5
+"298";"NM    ";"Residential treatment center for adults";1
+"299";"NM    ";"Other type of residential treatment facility";1
+"300";"NM    ";"Veterans Administration medical center (VAMC) or other VA health care facility";3
+"301";"NM    ";"Community mental health center (CMHC)";24
+"302";"NM    ";"Outpatient mental health facility";21
+"303";"NM    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";6
+"304";"NV    ";"Psychiatric hospital";8
+"305";"NV    ";"Separate inpatient psychiatric unit of a general hospital";4
+"306";"NV    ";"Residential treatment center for children";4
+"307";"NV    ";"Residential treatment center for adults";1
+"308";"NV    ";"Veterans Administration medical center (VAMC) or other VA health care facility";3
+"309";"NV    ";"Community mental health center (CMHC)";10
+"310";"NV    ";"Outpatient mental health facility";20
+"311";"NV    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";2
+"312";"NY    ";"Psychiatric hospital";53
+"313";"NY    ";"Separate inpatient psychiatric unit of a general hospital";96
+"314";"NY    ";"Residential treatment center for children";33
+"315";"NY    ";"Residential treatment center for adults";62
+"316";"NY    ";"Other type of residential treatment facility";5
+"317";"NY    ";"Veterans Administration medical center (VAMC) or other VA health care facility";27
+"318";"NY    ";"Community mental health center (CMHC)";69
+"319";"NY    ";"Partial hospitalization/day treatment facility";65
+"320";"NY    ";"Outpatient mental health facility";547
+"321";"NY    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";28
+"322";"OH    ";"Psychiatric hospital";32
+"323";"OH    ";"Separate inpatient psychiatric unit of a general hospital";42
+"324";"OH    ";"Residential treatment center for children";22
+"325";"OH    ";"Residential treatment center for adults";35
+"326";"OH    ";"Other type of residential treatment facility";3
+"327";"OH    ";"Veterans Administration medical center (VAMC) or other VA health care facility";21
+"328";"OH    ";"Community mental health center (CMHC)";156
+"329";"OH    ";"Partial hospitalization/day treatment facility";13
+"330";"OH    ";"Outpatient mental health facility";234
+"331";"OH    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";31
+"332";"OK    ";"Psychiatric hospital";12
+"333";"OK    ";"Separate inpatient psychiatric unit of a general hospital";22
+"334";"OK    ";"Residential treatment center for children";10
+"335";"OK    ";"Residential treatment center for adults";1
+"336";"OK    ";"Veterans Administration medical center (VAMC) or other VA health care facility";3
+"337";"OK    ";"Community mental health center (CMHC)";55
+"338";"OK    ";"Partial hospitalization/day treatment facility";1
+"339";"OK    ";"Outpatient mental health facility";44
+"340";"OK    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";2
+"341";"OR    ";"Psychiatric hospital";3
+"342";"OR    ";"Separate inpatient psychiatric unit of a general hospital";17
+"343";"OR    ";"Residential treatment center for children";8
+"344";"OR    ";"Residential treatment center for adults";45
+"345";"OR    ";"Veterans Administration medical center (VAMC) or other VA health care facility";5
+"346";"OR    ";"Community mental health center (CMHC)";40
+"347";"OR    ";"Partial hospitalization/day treatment facility";3
+"348";"OR    ";"Outpatient mental health facility";54
+"349";"OR    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";10
+"350";"PA    ";"Psychiatric hospital";25
+"351";"PA    ";"Separate inpatient psychiatric unit of a general hospital";72
+"352";"PA    ";"Residential treatment center for children";26
+"353";"PA    ";"Residential treatment center for adults";35
+"354";"PA    ";"Other type of residential treatment facility";3
+"355";"PA    ";"Veterans Administration medical center (VAMC) or other VA health care facility";21
+"356";"PA    ";"Community mental health center (CMHC)";63
+"357";"PA    ";"Partial hospitalization/day treatment facility";40
+"358";"PA    ";"Outpatient mental health facility";280
+"359";"PA    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";44
+"360";"PA    ";"Other";3
+"361";"PR    ";"Psychiatric hospital";12
+"362";"PR    ";"Separate inpatient psychiatric unit of a general hospital";5
+"363";"PR    ";"Residential treatment center for children";2
+"364";"PR    ";"Residential treatment center for adults";17
+"365";"PR    ";"Veterans Administration medical center (VAMC) or other VA health care facility";2
+"366";"PR    ";"Community mental health center (CMHC)";5
+"367";"PR    ";"Partial hospitalization/day treatment facility";18
+"368";"PR    ";"Outpatient mental health facility";30
+"369";"PR    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";5
+"370";"RI    ";"Psychiatric hospital";2
+"371";"RI    ";"Separate inpatient psychiatric unit of a general hospital";5
+"372";"RI    ";"Residential treatment center for children";4
+"373";"RI    ";"Residential treatment center for adults";18
+"374";"RI    ";"Veterans Administration medical center (VAMC) or other VA health care facility";2
+"375";"RI    ";"Community mental health center (CMHC)";18
+"376";"RI    ";"Outpatient mental health facility";13
+"377";"RI    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";2
+"378";"SC    ";"Psychiatric hospital";10
+"379";"SC    ";"Separate inpatient psychiatric unit of a general hospital";13
+"380";"SC    ";"Residential treatment center for children";7
+"381";"SC    ";"Residential treatment center for adults";9
+"382";"SC    ";"Veterans Administration medical center (VAMC) or other VA health care facility";6
+"383";"SC    ";"Community mental health center (CMHC)";62
+"384";"SC    ";"Partial hospitalization/day treatment facility";1
+"385";"SC    ";"Outpatient mental health facility";24
+"386";"SD    ";"Psychiatric hospital";2
+"387";"SD    ";"Separate inpatient psychiatric unit of a general hospital";1
+"388";"SD    ";"Residential treatment center for children";9
+"389";"SD    ";"Residential treatment center for adults";2
+"390";"SD    ";"Veterans Administration medical center (VAMC) or other VA health care facility";3
+"391";"SD    ";"Community mental health center (CMHC)";25
+"392";"SD    ";"Outpatient mental health facility";11
+"393";"SD    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";1
+"394";"TN    ";"Psychiatric hospital";18
+"395";"TN    ";"Separate inpatient psychiatric unit of a general hospital";25
+"396";"TN    ";"Residential treatment center for children";22
+"397";"TN    ";"Residential treatment center for adults";18
+"398";"TN    ";"Veterans Administration medical center (VAMC) or other VA health care facility";2
+"399";"TN    ";"Community mental health center (CMHC)";92
+"400";"TN    ";"Partial hospitalization/day treatment facility";3
+"401";"TN    ";"Outpatient mental health facility";122
+"402";"TN    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";11
+"403";"TN    ";"Other";1
+"404";"TX    ";"Psychiatric hospital";50
+"405";"TX    ";"Separate inpatient psychiatric unit of a general hospital";47
+"406";"TX    ";"Residential treatment center for children";39
+"407";"TX    ";"Residential treatment center for adults";5
+"408";"TX    ";"Other type of residential treatment facility";1
+"409";"TX    ";"Veterans Administration medical center (VAMC) or other VA health care facility";20
+"410";"TX    ";"Community mental health center (CMHC)";110
+"411";"TX    ";"Partial hospitalization/day treatment facility";13
+"412";"TX    ";"Outpatient mental health facility";87
+"413";"TX    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";10
+"414";"UT    ";"Psychiatric hospital";7
+"415";"UT    ";"Separate inpatient psychiatric unit of a general hospital";8
+"416";"UT    ";"Residential treatment center for children";12
+"417";"UT    ";"Residential treatment center for adults";5
+"418";"UT    ";"Other type of residential treatment facility";3
+"419";"UT    ";"Veterans Administration medical center (VAMC) or other VA health care facility";2
+"420";"UT    ";"Community mental health center (CMHC)";24
+"421";"UT    ";"Partial hospitalization/day treatment facility";12
+"422";"UT    ";"Outpatient mental health facility";33
+"423";"UT    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";5
+"424";"VA    ";"Psychiatric hospital";16
+"425";"VA    ";"Separate inpatient psychiatric unit of a general hospital";30
+"426";"VA    ";"Residential treatment center for children";15
+"427";"VA    ";"Residential treatment center for adults";18
+"428";"VA    ";"Other type of residential treatment facility";1
+"429";"VA    ";"Veterans Administration medical center (VAMC) or other VA health care facility";3
+"430";"VA    ";"Community mental health center (CMHC)";78
+"431";"VA    ";"Partial hospitalization/day treatment facility";12
+"432";"VA    ";"Outpatient mental health facility";104
+"433";"VA    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";10
+"434";"VA    ";"Other";2
+"435";"VT    ";"Psychiatric hospital";2
+"436";"VT    ";"Separate inpatient psychiatric unit of a general hospital";4
+"437";"VT    ";"Residential treatment center for children";5
+"438";"VT    ";"Residential treatment center for adults";22
+"439";"VT    ";"Other type of residential treatment facility";2
+"440";"VT    ";"Veterans Administration medical center (VAMC) or other VA health care facility";2
+"441";"VT    ";"Community mental health center (CMHC)";20
+"442";"VT    ";"Partial hospitalization/day treatment facility";2
+"443";"VT    ";"Outpatient mental health facility";14
+"444";"VT    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";3
+"445";"WA    ";"Psychiatric hospital";16
+"446";"WA    ";"Separate inpatient psychiatric unit of a general hospital";9
+"447";"WA    ";"Residential treatment center for children";4
+"448";"WA    ";"Residential treatment center for adults";28
+"449";"WA    ";"Veterans Administration medical center (VAMC) or other VA health care facility";6
+"450";"WA    ";"Community mental health center (CMHC)";101
+"451";"WA    ";"Partial hospitalization/day treatment facility";2
+"452";"WA    ";"Outpatient mental health facility";88
+"453";"WA    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";11
+"454";"WA    ";"Other";1
+"455";"WI    ";"Psychiatric hospital";11
+"456";"WI    ";"Separate inpatient psychiatric unit of a general hospital";22
+"457";"WI    ";"Residential treatment center for children";17
+"458";"WI    ";"Residential treatment center for adults";6
+"459";"WI    ";"Veterans Administration medical center (VAMC) or other VA health care facility";8
+"460";"WI    ";"Community mental health center (CMHC)";29
+"461";"WI    ";"Partial hospitalization/day treatment facility";9
+"462";"WI    ";"Outpatient mental health facility";330
+"463";"WI    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";17
+"464";"WI    ";"Other";2
+"465";"WV    ";"Psychiatric hospital";7
+"466";"WV    ";"Separate inpatient psychiatric unit of a general hospital";10
+"467";"WV    ";"Residential treatment center for children";7
+"468";"WV    ";"Residential treatment center for adults";6
+"469";"WV    ";"Other type of residential treatment facility";1
+"470";"WV    ";"Veterans Administration medical center (VAMC) or other VA health care facility";3
+"471";"WV    ";"Community mental health center (CMHC)";51
+"472";"WV    ";"Outpatient mental health facility";38
+"473";"WV    ";"Other";1
+"474";"WY    ";"Psychiatric hospital";3
+"475";"WY    ";"Separate inpatient psychiatric unit of a general hospital";1
+"476";"WY    ";"Residential treatment center for children";7
+"477";"WY    ";"Veterans Administration medical center (VAMC) or other VA health care facility";1
+"478";"WY    ";"Community mental health center (CMHC)";25
+"479";"WY    ";"Partial hospitalization/day treatment facility";1
+"480";"WY    ";"Outpatient mental health facility";13
+"481";"WY    ";"Multi-setting mental health facility (non-hospital residential plus outpatient or partial hospitalization/day treatment)";3
